@@ -1,0 +1,1103 @@
+/* corrections styles h2 à h6, et box-h1, box-h2, box-h3 -- 21 mai 2014*/
+
+/*--------Table of Contents-------
+	Reset
+	font
+	img
+	body
+	2) GLOBAL TEXT STYLE
+		Indents
+		Alignement
+		Lettrine
+		Float txt block
+		Font style and family
+		Supperscript fignote table noteref
+		other text style: citation
+    3) GLOBAL HEADINGS DEFINITIONS
+  		Base for Headings
+		Headings details 
+		h1, h2, h3, h4, h5, h6
+		Part Stye
+		Chapter Style
+		Author name and function
+		Indicator Style - toc-indicator
+		Executive Summary Style
+		Annex Style, Biblio
+		Endnotes Style
+		Biblio Style / Biblio of the book / Biblio of the chapters
+		Special Factbook - sub-headings in Biblio
+		Frontmatter Headings: Foreword, acknowledgement, introduction, glossary, preface
+		Glossary Style
+	4) LIST DEFINITION
+		List Style type
+	5) BOX DEFINITION
+		Box title Style
+		Other type of box
+	6) FIGURE DEFINITION
+		How to read (special EcoSurveys)
+	7) TABLE DEFINITION
+		Resset Table
+		Table container overflow
+		Table color style over effects and pygamas stipes
+		Table on mouse over
+		Scroll Aspect iOS
+	8) HYPERLINK DEFINITION
+		StatLinks Style 
+
+19px = 1.188em | 17px = 1.063em | 16px = 1em  | 15px = .938em | 14px = .875em | 13px = .813em | 12px = .750em 
+10px = .625em |  5px = .313em |  4px = .250em |  3px = .188em |  2px = .125em
+ --------------END Table of Content-------------*/
+
+/* Panoz: Global Notes
+   1. if for some reason you want to keep color + background-color for __boxed contents__ (as opposed to the whole body), you'll have to use background-image: (-webkit-)linear-gradient + -webkit-text-fill-color.
+   2. a few default stylesheets can be found @ https://github.com/FriendsOfEpub/WillThatBeOverriden/tree/master/ReadingSystems (needless to say if some RS devs find new CSS hacks which break user settings, overrides are likely to escalate).
+ */
+
+
+/* Reset */
+/* Panoz: Better reset if component’s override is needed */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Panoz: Normalize HTML5 sectioning elements */
+article, aside, figure, figcaption, footer, header, nav, section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ****************Font Face integration ***************** */
+@font-face {
+font-family:RobotoCondensed;
+src:url(../Fonts/RobotoCondensed-Regular.ttf);
+font-style: normal;
+font-weight: normal
+}
+
+@font-face {
+font-family:RobotoCondensed;
+src:url(../Fonts/RobotoCondensed-Bold.ttf);
+font-style: normal;
+font-weight: bold;
+}
+
+@font-face {
+font-family:symbol;
+src:url(../Fonts/symbol.ttf);
+}
+
+/*@todo*/
+/*@font-face { 
+	   font-family: zapfdingbats;
+	   src:url(fonts//);
+}*/
+/* *********************END Font Face ***************** */
+
+img {
+max-width:100%;
+/* Panoz: Taking care of ratio/crop */
+height: auto;
+object-fit: contain;
+}
+
+/* **************Body, 100% = font-size:16px************* */
+body {
+font:100%/1.5 "Century Gothic", sans-serif, arial, helvetica;
+/* Panoz: % won't reflow with font-size */
+margin: 1%;
+padding:0;
+/* Panoz: Some RS will override color and background by any means necessary so enforcing them using !important could trigger nasty bugs */
+}
+
+/* -------------------------------
+   2) GLOBAL TEXT STYLE
+ ----------------------------------*/
+/* Cible 14px divisé par le contexte de 16px défini dans le body*/
+/* avoid indent for .mobi */
+
+p {
+font-size:.875em;
+text-align:justify;
+text-indent:0;
+padding:0 0 .25em;
+margin:.375em 0;
+/*2 lignes veuves*/
+widows:2;
+/*2 lignes orphelines*/
+orphans:2;
+/* not implemented, CSS3  working draft*/
+adobe-hyphenate: auto;
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+/* Panoz: Added prefixed props to cover all cases since some RS don't support -epub-hyphens */
+-epub-hyphens:auto;
+hyphens:auto;
+-webkit-hyphens-before:1;
+hyphenate-before:1;
+-webkit-hyphenate-after:1;
+hyphenate-after:1;
+-webkit-hyphenate-lines:2;
+hyphenate-lines:2;
+hyphenate-limit-last:always;
+/* not implemented working draft*/
+}
+
+/* Indents */
+/* Panoz: Percentage won't reflow with font-size, which is better on small screens */
+.indentlevel1 {
+text-indent:0;
+}
+
+.indentlevel2 {
+padding-left: 2.5%;
+}
+
+.indentlevel3 {
+padding-left:5%;
+}
+
+.indentlevel4 {
+padding-left:10%;
+}
+
+/* Alignement */
+.inlinemiddle {
+vertical-align:-50%;
+}
+
+.left {
+text-align:left;
+}
+
+.right {
+text-align:right;
+}
+
+.center {
+text-align:center;
+}
+
+.justify {
+text-align:justify;
+}
+
+.top {
+vertical-align:top;
+}
+
+.bottom {
+vertical-align:bottom;
+}
+
+.middle {
+vertical-align:middle;
+}
+
+/* Lettrine */
+p .lettrine {
+float:left;
+font-size:300%;
+font-style:normal;
+line-height:0.95;
+text-align:right;
+color:#2f4fbb;
+margin:0 .05em 0 0;
+}
+
+/* Float txt block */
+.txt-float {
+float:left;
+font-size:.875em;
+line-height:1.5;
+width:30%;
+margin:0 .5em 0 .05em;
+padding:0;
+/* not implemented, CSS3  working draft*/
+adobe-hyphenate: auto;
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+-epub-hyphens:auto;
+-webkit-hyphens-before:1;
+hyphenate-before:1;
+-webkit-hyphenate-after:1;
+hyphenate-after:1;
+-webkit-hyphenate-lines:2;
+hyphenate-lines:2;
+hyphenate-limit-last:always;
+/* not implemented working draft*/
+}
+
+/* Font style and family*/
+.italic {
+font-weight:400;
+font-style:italic;
+}
+
+/* Panoz: Added HTML5 phrasing elements:
+   - i = range of text that is set off from the normal text (technical terms, foreign language phrases, fictional character thoughts, etc.);
+   - em = emphasis;
+   - cite = reference to a creative work (book, paper, newspaper, etc.);
+   - dfn = defining instance of term
+   - b = span of text stylistically different from normal text (set in bold);
+   - strong = strong importance.
+ */
+i, em, cite, dfn {
+  font-style: italic;
+}
+
+i i, i cite, i dfn, i em,
+cite i, cite cite, cite dfn, cite em,
+dfn i, dfn cite, dfn dfn, dfn em,
+em i, em cite, em dfn, em em {
+  font-style: normal;
+}
+
+b, strong {
+  font-stule: italic;
+}
+
+.bold {
+font-weight:700;
+font-style:normal;
+}
+
+.bolditalic {
+font-weight:700;
+font-style:italic;
+}
+
+.normal {
+font-weight:400;
+font-style:normal;
+}
+
+.symbol {
+font-family:symbol;
+}
+
+.sub,.sup {
+font-size:75%;
+line-height:0;
+position:relative;
+vertical-align:baseline;
+}
+.sup {
+top:-.5em;
+}
+.sub {
+bottom:-.25em;
+}
+
+/* Supperscript fignote table noteref */
+.fignoteref,.tabnoteref,.boxnoteref,.noteref {
+font-size:.8em;
+text-shadow:none;
+vertical-align:.5em;
+background-color:#9c0;
+border-radius:4px;
+}
+
+/* ----- Other text style ------ */
+.section-citation {
+text-indent:0;
+padding:2px 0 2px 5px;
+margin:1% 5%;
+border-left:dotted #2f4fbb 2px;
+}
+
+/* -------------------------------
+    3) GLOBAL HEADINGS DEFINITIONS
+ ----------------------------------*/
+/* ---- Base for Headings : hypernation + page break + color--- */
+h1,h2,h3,h4,h5,h6 {
+hyphens:none!important;
+-epub-hyphens:none!important;
+-moz-hyphens:none!important;
+-webkit-hyphens:none!important;
+-ms-hyphens:none!important;
+-o-hyphens:none!important;
+adobe-hyphenate:none!important;
+page-break-before:auto;
+page-break-after:avoid;
+page-break-inside:avoid;
+text-indent:0;
+color:#2f4fbb;
+margin:0;
+}
+
+/* --- Headings details ---- */
+/* 19px = 1.188em, 17px = 1.063em */
+h2 {
+font:bold normal 1.3em/1.4 "Century Gothic", sans-serif, arial, helvetica;
+text-align:left;
+letter-spacing:.03em;
+margin:1.4em 0 .8em;
+}
+
+h3 {
+font:bold italic 1.2em/1.3 "Century Gothic", sans-serif, arial, helvetica;
+text-align:left;
+margin:1em 0 .6em;
+}
+
+h4 {
+font:italic normal 1.2em/1.3 "Century Gothic", sans-serif, arial, helvetica;
+text-align:left;
+margin:.9em 0 .6em;
+}
+
+h5 {
+font:normal normal 1.05em/1.2 "Century Gothic", sans-serif, arial, helvetica;
+text-align:left;
+margin:.9em 0 0 .6em;
+}
+
+h6 {
+font:normal  normal 1em/1.2 "Century Gothic", sans-serif, arial, helvetica;
+text-align:left;
+margin:.9em  0 .6em;
+}
+
+/* ----- Part, Chapter, author name and function, Indicator Style, Executive Summary Style, Annex Headings, Notes Biblio ----- */
+/* -- Part Style 24px -- */
+/*.section-part {}*/
+h1.part-heading { 
+font-size:1.5em;
+font-style:normal;
+font-weight:700;
+text-align:center;
+color:#2f4fbb;
+border:solid 1px #2f4fbb;
+padding:.313em .125em;
+margin:1.25em .625em .313em .313em;
+-moz-border-radius:.313em;
+-webkit-border-radius:.313em;
+border-radius:1.25em;
+}
+
+.prefix-part-numbering {
+font-size:1.125em;
+font-style:italic;
+font-weight:400;
+text-align:center;
+text-shadow:none;
+color:#2f4fbb;
+padding:0 .125em;
+margin:.063em auto;
+/* Panoz: Since width is defined, 30% margin centers the element on RS mapping auto to 0 */
+margin:.063em 30%;
+width:40%;
+border-bottom:solid .063em #2f4fbb;
+display:block;
+}
+
+/*lettrine à supprimer une fois l'intégration de la class="lettrine"*/
+.part-heading + p:first-letter {text-indent:0;float:left;font-size:3em;line-height:1;color:#2f4fbb;}
+
+/*autres */
+.part-frontmatter-heading, .conclusion-heading {
+font: normal normal 1.3em/1.5 "Century Gothic", sans-serif, arial, helvetica;
+text-align: left;
+margin: .5em 0 .375em;}
+
+/* -- Chapter Style 24px-- */ 
+h1.chapter-heading { 
+font-size:1.5em;
+font-style:normal;
+font-weight:400;
+text-align:right;
+padding:0 1.25em .313em 0;
+/* Panoz: vertical margins computed from container’s width, is this intended? */
+margin:10% .5em 5% .25em;
+border-bottom:solid 1px #2f4fbb;
+border-right:solid 1px #2f4fbb;
+border-radius:0 0 1.25em 0;
+}
+
+.prefix-chapter-numbering {
+font-size:1.4em;
+display:block;
+}
+
+.subheading{
+display:block;
+}
+
+/*lettrine à supprimer une fois l'intégration de la class="lettrine"*/
+.chapter-heading + p:first-letter {text-indent:0;float:left;font-size:3em;line-height:1;color:#2f4fbb;
+}
+
+/* Author name and function */
+.author {
+font-size:1em;
+font-weight:700;
+color:#2f4fbb;
+text-align:right;
+padding:0 2.688em 3% .25em;
+margin:0 0 0 5%;
+}
+
+.author:before {
+content:'by  ';
+font-size:.875em;
+font-weight:400;
+font-style:italic;
+}
+
+.author-function {
+font-size:.875em;
+display:block;
+font-weight:400;
+color:#2f4fbb;
+}
+
+/* Indicator style */
+.indicator {
+text-transform:uppercase;
+padding: 0.2em 0.5em;
+margin-bottom:1em;
+display:inline-block;
+border-top:thin solid #2f4fbb;
+border-bottom:thin solid #2f4fbb;
+}
+.toc-indicator {
+font-size: .938em;
+margin: 5%;
+padding: .5em .5em .5em 2.5em;
+border-top: 1px solid #2f4fbb;
+border-bottom: 1px solid #2f4fbb;
+list-style-type:square;
+}
+/* -- Executive Summary Style 24px-- */
+.execsumm-heading {
+font-size:1.5em;
+font-style:normal;
+font-weight:400;
+text-align:right;
+padding:0 1.25em .125em 0;
+margin:10% .5em 10% .25em;
+border-bottom:solid 1px #2f4fbb;
+border-right:solid 1px #2f4fbb;
+border-radius:0 0 .625em 0;
+}
+    
+/* -- Annex Style -- */
+.section-annex {}
+.section-annex .annex-heading {
+page-break-before:avoid;
+}
+.annex-heading {
+font-size:1.125em;
+font-style:normal;
+font-weight:400;
+text-align:left;
+padding:0 1.25em .125em .625em;
+margin:10% .5em 5% .25em;
+page-break-before:always;
+border-top:solid 1px #2f4fbb;
+border-left:solid 1px #2f4fbb;
+border-radius:.625em 0 0 0;
+}
+
+.prefix-annex-numbering {
+font-style:italic;
+display:block;
+}
+
+/* -- Endnotes Style -- */
+.section-note {
+border-top:.125em dotted #2f4fbb;
+border-bottom:.125em dotted #2f4fbb;
+border-left:1px solid #2f4fbb;
+page-break-before:always;
+border-radius:.625em 0 0 0;
+padding:0 1.25em .125em .625em;
+margin:10% .5em 5% .25em;
+}
+
+.note-heading {
+font-size:1.125em;
+font-style:normal;
+font-weight:400;
+text-align:left;
+padding-top:1em;
+}
+
+p.note {
+font-size:.875em;
+text-indent:-2em;
+padding-left:2.5em;
+margin:0 1em;
+}
+
+/* -- Biblio Style -- */
+.section-biblio {
+border-top:.125em dotted #2f4fbb;
+border-bottom:.125em dotted #2f4fbb;
+border-left:1px solid #2f4fbb;
+page-break-before:always;
+border-radius:.625em 0 0 0;
+padding:0 1.25em .125em .625em;
+margin:10% .5em 5% .25em;
+}
+
+/* -- Biblio of the book -- */
+.biblio-heading {
+font-size:1.5em;
+font-style:normal;
+font-weight:400;
+text-align:right;
+padding:0 .5em .5em;
+padding:0 1.25em .125em 0;
+margin:3% .5em 2% .25em;
+}
+
+/* -- Biblio of the chapters -- */
+.biblio-chapter-heading {
+font-size:1.125em;
+font-style:normal;
+font-weight:400;
+text-align:left;
+padding:1em 0 .5em 0;
+}
+
+.section-biblio p {
+margin:0 1em;
+padding-left:1em;
+text-indent:-2em;
+}
+
+/*Special Factbook - sub-headings in Biblio*/
+.section-biblio .section-heading2 p {font-size:0.8em; padding-left: 1em;}
+.section-biblio .section-heading2 h3,
+.section-biblio .section-heading2 h4{font-size: 0.9em; padding:0.7em 0 0 0.5em}
+
+/* ----- END  Executive, Part, Chapter, Annex Headings, Biblio ----- */
+
+
+/* ----- Frontmatter Headings: Foreword, acknowledgement, introduction, glossary, preface ----- */
+.foreword-heading,.acknowledgement-heading,.introduction-heading,.glossary-acronyms-heading,.preface-heading {
+font-size:1.5em;
+font-style:italic;
+font-weight:400;
+text-align:left;
+padding:.25em .5em;
+margin:10% .5em 5% .25em;
+border-bottom:solid 1px #2f4fbb;
+border-left:solid 1px #2f4fbb;
+border-radius:0 0 0 .625em;
+}
+
+/* -- Glossary Style --*/
+.glossary-table {
+display:table;
+}
+.glossary-row {
+/* define a div as a table */
+display:table-row;
+font-size:.875em;
+font-weight:700;
+width:100%;
+}
+.acronym {
+/* define a div as a cell  */
+display:table-cell;
+width:10%;
+padding-bottom: 0.5em;
+/* Panoz: color added for acronym since overriding global color for row can trigger bugs in night mode */
+color:#2f4fbb;
+}
+.def {
+display:table-cell;
+font-weight:400;
+padding: 0px 0px 0.5em 0.5em;
+width:90%;
+}
+/* -- END Glossary Style --*/
+
+
+/* -------------------------------
+   4) LIST DEFINITION
+----------------------------------*/
+ol {
+margin:0;
+}
+
+ul {
+margin:0;
+/* Panoz: added padding-left since some RS have 0 by default hence outside list-type is cut off */
+padding-left: 1.5em;
+}
+
+/* Panoz: color for list-style-type added in another manner since overriding global color for ul can trigger bugs in night mode */
+
+ul li:nth-child(n+1) {
+list-style-type: none;
+position: relative;
+}
+
+ul li:nth-child(n+1):before {
+display: inline;
+content: "•";
+position: absolute;
+left: -1em;
+color:#2f4fbb;
+}   
+
+li p {
+text-indent:0;
+padding:0;
+margin:0;
+orphans:2;
+widows:2;
+}
+
+/* -- List style type --*/
+.lroman {
+list-style-type:lower-roman;
+}
+.uroman {
+list-style-type:upper-roman;
+}
+.lalpha {
+list-style-type:lower-alpha;
+}
+.ualpha {
+list-style-type:upper-alpha;
+}
+
+/* -------------------------------
+ 	5) BOX DEFINITION 
+		(.box-container =  réduction de +/-10%)
+---------------------------------- */
+/*  cible 15px - Reduce all content in the box-container*/
+
+.box-container {
+font-size:.938em;
+padding:.5em 1.333em 1em 1em;
+margin:3% 1%;
+border-top:.133em solid #2f4fbb;
+border-bottom:.133em solid #2f4fbb;
+background:#f2f7ff;
+-webkit-border-radius:.313em;
+-moz-border-radius:.313em;
+border-radius:.313em;
+-webkit-box-shadow:0 .25em .563em .25em silver;
+-moz-box-shadow:0 .25em .563em .25em silver;
+box-shadow:.25em .563em .25em silver;
+page-break-inside:avoid;
+}
+
+/* Box title Style*/
+.box-h1 {
+/* dans le contexte = 15px */
+font-size:1em!important;
+font-weight:700;
+text-align:center;
+border:none;
+margin-bottom: .5em;
+}
+
+.box-container h2,.box-container h3,.box-container h4,.box-container h5,.box-container h6 {
+/*@todo box-h2, box-h3,…*/
+font-size:.933em;
+text-align:left;
+}
+.box-container .box-h2 {
+	font-size:1em;
+	margin:1.4em 0 .6em;
+	letter-spacing:normal}
+.box-container .box-h3 {margin:.9em 0 .6em;}
+
+.box-container li > p {
+padding:0;
+margin:.125em 0 0;
+}
+
+.prefix-box-numbering {
+font-style:normal;
+font-weight:400;
+color:#4B4B4B;
+}
+
+/* -------------Other type of box --------- */
+.abstract {
+font-style:italic;
+padding:.625em;
+margin:5%;
+border:1px solid #2f4fbb;
+-webkit-border-radius:.313em;
+-moz-border-radius:.313em;
+border-radius:.313em;
+-webkit-box-shadow:0 .25em .563em .25em silver;
+-moz-box-shadow:0 .25em .563em .25em silver;
+box-shadow:.25em .563em .25em silver;
+page-break-after:always;
+}
+
+/*lettrine à supprimer un fois class="lettrine" */
+.abstract + p:first-letter {text-indent:0;float:left;font-size:3em;line-height:1;color:#2f4fbb;}
+
+.bckgrnd-lightblue {
+padding:.5em;
+margin:0 0 .5em;
+background-color:#f2f7ff;
+}
+
+/* -------------------------------
+	6) FIGURE DEFINITION
+---------------------------------- */
+/*15px (cible) ÷ 16px (contexte) = em */
+
+.figure-container {
+font-size:.938em;
+line-height:1.3;
+border:1px solid #2f4fbb;
+padding:.1875em;
+margin:1.5em auto;
+page-break-inside:avoid;
+max-width:760px;
+}
+
+.figure-heading {
+font-size:1em;
+font-style:normal;
+font-weight:700;
+letter-spacing:.069em;
+text-align:center;
+background-color:#9CF;
+padding:.200em;
+margin-top:.001em;
+-epub-hyphens:none!important;
+-moz-hyphens:none!important;
+-webkit-hyphens:none!important;
+-ms-hyphens:none!important;
+-o-hyphens:none!important;
+hyphens:none!important;
+}
+
+.figure-subheading {
+font-size:1em;
+font-style:normal;
+font-weight:400;
+text-align:center;
+padding:0;
+margin:.188em;
+}
+
+.figure-center {
+/* Panoz: display block for img break the pagination model for a lot of apps (img are cut off). Back to default (inline) */
+width:95%;
+margin:.5em auto;
+/* Panoz: since we know the width, 2.5% to center div 
+   img = replaced element behaving like inline-block now in a div -> text-align centers img in div */
+margin:.5em 2.5%;
+text-align: center;
+}
+
+.prefix-figure-numbering {
+font-weight:400;
+font-style:normal;
+}
+
+.fignote {
+margin:.2em;
+text-indent:0;
+}
+.prefix-fignote-note {
+font-style:italic;
+font-weight:400;
+}
+.prefix-fignote-number {
+}
+
+/* @todo */
+.source {
+text-indent:0;
+margin:.2em;
+}
+
+/*  How to read (special EcoSurveys): blue background, in Economic Surveys à supprimer quand <div class="bckgrnd-lightblue"> */
+p[class=source] ~p {
+padding:.125em .188em .188em;
+margin:0;
+background:#f2f7ff;
+}
+
+p[class=source] ~p:last-of-type {
+background:#FFF;
+margin:.625em;
+}
+
+/* -------------------------------
+    7) TABLE DEFINITION
+---------------------------------- */
+/* Reset Table*/
+table,caption,tbody,tr,th,td {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+background:transparent;
+}
+
+/* Table container overflow (Scroll if table too large) */
+.table-container {
+overflow-x:auto!important;
+overflow-y:hidden!important;
+margin:4% auto;
+padding:.5em 3px;
+background:#fff;
+border:1px solid #2f4fbb;
+page-break-inside:avoid;
+}
+
+/* largeur du tableau dans son container .tab-container */
+.table-style {
+border-collapse:collapse;
+margin:-1px auto;
+width:98%;
+}
+
+/* Panoz: td and th will be 0.938em of 0.938em (since nested in .table-style). Is this intended? */
+.table-style,td,th {
+font-size:.938em;
+line-height:1;
+}
+
+/* Panoz: tbody -> thead */
+.table-style thead th {
+/* couleur filets du thead */
+border:1px solid #c3d2e6;
+padding:0;
+}
+
+.table-style td {
+/*padding:1px 2px 0;*/
+/* couleur filets des cellules tbody + foot */
+border:1px solid #c3d2e6;
+}
+
+.table-style tbody[class=group-heading] tr div[class=table-heading] {
+/* si thead contient l'attribut 'tabletitle'*/
+font:bold normal 1.0666666666667em/1.2 "Century Gothic", helvetica, arial;
+text-align:center;
+letter-spacing:.069em;
+color:#333;
+background-color:#9CF;
+padding:.375em .25em;
+margin:.125em;
+-epub-hyphens:none!important;
+-moz-hyphens:none!important;
+-webkit-hyphens:none!important;
+-ms-hyphens:none!important;
+-o-hyphens:none!important;
+hyphens:none!important;
+}
+
+/* Panoz: Since markup has been modified */
+.table-style .table-heading {
+font:bold normal 1.0666666666667em/1.2 "Century Gothic", helvetica, arial;
+text-align:center;
+letter-spacing:.069em;
+color:#333;
+background-color:#9CF;
+padding:.375em .25em;
+/* left and right margin to 0 in order to get same width as table */
+margin:.125em 0;
+-epub-hyphens:none!important;
+-moz-hyphens:none!important;
+-webkit-hyphens:none!important;
+-ms-hyphens:none!important;
+-o-hyphens:none!important;
+hyphens:none!important;
+}
+
+.table-subheading {
+font-size:1em;
+font-style:normal;
+font-weight:400;
+text-align:center;
+padding:.313em;
+}
+
+/* Panoz: /!\ [class] selector is quite expensive on mobile, which may have an impact considering # of tables in some files, especially as table layout and paint is already expensive in CSS3 multicol (to the point re-paint can happen for complex tables) */
+
+/* Table color style over effects and pygamas stipes*/
+tbody[class=group-tbody] tr:nth-child(odd),
+tfoot[class=group-tfoot] tr:nth-child(even) {
+/*pygamas stipes*/
+background-color:#f2f7ff;
+vertical-align:top;
+}
+
+/* This part is not in tablesaw.css and uses the hover media query
+
+Table on mouse over
+tbody[class=group-tbody] tr:hover,
+tfoot[class=group-tfoot] tr:hover, {
+background-color:#e1edff;
+color:#034A99;
+line-height:inherit;
+}
+
+tbody[class=group-tbody] td:hover,
+tfoot[class=group-tfoot] td:hover {
+background-color:#690;
+color:#FFF;
+font-weight:400;
+line-height:inherit;
+}
+*/
+
+/* -- END -- Table color style ans stipes*/
+
+.prefix-table-numbering {
+font-style:normal;
+font-weight:400;
+}
+
+.prefix-source {
+font-style:italic;
+font-weight:400;
+}
+
+.table-style tbody[class=group-tbody] {
+border-top:2px solid #2f4fbb;
+}
+
+/*
+.table-style tfoot[class=group-tfoot] {
+border-bottom:2px solid #2f4fbb;
+}
+*/
+
+.table-misc {
+font-family:RobotoCondensed, Arial, sans-serif;
+line-height:1.2;
+text-indent:0;
+margin: .125em;
+font-size: .875em;
+padding: .75em;
+text-indent: 0;
+border-bottom:2px solid #2f4fbb;
+}
+
+th p {
+font-family:RobotoCondensed, Arial, sans-serif;
+line-height:1;
+text-indent:0;
+font-weight:400;
+margin:.188em .125em;
+page-break-inside:avoid;
+}
+
+td p {
+font-family:RobotoCondensed, Arial, sans-serif;
+line-height:1.2;
+text-indent:0;
+margin:.125em;
+page-break-inside:avoid;
+}
+
+.cell {
+	/* used in pubstat table in replacement of <p> ??*/
+	font-family: RobotoCondensed, Arial, sans-serif; 
+	font-size: .875em;
+	text-indent: 0;
+	margin: 0.125em;
+	line-height: 1.2;
+	page-break-inside: avoid;
+}
+
+.prefix-tabnote-note {
+font-style:italic;
+font-weight:400;
+}
+
+/* Scroll Aspect iOS*/
+.table-container::-webkit-scrollbar {
+background:#D3D3D3;
+height:10px;
+overflow:visible;
+width:10px;
+border-radius:10px;
+}
+
+.table-container::-webkit-scrollbar-track {
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+border-radius:10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+background-color:rgba(153,204,0,0.99);
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+-webkit-border-radius:10px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+background-color:rgba(57,107,173,1);
+}
+
+/* -------------------------------
+   8) HYPERLINK DEFINITION
+----------------------------------  */
+
+/* Panoz: for some reason, using a pseudo-classes seem to trigger a bug in Readium Chrome 2.25 */
+a:link {
+color:#2f4fbb;
+text-decoration:underline;
+}
+
+a.nodecolink:link {
+/* used in: back to ref in the endnotes*/
+color:#2f4fbb;
+text-decoration:none;
+}
+
+a:visited {
+color:#2f4fbb;
+text-decoration:none;
+}
+
+a:active {
+color:red;
+text-decoration:none;
+}
+
+a:hover {
+color:#e5f0fa;
+background:#517eca;
+text-align:center;
+text-decoration:none;
+border-radius:.25em;
+}
+
+a.nohoverlink:hover {
+background:none;
+}
+
+/* Add Glyph for glossary links */
+a[data-glossary]::after {
+  content: " ❑";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* StatLinks Style */
+p.statlink {
+text-align:left;
+margin-top:0;
+padding-right:.188em;
+word-break:break-all;
+}
+
+/*.statlink:before {
+padding:0 .313em 0 0;
+}*/

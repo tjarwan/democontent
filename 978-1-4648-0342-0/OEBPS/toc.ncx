@@ -1,0 +1,306 @@
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xmlns:xlink="http://www.w3.org/1999/xlink" version="2005-1">
+<head>
+<meta name="dtb:uid" content=""></meta>
+<meta name="dtb:depth" content="5"></meta>
+<meta name="dtb:totalPageCount" content="0"></meta>
+<meta name="dtb:maxPageNumber" content="0"></meta>
+</head>
+<docTitle>
+<text>MIND, SOCIETY, AND BEHAVIOR</text>
+</docTitle>
+<navMap>
+<navPoint id="np-1" playOrder="1"><navLabel><text>Cover</text></navLabel><content src="fcover.xhtml"></content></navPoint>
+<navPoint id="np-2" playOrder="2"><navLabel><text>Half Title</text></navLabel><content src="half_title.xhtml"></content></navPoint>
+<navPoint id="np-3" playOrder="3"><navLabel><text>Title Page</text></navLabel><content src="title_page.xhtml"></content></navPoint>
+<navPoint id="np-4" playOrder="4"><navLabel><text>Contents</text></navLabel><content src="Contents.xhtml" /></navPoint>
+<navPoint id="np-5" playOrder="5"><navLabel><text>Foreword</text></navLabel><content src="foreword.xhtml" /></navPoint>
+<navPoint id="np-6" playOrder="6"><navLabel><text>Acknowledgments</text></navLabel><content src="acknowledgments.xhtml" /></navPoint>
+<navPoint id="np-7" playOrder="7"><navLabel><text>Abbreviations</text></navLabel><content src="abbreviations.xhtml" /></navPoint>
+
+<navPoint id="np-8" playOrder="8"><navLabel><text>Overview: Human decision making and development policy</text></navLabel><content src="overview.xhtml" />
+<navPoint id="np-9" playOrder="9"><navLabel><text>Three principles of human decision making</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1" /></navPoint>
+<navPoint id="np-10" playOrder="10"><navLabel><text>Psychological and social perspectives on policy</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec2" /></navPoint>
+<navPoint id="np-11" playOrder="11"><navLabel><text>The work of development professionals</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec3" /></navPoint>
+<navPoint id="np-12" playOrder="12"><navLabel><text>References</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-13" playOrder="13"><navLabel><text>Part 1: An expanded understanding of human behavior for economic development: A conceptual framework</text></navLabel><content src="part1.xhtml" />
+<navPoint id="np-14" playOrder="14"><navLabel><text>Introduction</text></navLabel><content src="part1.xhtml#WB.978-1-4648-0342-0.part1.sec1" /></navPoint>
+
+<navPoint id="np-15" playOrder="15"><navLabel><text>Chapter 1: Thinking automatically</text></navLabel><content src="part1.ch1.xhtml" />
+<navPoint id="np-16" playOrder="16"><navLabel><text>Two systems of thinking</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec1" /></navPoint>
+<navPoint id="np-17" playOrder="17"><navLabel><text>Biases in assessing information</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec2" /></navPoint>
+<navPoint id="np-18" playOrder="18"><navLabel><text>Biases in assessing value</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec3" /></navPoint>
+<navPoint id="np-19" playOrder="19"><navLabel><text>Choice architecture</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec4" /></navPoint>
+<navPoint id="np-20" playOrder="20"><navLabel><text>Overcoming intention-action divides</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec5" /></navPoint>
+<navPoint id="np-21" playOrder="21"><navLabel><text>Conclusion</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec6" /></navPoint>
+<navPoint id="np-22" playOrder="22"><navLabel><text>Notes</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.fn-group1" /></navPoint>
+<navPoint id="np-23" playOrder="23"><navLabel><text>References</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-24" playOrder="24"><navLabel><text>Chapter 2: Thinking socially</text></navLabel><content src="part1.ch2.xhtml" />
+<navPoint id="np-25" playOrder="25"><navLabel><text>Social preferences and their implications</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec1" /></navPoint>
+<navPoint id="np-26" playOrder="26"><navLabel><text>The influence of social networks on individual decision making</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec2" /></navPoint>
+<navPoint id="np-27" playOrder="27"><navLabel><text>The role of social norms in individual decision making</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec3" /></navPoint>
+<navPoint id="np-28" playOrder="28"><navLabel><text>Conclusion</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec4" /></navPoint>
+<navPoint id="np-29" playOrder="29"><navLabel><text>Notes</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.fn-group1" /></navPoint>
+<navPoint id="np-30" playOrder="30"><navLabel><text>References</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-31" playOrder="31"><navLabel><text>Spotlight 1: When corruption is the norm</text></navLabel><content src="part1.ch3.xhtml" /></navPoint>
+
+<navPoint id="np-32" playOrder="32"><navLabel><text>Chapter 3: Thinking with mental models</text></navLabel><content src="part1.ch4.xhtml" />
+<navPoint id="np-33" playOrder="33"><navLabel><text>Where mental models come from and why they matter</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec1" /></navPoint>
+<navPoint id="np-34" playOrder="34"><navLabel><text>How mental models work and how we use them</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec2" /></navPoint>
+<navPoint id="np-35" playOrder="35"><navLabel><text>The roots of mental models</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec3" /></navPoint>
+<navPoint id="np-36" playOrder="36"><navLabel><text>The effects of making an identity salient</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec4" /></navPoint>
+<navPoint id="np-37" playOrder="37"><navLabel><text>The staying power of mental models</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec5" /></navPoint>
+<navPoint id="np-38" playOrder="38"><navLabel><text>Policies to improve the match of mental models with a decision context</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec6" /></navPoint>
+<navPoint id="np-39" playOrder="39"><navLabel><text>Conclusion</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec7" /></navPoint>
+<navPoint id="np-40" playOrder="40"><navLabel><text>Notes</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.fn-group1" /></navPoint>
+<navPoint id="np-41" playOrder="41"><navLabel><text>References</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.fn-group1.fn1" /></navPoint></navPoint>
+
+<navPoint id="np-42" playOrder="42"><navLabel><text>Spotlight 2: Entertainment education</text></navLabel><content src="part1.ch5.xhtml" /></navPoint></navPoint>
+
+<navPoint id="np-43" playOrder="43"><navLabel><text>Part 2: Psychological and social perspectives on policy</text></navLabel><content src="part2.xhtml" />
+
+<navPoint id="np-44" playOrder="44"><navLabel><text>Chapter 4: Poverty</text></navLabel><content src="part2.ch6.xhtml" />
+<navPoint id="np-45" playOrder="45"><navLabel><text>Poverty consumes cognitive resources</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec1" /></navPoint>
+<navPoint id="np-46" playOrder="46"><navLabel><text>Poverty creates poor frames</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec2" /></navPoint>
+<navPoint id="np-47" playOrder="47"><navLabel><text>Social contexts of poverty can generate their own taxes</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec3" /></navPoint>
+<navPoint id="np-48" playOrder="48"><navLabel><text>Implications for the design of antipoverty policies and programs</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec4" /></navPoint>
+<navPoint id="np-49" playOrder="49"><navLabel><text>Looking ahead</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec5" /></navPoint>
+<navPoint id="np-50" playOrder="50"><navLabel><text>References</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.ref-list1" /></navPoint>
+<navPoint id="np-51" playOrder="51"><navLabel><text>Spotlight 3: How well do we understand the contexts of poverty?</text></navLabel><content src="part2.ch7.xhtml" /></navPoint></navPoint>
+
+<navPoint id="np-52" playOrder="52"><navLabel><text>Chapter 5: Early childhood development</text></navLabel><content src="part2.ch8.xhtml" />
+<navPoint id="np-53" playOrder="53"><navLabel><text>Richer and poorer children differ greatly in school readiness</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec1" /></navPoint>
+<navPoint id="np-54" playOrder="54"><navLabel><text>Children need multiple cognitive and noncognitive skills to succeed in school</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec2" /></navPoint>
+<navPoint id="np-55" playOrder="55"><navLabel><text>Poverty in infancy and early childhood can impede early brain development</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec3" /></navPoint>
+<navPoint id="np-56" playOrder="56"><navLabel><text>Parents are crucial in supporting the development of children&#x2019;s capacities for learning</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec4" /></navPoint>
+<navPoint id="np-57" playOrder="57"><navLabel><text>Parents&#x2019; beliefs and caregiving practices differ across groups, with consequences for children&#x2019;s developmental outcomes</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec5" /></navPoint>
+<navPoint id="np-58" playOrder="58"><navLabel><text>Designing interventions that focus on and improve parental competence</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec6" /></navPoint>
+<navPoint id="np-59" playOrder="59"><navLabel><text>Conclusion</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec7" /></navPoint>
+<navPoint id="np-60" playOrder="60"><navLabel><text>Notes</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.fn-group1" /></navPoint>
+<navPoint id="np-61" playOrder="61"><navLabel><text>References</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-62" playOrder="62"><navLabel><text>Chapter 6: Household finance</text></navLabel><content src="part2.ch9.xhtml" />
+<navPoint id="np-63" playOrder="63"><navLabel><text>The human decision maker in finance</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec1" /></navPoint>
+<navPoint id="np-64" playOrder="64"><navLabel><text>Policies to improve the quality of household financial decisions</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec2" /></navPoint>
+<navPoint id="np-65" playOrder="65"><navLabel><text>Conclusion</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec3" /></navPoint>
+<navPoint id="np-66" playOrder="66"><navLabel><text>Notes</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.fn-group1" /></navPoint>
+<navPoint id="np-67" playOrder="67"><navLabel><text>References</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-68" playOrder="68"><navLabel><text>Chapter 7: Productivity</text></navLabel><content src="part2.ch10.xhtml" />
+<navPoint id="np-69" playOrder="69"><navLabel><text>Improving effort among employees</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec1" /></navPoint>
+<navPoint id="np-70" playOrder="70"><navLabel><text>Recruiting high-performance employees</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec2" /></navPoint>
+<navPoint id="np-71" playOrder="71"><navLabel><text>Improving the performance of small businesses</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec3" /></navPoint>
+<navPoint id="np-72" playOrder="72"><navLabel><text>Increasing technology adoption in agriculture</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec4" /></navPoint>
+<navPoint id="np-73" playOrder="73"><navLabel><text>Using these insights in policy design</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec5" /></navPoint>
+<navPoint id="np-74" playOrder="74"><navLabel><text>Notes</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.fn-group1" /></navPoint>
+<navPoint id="np-75" playOrder="75"><navLabel><text>References</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.ref-list1" /></navPoint></navPoint>
+<navPoint id="np-76" playOrder="76"><navLabel><text>Spotlight 4: Using ethnography to understand the workplace</text></navLabel><content src="part2.ch11.xhtml" /></navPoint>
+
+<navPoint id="np-77" playOrder="77"><navLabel><text>Chapter 8: Health</text></navLabel><content src="part2.ch12.xhtml" />
+<navPoint id="np-78" playOrder="78"><navLabel><text>Changing health behaviors in the face of psychological biases and social influences</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec1" /></navPoint>
+<navPoint id="np-79" playOrder="79"><navLabel><text>Psychological and social approaches to changing health behavior</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec2" /></navPoint>
+<navPoint id="np-80" playOrder="80"><navLabel><text>Improving follow-through and habit formation</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec3" /></navPoint>
+<navPoint id="np-81" playOrder="81"><navLabel><text>Encouraging health care providers to do the right things for others</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec4" /></navPoint>
+<navPoint id="np-82" playOrder="82"><navLabel><text>Conclusion</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec5" /></navPoint>
+<navPoint id="np-83" playOrder="83"><navLabel><text>Notes</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.fn-group1" /></navPoint>
+<navPoint id="np-84" playOrder="84"><navLabel><text>References</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-85" playOrder="85"><navLabel><text>Chapter 9: Climate change</text></navLabel><content src="part2.ch13.xhtml" />
+<navPoint id="np-86" playOrder="86"><navLabel><text>Cognitive obstacles inhibit action on climate change</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.sec1" /></navPoint>
+<navPoint id="np-87" playOrder="87"><navLabel><text>Psychological and social insights for motivating conservation</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.sec2" /></navPoint>
+<navPoint id="np-88" playOrder="88"><navLabel><text>Conclusion</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.sec3" /></navPoint>
+<navPoint id="np-89" playOrder="89"><navLabel><text>Notes</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.fn-group1" /></navPoint>
+<navPoint id="np-90" playOrder="90"><navLabel><text>References</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-91" playOrder="91"><navLabel><text>Spotlight 5: Promoting water conservation in Colombia</text></navLabel><content src="part2.ch14.xhtml" /></navPoint></navPoint>
+
+<navPoint id="np-92" playOrder="92"><navLabel><text>Part 3: Improving the work of development professionals</text></navLabel><content src="part3.xhtml" />
+
+<navPoint id="np-93" playOrder="93"><navLabel><text>Chapter 10: The biases of development professionals</text></navLabel><content src="part3.ch15.xhtml" />
+<navPoint id="np-94" playOrder="94"><navLabel><text>Complexity</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec1" /></navPoint>
+<navPoint id="np-95" playOrder="95"><navLabel><text>Confirmation bias</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec2" /></navPoint>
+<navPoint id="np-96" playOrder="96"><navLabel><text>Sunk cost bias</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec3" /></navPoint>
+<navPoint id="np-97" playOrder="97"><navLabel><text>The effects of context on judgment and decision making</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec4" /></navPoint>
+<navPoint id="np-98" playOrder="98"><navLabel><text>Conclusion</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec5" /></navPoint>
+<navPoint id="np-99" playOrder="99"><navLabel><text>Notes</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.fn-group1" /></navPoint>
+<navPoint id="np-100" playOrder="100"><navLabel><text>References</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-101" playOrder="101"><navLabel><text>Chapter 11: Adaptive design, adaptive interventions</text></navLabel><content src="part3.ch16.xhtml" />
+<navPoint id="np-102" playOrder="102"><navLabel><text>Diagnosing psychological and social obstacles</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec1" /></navPoint>
+<navPoint id="np-103" playOrder="103"><navLabel><text>Designing an intervention</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec2" /></navPoint>
+<navPoint id="np-104" playOrder="104"><navLabel><text>Experimenting during implementation</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec3" /></navPoint>
+<navPoint id="np-105" playOrder="105"><navLabel><text>Conclusion: Learning and adapting</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec4" /></navPoint>
+<navPoint id="np-106" playOrder="106"><navLabel><text>References</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.ref-list1" /></navPoint></navPoint>
+
+<navPoint id="np-107" playOrder="107"><navLabel><text>Spotlight 6: Why should governments shape individual choices?</text></navLabel><content src="part3.ch17.xhtml" /></navPoint></navPoint>
+
+<navPoint id="np-108" playOrder="108"><navLabel><text>Index</text></navLabel><content src="Index.xhtml" /></navPoint>
+</navMap>
+
+<navList id="Boxes">
+<navInfo><text>Boxes</text></navInfo>
+<navLabel><text>Boxes</text></navLabel>
+<navTarget id="np-109" playOrder="109"><navLabel><text>O.1 The evolution of thinking in economics about human decision making</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.box1" /></navTarget>
+
+<navTarget id="np-110" playOrder="110"><navLabel><text>10.1 The home team advantage: Why experts are consistently biased</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec2.box1" /></navTarget>
+
+<navTarget id="np-111" playOrder="111"><navLabel><text>10.2 A clash of values between development professionals and the local populace: Agricultural reform in Lesotho</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec4.box1" /></navTarget>
+
+<navTarget id="np-112" playOrder="112"><navLabel><text>10.3 It may be difficult for development professionals to accurately predict the views of poor people</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec4.box2" /></navTarget>
+
+<navTarget id="np-113" playOrder="113"><navLabel><text>11.1 Taking the perspective of program beneficiaries through the Reality Check approach</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec2.box1" /></navTarget>
+
+<navTarget id="np-114" playOrder="114"><navLabel><text>11.2 Measurement techniques that can help uncover psychological and social obstacles</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec2.box2" /></navTarget>
+
+<navTarget id="np-115" playOrder="115"><navLabel><text>11.3 Using psychological and social insights and active experimentation in the United Kingdom</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec3.box1" /></navTarget>
+</navList>
+
+<navList id="Figures">
+<navInfo><text>Figures</text></navInfo>
+<navLabel><text>Figures</text></navLabel>
+
+<navTarget id="np-116" playOrder="116"><navLabel><text>O.1 Automatic thinking gives us a partial view of the world</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.fig1" /></navTarget>
+
+<navTarget id="np-117" playOrder="117"><navLabel><text>O.2 Reframing decisions can improve welfare: The case of payday borrowing</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.fig2" /></navTarget>
+
+<navTarget id="np-118" playOrder="118"><navLabel><text>O.3 What others think, expect, and do influences our preferences and decisions</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.fig3" /></navTarget>
+
+<navTarget id="np-119" playOrder="119"><navLabel><text>O.4 In experimental situations, most people behave as conditional cooperators rather than free riders</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.fig4" /></navTarget>
+
+<navTarget id="np-120" playOrder="120"><navLabel><text>O.5 Thinking draws on mental models</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.fig5" /></navTarget>
+
+<navTarget id="np-121" playOrder="121"><navLabel><text>O.6 Cuing a stigmatized or entitled identity can affect students&#x2019; performance</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.fig6" /></navTarget>
+
+<navTarget id="np-122" playOrder="122"><navLabel><text>O.7 There is greater variation across countries in cognitive caregiving than in socioemotional caregiving</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec2.fig7" /></navTarget>
+
+<navTarget id="np-123" playOrder="123"><navLabel><text>O.8 Clarifying a form can help borrowers find a better loan product</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec2.fig8" /></navTarget>
+
+<navTarget id="np-124" playOrder="124"><navLabel><text>O.9 Understanding behavior and identifying effective interventions are complex and iterative processes</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec3.fig9" /></navTarget>
+
+<navTarget id="np-125" playOrder="125"><navLabel><text>1.1 Framing affects what we pay attention to and how we interpret it</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec1.fig1" /></navTarget>
+
+<navTarget id="np-126" playOrder="126"><navLabel><text>1.2 A more behavioral model of decision making expands the standard economic model</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec2.fig2" /></navTarget>
+
+<navTarget id="np-127" playOrder="127"><navLabel><text>1.3 Reframing decisions can improve welfare: The case of payday borrowing</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec2.fig3" /></navTarget>
+
+<navTarget id="np-128" playOrder="128"><navLabel><text>1.4 Clarifying a form can help borrowers find a better loan product</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec2.fig4" /></navTarget>
+
+<navTarget id="np-129" playOrder="129"><navLabel><text>1.5 A small change in the college application process had a huge impact on college attendance</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec3.fig5" /></navTarget>
+
+<navTarget id="np-130" playOrder="130"><navLabel><text>1.6 Simplifying voting procedures in Brazil is having positive welfare effects on the poor across generations</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec4.fig6" /></navTarget>
+
+<navTarget id="np-131" playOrder="131"><navLabel><text>2.1 What others think, expect, and do influences our own preferences and decisions</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.fig1" /></navTarget>
+
+<navTarget id="np-132" playOrder="132"><navLabel><text>2.2 Children and young adults most affected by war are more likely to favor members of their own group</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec1.fig1" /></navTarget>
+
+<navTarget id="np-133" playOrder="133"><navLabel><text>2.3 Opportunities to punish free riding increase cooperation</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec1.fig2" /></navTarget>
+
+<navTarget id="np-134" playOrder="134"><navLabel><text>2.4 In experimental situations, most people behave as conditional cooperators rather than free riders</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec1.fig3" /></navTarget>
+
+<navTarget id="np-135" playOrder="135"><navLabel><text>2.5 The power of social monitoring: Pictures of eyes increased contributions to a beverage honor bar</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec2.fig4" /></navTarget>
+
+<navTarget id="np-136" playOrder="136"><navLabel><text>2.6 Stickers placed in Kenyan minibuses reduced traffic accidents</text></navLabel><content src="part1.ch2.xhtml#WB.978-1-4648-0342-0.part1.ch2.sec3.fig5" /></navTarget>
+
+<navTarget id="np-137" playOrder="137"><navLabel><text>3.1 What we perceive and how we interpret it depend on the frame through which we view the world around us</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec2.fig1" /></navTarget>
+
+<navTarget id="np-138" playOrder="138"><navLabel><text>3.2 Making criminal identity more salient increases dishonesty in prison inmates</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec4.fig2" /></navTarget>
+
+<navTarget id="np-139" playOrder="139"><navLabel><text>3.3 Cuing a stigmatized or entitled identity can affect students&#x2019; performance</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec4.fig3" /></navTarget>
+
+<navTarget id="np-140" playOrder="140"><navLabel><text>3.4 Changing disruptive children&#x2019;s mental models related to trust improved adult outcomes</text></navLabel><content src="part1.ch4.xhtml#WB.978-1-4648-0342-0.part1.ch4.sec6.fig4" /></navTarget>
+
+<navTarget id="np-141" playOrder="141"><navLabel><text>4.1 Poverty is a fluid state, not a stable condition</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec1.fig1" /></navTarget>
+
+<navTarget id="np-142" playOrder="142"><navLabel><text>4.2 Financial scarcity can consume cognitive resources</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec1.fig2" /></navTarget>
+
+<navTarget id="np-143" playOrder="143"><navLabel><text>4.3 Measuring executive function and fluid intelligence</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec1.fig3" /></navTarget>
+
+<navTarget id="np-144" playOrder="144"><navLabel><text>4.4 Targeting on the basis of bandwidth may help people make better decisions</text></navLabel><content src="part2.ch6.xhtml#WB.978-1-4648-0342-0.part2.ch6.sec4.fig4" /></navTarget>
+
+<navTarget id="np-145" playOrder="145"><navLabel><text>S3.1 How poor and affluent people in New Jersey view traveling for a discount on an appliance</text></navLabel><content src="part2.ch7.xhtml#WB.978-1-4648-0342-0.part2.ch7.sec1.fig1" /></navTarget>
+
+<navTarget id="np-146" playOrder="146"><navLabel><text>S3.2 How World Bank staff view traveling for a discount on a watch</text></navLabel><content src="part2.ch7.xhtml#WB.978-1-4648-0342-0.part2.ch7.sec4.fig2" /></navTarget>
+
+<navTarget id="np-147" playOrder="147"><navLabel><text>S3.3 How people in Jakarta, Indonesia, view traveling for a discount on a cell phone</text></navLabel><content src="part2.ch7.xhtml#WB.978-1-4648-0342-0.part2.ch7.sec4.fig3" /></navTarget>
+
+<navTarget id="np-148" playOrder="148"><navLabel><text>S3.4 How people in Nairobi, Kenya, view traveling for a discount on a cell phone</text></navLabel><content src="part2.ch7.xhtml#WB.978-1-4648-0342-0.part2.ch7.sec4.fig4" /></navTarget>
+
+<navTarget id="np-149" playOrder="149"><navLabel><text>S3.5 How people in Lima, Peru, view traveling for a discount on a cell phone</text></navLabel><content src="part2.ch7.xhtml#WB.978-1-4648-0342-0.part2.ch7.sec4.fig5" /></navTarget>
+
+<navTarget id="np-150" playOrder="150"><navLabel><text>5.1 Variations by wealth in basic learning skills are evident by age three in Madagascar</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec1.fig1" /></navTarget>
+
+<navTarget id="np-151" playOrder="151"><navLabel><text>5.2 Abilities in receptive language for three- to six-year-olds vary widely by wealth in five Latin American countries</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec1.fig2" /></navTarget>
+
+<navTarget id="np-152" playOrder="152"><navLabel><text>5.3 Unrelenting stress in early childhood can be toxic to the developing brain</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec3.fig3" /></navTarget>
+
+<navTarget id="np-153" playOrder="153"><navLabel><text>5.4 There is greater variation across countries in cognitive caregiving than in socioemotional caregiving</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec6.fig4" /></navTarget>
+
+<navTarget id="np-154" playOrder="154"><navLabel><text>5.5 A program in rural Senegal encourages parents to engage verbally with their children</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec6.fig5" /></navTarget>
+
+<navTarget id="np-155" playOrder="155"><navLabel><text>5.6 Early childhood stimulation in Jamaica resulted in long-term improvements in earnings</text></navLabel><content src="part2.ch8.xhtml#WB.978-1-4648-0342-0.part2.ch8.sec6.fig6" /></navTarget>
+
+<navTarget id="np-156" playOrder="156"><navLabel><text>6.1 Simplifying information can help reduce take-up of payday loans</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec2.fig1" /></navTarget>
+
+<navTarget id="np-157" playOrder="157"><navLabel><text>6.2 Changing default choices can improve savings rates</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec2.fig2" /></navTarget>
+
+<navTarget id="np-158" playOrder="158"><navLabel><text>6.3 Commitment savings accounts can improve agricultural investment and profit</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec2.fig3" /></navTarget>
+
+<navTarget id="np-159" playOrder="159"><navLabel><text>6.4 Popular media can improve financial decisions</text></navLabel><content src="part2.ch9.xhtml#WB.978-1-4648-0342-0.part2.ch9.sec2.fig4" /></navTarget>
+
+<navTarget id="np-160" playOrder="160"><navLabel><text>7.1 Unexpected wage increases can trigger a productivity dividend</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec1.fig1" /></navTarget>
+
+<navTarget id="np-161" playOrder="161"><navLabel><text>7.2 Public recognition can improve performance more than financial incentives can</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec1.fig2" /></navTarget>
+
+<navTarget id="np-162" playOrder="162"><navLabel><text>7.3 Altering the timing of purchases can be as effective as a subsidy for improving investment</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec4.fig3" /></navTarget>
+
+<navTarget id="np-163" playOrder="163"><navLabel><text>7.4 Not noticing a decision can hurt productivity</text></navLabel><content src="part2.ch10.xhtml#WB.978-1-4648-0342-0.part2.ch10.sec4.fig4" /></navTarget>
+
+<navTarget id="np-164" playOrder="164"><navLabel><text>8.1 If a well-known person has a disease, the public might think more seriously about ways to prevent it</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec1.fig2" /></navTarget>
+
+<navTarget id="np-165" playOrder="165"><navLabel><text>8.2 Take-up of health products drops precipitously in response to very small fees</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec2.fig3" /></navTarget>
+
+<navTarget id="np-166" playOrder="166"><navLabel><text>8.3 Text message reminders can improve adherence to lifesaving drugs</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec3.fig4" /></navTarget>
+
+<navTarget id="np-167" playOrder="167"><navLabel><text>8.4 Changing social norms is important but not sufficient for ending open defecation</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec4.fig5" /></navTarget>
+
+<navTarget id="np-168" playOrder="168"><navLabel><text>9.1 Worldviews can affect perceptions of the risk posed by climate change</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.sec1.fig1" /></navTarget>
+
+<navTarget id="np-169" playOrder="169"><navLabel><text>9.2 Predicting the effect of rainfall forecasts on the success of growing familiar crops was difficult for farmers in Zimbabwe</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.sec1.fig2" /></navTarget>
+
+<navTarget id="np-170" playOrder="170"><navLabel><text>9.3 Democratic rules can achieve high levels of resource sustainability</text></navLabel><content src="part2.ch13.xhtml#WB.978-1-4648-0342-0.part2.ch13.sec1.fig3" /></navTarget>
+
+<navTarget id="np-171" playOrder="171"><navLabel><text>S5.1 The story of Bogot&#x00E1;&#x2019;s 1997 water supply crisis</text></navLabel><content src="part2.ch14.xhtml#WB.978-1-4648-0342-0.part2.ch14.fig1" /></navTarget>
+
+<navTarget id="np-172" playOrder="172"><navLabel><text>10.1 How development professionals interpreted data subjectively</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec2.fig1" /></navTarget>
+
+<navTarget id="np-173" playOrder="173"><navLabel><text>10.2 How World Bank staff viewed sunk costs</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec3.fig2" /></navTarget>
+
+<navTarget id="np-174" playOrder="174"><navLabel><text>B10.3.1 How World Bank staff predicted the views of poor people</text></navLabel><content src="part3.ch15.xhtml#WB.978-1-4648-0342-0.part3.ch15.sec4.fig3" /></navTarget>
+
+<navTarget id="np-175" playOrder="175"><navLabel><text>11.1 Understanding behavior and identifying effective interventions are complex and iterative processes</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.fig1" /></navTarget>
+</navList>
+
+<navList id="Photo">
+<navInfo><text>Photo</text></navInfo>
+<navLabel><text>Photo</text></navLabel>
+
+<navTarget id="np-176" playOrder="176"><navLabel><text>8.1 Former Brazilian president Lula da Silva&#x2019;s battle with throat cancer was widely covered in the media</text></navLabel><content src="part2.ch12.xhtml#WB.978-1-4648-0342-0.part2.ch12.sec1.fig1" /></navTarget>
+</navList>
+
+<navList id="Tables">
+<navInfo><text>Tables</text></navInfo>
+<navLabel><text>Tables</text></navLabel>
+
+<navTarget id="np-177" playOrder="177"><navLabel><text>O.1 People have two systems of thinking</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec1.table1" /></navTarget>
+
+<navTarget id="np-178" playOrder="178"><navLabel><text>O.2 Examples of highly cost-effective behavioral interventions</text></navLabel><content src="overview.xhtml#WB.978-1-4648-0342-0.cha.sec2.table2" /></navTarget>
+
+<navTarget id="np-179" playOrder="179"><navLabel><text>1.1 People have two systems of thinking</text></navLabel><content src="part1.ch1.xhtml#WB.978-1-4648-0342-0.part1.ch1.sec1.table1" /></navTarget>
+
+<navTarget id="np-180" playOrder="180"><navLabel><text>11.1 Different obstacles may require different intervention design (Case study: increasing home water chlorination)</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec2.table1" /></navTarget>
+
+<navTarget id="np-181" playOrder="181"><navLabel><text>11.2 Experimental evidence is accumulating on the effectiveness of many psychologically and socially informed designs</text></navLabel><content src="part3.ch16.xhtml#WB.978-1-4648-0342-0.part3.ch16.sec2.table2" /></navTarget>
+</navList>
+</ncx>

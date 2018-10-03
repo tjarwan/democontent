@@ -1,0 +1,91 @@
+
+a.nohoverlink:hover {background:none;} /* à ajouter à la css avec nodecolink */
+
+/* style of metadata text */
+.meta-txt {font-size: .875em; line-height: 1.2; padding: 0 .5em ;  margin: .4em 0; text-align: justify;}
+
+.meta-txt-social {font-size: .875em; line-height: 1.2; padding: 0 .5em ;  margin: .4em 2em; text-align: left;}
+
+.meta-margin {margin-top:1em;}
+
+/* First page */
+.homelogo {margin: 0.2em;}
+
+.section-first-page {padding: 8% .25em 3% .25em;
+					-epub-hyphens: none !important;
+					-moz-hyphens: none !important;
+					-webkit-hyphens: none !important;
+					-ms-hyphens: none !important;
+					-o-hyphens: none !important;
+					hyphens: none !important;}  
+
+
+.meta-serial	 {font-size: 1.2em; font-weight:bold;   font-style:normal; text-align:left; color:#585858; padding: .313em; margin: 0 .313em 0 .313em;} 
+.meta-title 	 {font-size:   2em; font-weight:bold;   font-style:normal; text-align:left; letter-spacing:0.03em; color: #2f4fbb; padding: .375em .313em .313em  0.5em; margin: 0 .313em 38% .313em; background: #f2f7ff; border-radius: 10px 0 10px 0;
+					-webkit-box-shadow: 5px 5px 8px #818181;
+					-moz-box-shadow: 5px 5px 8px #818181;
+					-moz-border-radius-topleft: 25px;
+					-moz-border-radius-bottomright: 25px;
+					-webkit-border-top-left-radius: 25px;
+					-webkit-border-bottom-right-radius: 25px;}
+.meta-sub-title  {font-size: 0.7em; font-weight:normal; font-style:normal; text-align:left; text-transform:uppercase; color: black; background: #f2f7ff;  display:block; padding-top: .313em; margin-top: .313em;  border-top: solid 1px  #2f4fbb;}
+.meta-cite-as 	 {font-size: 0.9em; text-align:left; padding: .5em; border:solid 1px black; width: 98%; margin: 15% auto; border-radius: 0.4em;}
+.meta-best-reading 	 {font-size: 0.9em; text-align:left; padding: .5em; border:solid 1px black; width: 98%; margin: 5% auto; border-radius: 0.4em;}
+
+/* END first page*/
+
+/* Metadata scond page section*/
+.section-metadata {padding: 0.1% .1em 0 .1em;} 
+
+.meta-summary {
+	margin: .5em auto;
+	background: #99B92C;
+	color: white;
+	border-radius: 5px;
+	padding: 2px;
+	font-weight: bold;
+	border-radius: 0.4em;
+	text-align:center;
+}
+
+/*details of metadata component to complete*/
+
+a[href^="mailto"]:hover:after {
+content: "" attr(title);
+padding-right:1em;}
+
+.isbn {
+	margin:.5em .2em;
+	border: 1px dotted darkgrey;
+}
+.meta-maps, .meta-photo-credits, .meta-right { margin-top:.7em; margin-bottom:.5em;}
+.meta-creator .meta-isbn .meta-serie .meta-identifier .meta-coverage .meta-issn-eco-print meta-txt .meta-disclaimer-isr  {}
+/* Metadata scond page section*/
+
+
+/* Last page and social box and icons*/
+	.social-container {font-size:1em; width:75%; max-width:600px; padding:1.75em 0.75em 0.75em 0.75em; margin: 1em auto 3em auto; border-radius: 20px; border:solid 2px #2f4fbb;}
+	.socialicon {padding:1em}
+	.icon360rotation:hover  {
+		-moz-transition: 0.5s ease-in-out;
+		-webkit-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
+		-ms-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+.meta-publisher {
+	margin-top:1.5em;
+	text-align:center;
+}
+	/* END social box and icons*/
+
+
+/* à creer CSS @media */
+@media  screen and (max-width:480px) {
+     .section-first-page, .section-metadata, .section-last-page {font-size: 0.7em;}
+         }

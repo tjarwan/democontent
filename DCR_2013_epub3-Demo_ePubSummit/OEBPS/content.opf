@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package prefix="rendition: http://www.idpf.org/vocab/rendition/#" unique-identifier="doi" version="3.0" xmlns="http://www.idpf.org/2007/opf" xmlns:lt="http://www.oecd.org/ns/legaltranslation" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:t="http://www.oecd.org/translate">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title id="t1">Development Co-operation Report 2013</dc:title>
+    <meta property="title-type" refines="#t1">main</meta>
+    <dc:creator id="create1">OECD</dc:creator>
+    <meta property="role" refines="#create1" scheme="marc:relators">aut</meta>
+    <dc:subject>Development</dc:subject>
+    <dc:description>The Development Co-operation Report (DCR) 2013 explores what needs to be done to achieve rapid and sustainable progress in the global fight to reduce poverty. The world is on track to achieve the Millennium Development Goal (MDG) target of halving the proportion of people whose income is less than USD 1.25 a day. Nonetheless, we are far from achieving the overarching MDG goal of eradicating extreme poverty. While we have learned much about what works in terms of reducing poverty, “getting to zero” remains a challenge in the face of the intractable difficulties of reaching those mired in extreme poverty.
+
+The report&amp;nbsp; focuses on the very poor and will set out, in concrete terms:
+• The nature and dimensions of poverty today
+• What development co-operation – and the global partnerships it supports – can do in the fight against poverty
+
+The DCR 2013 will focus on the positive experiences of countries, highlighting policies and approaches that have worked.</dc:description>
+    <dc:language>en</dc:language>
+    <dc:rights>© OECD 2013</dc:rights>
+    <dc:publisher>OECD Publishing</dc:publisher>
+    <dc:identifier id="doi">urn:doi:10.1787/dcr-2013-en</dc:identifier>
+    <dc:identifier id="BookId">urn:isbn:9789264201019</dc:identifier>
+    <meta content="Ending Poverty" name="subtitle"/>
+    <meta name="cover" content="cover-image"/>
+    <meta property="dcterms:modified">2017-03-02T19:27:18Z</meta>
+    <meta content="0.9.5" name="Sigil version"/>
+  </metadata>
+  <manifest>
+    <item href="Text/000.xhtml" id="a000" media-type="application/xhtml+xml"/>
+    <item href="Text/001.xhtml" id="a001" media-type="application/xhtml+xml"/>
+    <item href="Text/002.xhtml" id="a002" media-type="application/xhtml+xml"/>
+    <item href="Text/004.xhtml" id="a004" media-type="application/xhtml+xml"/>
+    <item href="Text/007.xhtml" id="a007" media-type="application/xhtml+xml"/>
+    <item href="Text/008.xhtml" id="a008" media-type="application/xhtml+xml"/>
+    <item href="Text/009.xhtml" id="a009" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/010.xhtml" id="a010" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/011.xhtml" id="a011" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/demo-chart.xhtml" id="demo-chart.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/060.xhtml" id="a060" media-type="application/xhtml+xml"/>
+    <item href="Text/999.xhtml" id="a999" media-type="application/xhtml+xml"/>
+    <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="Images/432013111m.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
+    <item href="Images/signature_gurria.png" id="graphic001" media-type="image/png"/>
+    <item href="Images/g1-01-1.jpg" id="graphic002" media-type="image/jpeg"/>
+    <item href="Images/g1-01-2.jpg" id="graphic003" media-type="image/jpeg"/>
+    <item href="Images/g1-01-3.jpg" id="graphic004" media-type="image/jpeg"/>
+    <item href="Images/g1-01-4.jpg" id="graphic005" media-type="image/jpeg"/>
+    <item href="Images/g1-01-5.jpg" id="graphic006" media-type="image/jpeg"/>
+    <item href="Images/g1-03-1.jpg" id="graphic007" media-type="image/jpeg"/>
+    <item href="Images/g1-03-2.jpg" id="graphic008" media-type="image/jpeg"/>
+    <item href="Images/g1-03-3.jpg" id="graphic009" media-type="image/jpeg"/>
+    <item href="Images/g1-04-2-box.jpg" id="graphic010" media-type="image/jpeg"/>
+    <item href="Images/g1-05-1.jpg" id="graphic011" media-type="image/jpeg"/>
+    <item href="Images/g1-05-2.jpg" id="graphic012" media-type="image/jpeg"/>
+    <item href="Images/ga-01.jpg" id="graphic150" media-type="image/jpeg"/>
+    <item href="Images/ga-02.jpg" id="graphic151" media-type="image/jpeg"/>
+    <item href="Images/ga-03.jpg" id="graphic152" media-type="image/jpeg"/>
+    <item href="Images/ga-04.jpg" id="graphic153" media-type="image/jpeg"/>
+    <item href="Images/logo-facebook-36.png" id="logo-facebook-36.png" media-type="image/png"/>
+    <item href="Images/logo-linkedin-36.png" id="logo-linkedin-36.png" media-type="image/png"/>
+    <item href="Images/logo-oecd-home_en.png" id="logo-oecd-home_en.png" media-type="image/png"/>
+    <item href="Images/logo-oecd-publishing_en.png" id="logo-oecd-publishing_en.png" media-type="image/png"/>
+    <item href="Images/logo-oecd_en.png" id="logo-oecd_en.png" media-type="image/png"/>
+    <item href="Images/logo-twitter-36.png" id="logo-twitter-36.png" media-type="image/png"/>
+    <item href="Images/logo-youtube-36.png" id="logo-youtube-36.png" media-type="image/png"/>
+    <item href="Styles/epub.css" id="master-css-001" media-type="text/css"/>
+    <item href="Styles/metadata.css" id="master-css-002" media-type="text/css"/>
+    <item href="Styles/keytable.css" id="master-css-003" media-type="text/css"/>
+    <item href="Styles/mediaqueries.css" id="master-css-004" media-type="text/css"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Fonts/STATLINK.TTF" id="statlink" media-type="application/x-font-ttf"/>
+    <item href="Fonts/symbol.ttf" id="symbol" media-type="application/x-font-ttf"/>
+    <item href="Text/nav.xhtml" id="navid" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="Misc/tablesaw-init.js" id="tablesaw-init.js" media-type="text/javascript"/>
+    <item href="Styles/tablesaw.css" id="tablesaw.css" media-type="text/css"/>
+    <item href="Text/058.xhtml" id="x058.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/demo-complete.xhtml" id="demo-complete.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/demo-swipe.xhtml" id="demo-swipe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Fonts/RobotoCondensed-Bold.ttf" id="RobotoCondensed-Bold.ttf" media-type="application/x-font-ttf"/>
+    <item href="Fonts/RobotoCondensed-Regular.ttf" id="RobotoCondensed-Regular.ttf" media-type="application/x-font-ttf"/>
+    <item href="Misc/tablesaw.js" id="tablesaw.js" media-type="text/javascript"/>
+    <item href="Misc/picoModal.js" id="picoModal.js" media-type="text/javascript"/>
+    <item href="Misc/bridge.js" id="bridge.js" media-type="text/javascript"/>
+    <item href="Misc/jquery.js" id="jquery.js" media-type="text/javascript"/>
+    <item href="Misc/highcharts.js" id="highcharts.js" media-type="text/javascript"/>
+    <item href="Misc/jquery.highchartTable.js" id="jquery.highchartTable.js" media-type="text/javascript"/>
+    <item href="Misc/focus.js" id="focus.js" media-type="text/javascript"/>
+    <item href="Text/demo-toggle.xhtml" id="demo-toggle.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover"/>
+    <itemref idref="a000" linear="yes"/>
+    <itemref idref="a001" linear="yes"/>
+    <itemref idref="a002" linear="yes"/>
+    <itemref idref="a004" linear="yes"/>
+    <itemref idref="a007" linear="yes"/>
+    <itemref idref="a008" linear="yes"/>
+    <itemref idref="a009" linear="yes"/>
+    <itemref idref="a010" linear="yes"/>
+    <itemref idref="a011" linear="yes"/>
+    <itemref idref="x058.xhtml"/>
+    <itemref idref="demo-swipe.xhtml"/>
+    <itemref idref="demo-toggle.xhtml"/>
+    <itemref idref="demo-complete.xhtml"/>
+    <itemref idref="demo-chart.xhtml" linear="yes"/>
+    <itemref idref="a060" linear="yes"/>
+    <itemref idref="a999" linear="yes"/>
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover"/>
+    <reference href="Text/000.xhtml" title="Title Page" type="title-page"/>
+    <reference href="Text/001.xhtml" title="Copyright Page" type="copyright-page"/>
+    <reference href="Text/002.xhtml" title="Text" type="text"/>
+    <reference href="Text/060.xhtml" title="Glossary" type="glossary"/>
+    <reference href="Text/999.xhtml" title="" type="other.backmatter"/>
+  </guide>
+</package>

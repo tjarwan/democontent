@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-US">
+  <head>
+    <meta name="dtb:uid" content="978-0-262-01285-0"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="353"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Transforming Global Information and Communication Markets</text>
+  </docTitle>
+  <navMap>
+		<navPoint id="Navpoint-1" playOrder="1"><navLabel><text>Cover</text></navLabel><content src="xhtml/cover.html"/></navPoint>
+		<navPoint id="Navpoint-2" playOrder="2"><navLabel><text>Halftitle</text></navLabel><content src="xhtml/halftitle.html"/></navPoint>
+		<navPoint id="Navpoint-3" playOrder="3"><navLabel><text>Author Note</text></navLabel><content src="xhtml/fm.html"/></navPoint>
+		<navPoint id="Navpoint-4" playOrder="4"><navLabel><text>Title</text></navLabel><content src="xhtml/title.html"/></navPoint>
+		<navPoint id="Navpoint-5" playOrder="5"><navLabel><text>Copyright</text></navLabel><content src="xhtml/copyright.html"/></navPoint>
+		<navPoint id="Navpoint-6" playOrder="6"><navLabel><text>Contents</text></navLabel><content src="xhtml/content.html"/></navPoint>
+		<navPoint id="Navpoint-7" playOrder="7"><navLabel><text>Acknowledgments</text></navLabel><content src="xhtml/acknowledgment.html"/></navPoint>
+		<navPoint id="Navpoint-8" playOrder="8"><navLabel><text>Introduction</text></navLabel><content src="xhtml/introduction.html"/></navPoint>
+		<navPoint id="Navpoint-9" playOrder="9"><navLabel><text>I The Inflection Point</text></navLabel><content src="xhtml/part01.html"/>
+		<navPoint id="Navpoint-10" playOrder="10"><navLabel><text>1 The Next Revolution in Global Information and Communication Markets</text></navLabel><content src="xhtml/chapter01.html"/></navPoint>
+		<navPoint id="Navpoint-11" playOrder="11"><navLabel><text>2 The First Two ICT Eras</text></navLabel><content src="xhtml/chapter02.html"/></navPoint>
+		<navPoint id="Navpoint-12" playOrder="12"><navLabel><text>3 Modularity at the Inflection Point</text></navLabel><content src="xhtml/chapter03.html"/></navPoint>
+		<navPoint id="Navpoint-13" playOrder="13"><navLabel><text>4 Modularity and Innovation</text></navLabel><content src="xhtml/chapter04.html"/></navPoint>
+		<navPoint id="Navpoint-14" playOrder="14"><navLabel><text>5 The Political Economy of the Inflection Point</text></navLabel><content src="xhtml/chapter05.html"/></navPoint></navPoint>
+		<navPoint id="Navpoint-15" playOrder="15"><navLabel><text>II A Theoretical Interlude</text></navLabel><content src="xhtml/part02.html"/>
+		<navPoint id="Navpoint-16" playOrder="16"><navLabel><text>6 Theory before Policy</text></navLabel><content src="xhtml/chapter06.html"/></navPoint></navPoint>
+		<navPoint id="Navpoint-17" playOrder="17"><navLabel><text>III Three Dimensions of Global Market Governance</text></navLabel><content src="xhtml/part03.html"/>
+		<navPoint id="Navpoint-18" playOrder="18"><navLabel><text>7 Trade and the Global Network Revolution</text></navLabel><content src="xhtml/chapter07.html"/></navPoint>
+		<navPoint id="Navpoint-19" playOrder="19"><navLabel><text>8 Wireless Infrastructure</text></navLabel><content src="xhtml/chapter08.html"/></navPoint>
+		<navPoint id="Navpoint-20" playOrder="20"><navLabel><text>9 Internet Governance</text></navLabel><content src="xhtml/chapter09.html"/></navPoint></navPoint>
+		<navPoint id="Navpoint-21" playOrder="21"><navLabel><text>Summary and Conclusions</text></navLabel><content src="xhtml/summary.html"/></navPoint>
+		<navPoint id="Navpoint-22" playOrder="22"><navLabel><text>Notes</text></navLabel><content src="xhtml/notes.html"/></navPoint>
+		<navPoint id="Navpoint-23" playOrder="23"><navLabel><text>Index</text></navLabel><content src="xhtml/index.html"/></navPoint>
+	</navMap>
+</ncx>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="uid" scheme="doi">10.2217/cnc-2016-0006</dc:identifier>
+        <dc:title>The effect of concussion history on cognitive-motor integration in elite hockey players</dc:title>
+        <dc:creator>Johanna Hurtubise</dc:creator>
+        <dc:creator>Diana Gorbet</dc:creator>
+        <dc:creator>Yehyah Hamandi</dc:creator>
+        <dc:creator>Alison Macpherson</dc:creator>
+        <dc:creator>Lauren Sergio</dc:creator>
+        <dc:language>en</dc:language>
+        <meta property="dcterms:modified">2016-09-06T00:00:00Z</meta>
+    </metadata>
+    <manifest>
+        <item href="xhtml/article.xhtml" id="article" media-type="application/xhtml+xml"/>
+        <item href="xhtml/article-nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+        <item href="img/f1-standard.png" media-type="image/png" id="f1"/>
+        <item href="img/f2-standard.png" media-type="image/png" id="f2"/>
+        <item href="img/f3-standard.png" media-type="image/png" id="f3"/>
+        <item href="xhtml/tab1.xhtml" id="tab1" media-type="application/xhtml+xml"/>
+        <item href="xhtml/tab2.xhtml" id="tab2" media-type="application/xhtml+xml"/>
+        <item href="xhtml/tab3.xhtml" id="tab3" media-type="application/xhtml+xml"/>
+        <item href="xhtml/tab4.xhtml" id="tab4" media-type="application/xhtml+xml"/>
+        <item href="xhtml/references.xhtml" id="references" media-type="application/xhtml+xml"/>
+        <item href="css/article.css" id="css" media-type="text/css"/>
+        <!--<item href="img/epub_logo_color.jpg" media-type="image/jpeg" id="ci" properties="cover-image"/>-->
+    </manifest>
+    <spine>
+        <itemref idref="article"/>
+        <itemref idref="nav" linear="no"/>
+        <itemref idref="tab1" linear="no"/>
+        <itemref idref="tab2" linear="no"/>
+        <itemref idref="tab3" linear="no"/>
+        <itemref idref="tab4" linear="no"/>
+        <itemref idref="references"/>
+    </spine>
+</package>

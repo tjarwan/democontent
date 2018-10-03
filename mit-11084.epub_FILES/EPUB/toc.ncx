@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">    
+    <head>
+        <meta name="dtb:uid" content="9780262341516"/>
+        <meta name="dtb:depth" content="2"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Panpsychism in the West</text>
+    </docTitle>
+    <navMap>
+    	<navPoint id="navpoint-1" playOrder="1">
+    		<navLabel><text>Cover</text></navLabel>
+    		<content src="xhtml/cover.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-2" playOrder="2">
+    		<navLabel><text>Title page</text></navLabel>
+    		<content src="xhtml/title.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-5" playOrder="3">
+    		<navLabel><text>Table of Contents</text></navLabel>
+    		<content src="xhtml/toc.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-6" playOrder="4">
+    		<navLabel><text>Acknowledgments</text></navLabel>
+    		<content src="xhtml/acknowledgments.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-7" playOrder="5">
+    		<navLabel><text>1&#x2003;Panpsychism and the Ontology of Mind</text></navLabel>
+    		<content src="xhtml/chapter-1.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-8" playOrder="6">
+    		<navLabel><text>2&#x2003;Ancient Origins</text></navLabel>
+    		<content src="xhtml/chapter-2.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-9" playOrder="7">
+    		<navLabel><text>3&#x2003;Developments in the Renaissance: Sixteenth- and Seventeenth-Century Europe</text></navLabel>
+    		<content src="xhtml/chapter-3.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-10" playOrder="8">
+    		<navLabel><text>4&#x2003;Continental Panpsychism of the Eighteenth Century</text></navLabel>
+    		<content src="xhtml/chapter-4.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-11" playOrder="9">
+    		<navLabel><text>5&#x2003;Panpsychism, Mechanism, and Science in Nineteenth-Century Germany</text></navLabel>
+    		<content src="xhtml/chapter-5.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-12" playOrder="10">
+    		<navLabel><text>6&#x2003;The Anglo-American Perspective</text></navLabel>
+    		<content src="xhtml/chapter-6.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-13" playOrder="11">
+    		<navLabel><text>7&#x2003;Panpsychism in the Years 1900&#x2013;1950</text></navLabel>
+    		<content src="xhtml/chapter-7.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-14" playOrder="12">
+    		<navLabel><text>8&#x2003;Scientific Perspectives</text></navLabel>
+    		<content src="xhtml/chapter-8.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-15" playOrder="13">
+    		<navLabel><text>9&#x2003;Panpsychism from 1950 to the Present</text></navLabel>
+    		<content src="xhtml/chapter-9.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-16" playOrder="14">
+    		<navLabel><text>10&#x2003;Toward a Panpsychist Worldview</text></navLabel>
+    		<content src="xhtml/chapter-10.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-17" playOrder="15">
+    		<navLabel><text>Bibliography</text></navLabel>
+    		<content src="xhtml/bibliography.xhtml"/>
+    	</navPoint>
+    	<navPoint id="navpoint-18" playOrder="16">
+    		<navLabel><text>Index</text></navLabel>
+    		<content src="xhtml/index.xhtml"/>
+    	</navPoint>
+    </navMap>
+</ncx>

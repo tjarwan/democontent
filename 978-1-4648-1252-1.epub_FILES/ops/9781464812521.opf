@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p9781464812521">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Women, Business and the Law 2018</dc:title>
+<dc:creator opf:role="aut">The World Bank</dc:creator>
+<dc:rights>Copyright &#169; 2016 International Bank for Reconstruction and Development / The World Bank</dc:rights>
+<dc:rights>CC BY 3.0 IGO</dc:rights>
+<dc:identifier id="p9781464812521">Print ISBN: 9781464812521</dc:identifier>
+<dc:identifier id="p9781464812538" opf:scheme="eISBN">eISBN: 9781464812538</dc:identifier>
+<dc:identifier id="pub-10.1596" opf:scheme="DOI">DOI: 10.1596/978-1-4648-1252-1</dc:identifier>
+<dc:language>en</dc:language>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="css" href="styles/9781464812521.css" media-type="text/css"/>
+<item id="cover-image" href="images/9781464812521.jpg" media-type="image/jpeg"/>
+<item id="CharisSILB" href="fonts/CharisSILB.ttf" media-type="application/x-font-ttf"/>
+<item id="CharisSILBI" href="fonts/CharisSILBI.ttf" media-type="application/x-font-ttf"/>
+<item id="CharisSILI" href="fonts/CharisSILI.ttf" media-type="application/x-font-ttf"/>
+<item id="CharisSILR" href="fonts/CharisSILR.ttf" media-type="application/x-font-ttf"/>
+<item id="cover" href="xhtml/cover.html" media-type="application/xhtml+xml"/>
+<item id="backcover" href="xhtml/backcover.html" media-type="application/xhtml+xml"/>
+<item id="back" href="xhtml/back.html" media-type="application/xhtml+xml"/>
+<item id="halftitle" href="xhtml/halftitle.html" media-type="application/xhtml+xml"/>
+<item id="title" href="xhtml/title.html" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.html" media-type="application/xhtml+xml"/>
+<item id="map1" href="xhtml/map1.html" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.html" media-type="application/xhtml+xml"/>
+<item id="foreword" href="xhtml/foreword.html" media-type="application/xhtml+xml"/>
+<item id="ch01" href="xhtml/ch01.html" media-type="application/xhtml+xml"/>
+<item id="ch02" href="xhtml/ch02.html" media-type="application/xhtml+xml"/>
+<item id="ch03" href="xhtml/ch03.html" media-type="application/xhtml+xml"/>
+<item id="ch04" href="xhtml/ch04.html" media-type="application/xhtml+xml"/>
+<item id="ch05" href="xhtml/ch05.html" media-type="application/xhtml+xml"/>
+<item id="ch06" href="xhtml/ch06.html" media-type="application/xhtml+xml"/>
+<item id="ch07" href="xhtml/ch07.html" media-type="application/xhtml+xml"/>
+<item id="backcover1" href="images/backcover.jpg" media-type="image/jpeg"/>
+<item id="cercle" href="images/cercle.jpg" media-type="image/jpeg"/>
+<item id="f0005-01" href="images/f0005-01.jpg" media-type="image/jpeg"/>
+<item id="f0006-01" href="images/f0006-01.jpg" media-type="image/jpeg"/>
+<item id="f0006-01a" href="images/f0006-01a.jpg" media-type="image/jpeg"/>
+<item id="f0007-01" href="images/f0007-01.jpg" media-type="image/jpeg"/>
+<item id="f0008-01" href="images/f0008-01.jpg" media-type="image/jpeg"/>
+<item id="f0008-02" href="images/f0008-02.jpg" media-type="image/jpeg"/>
+<item id="f0009-01" href="images/f0009-01.jpg" media-type="image/jpeg"/>
+<item id="f000i-01" href="images/f000i-01.jpg" media-type="image/jpeg"/>
+<item id="f000v-01" href="images/f000v-01.jpg" media-type="image/jpeg"/>
+<item id="f000v-02" href="images/f000v-02.jpg" media-type="image/jpeg"/>
+<item id="f000v-03" href="images/f000v-03.jpg" media-type="image/jpeg"/>
+<item id="f0010-01" href="images/f0010-01.jpg" media-type="image/jpeg"/>
+<item id="f0011-01" href="images/f0011-01.jpg" media-type="image/jpeg"/>
+<item id="f0012-01" href="images/f0012-01.jpg" media-type="image/jpeg"/>
+<item id="f0013-01" href="images/f0013-01.jpg" media-type="image/jpeg"/>
+<item id="f0014-01" href="images/f0014-01.jpg" media-type="image/jpeg"/>
+<item id="f0017-01" href="images/f0017-01.jpg" media-type="image/jpeg"/>
+<item id="f0018-01" href="images/f0018-01.jpg" media-type="image/jpeg"/>
+<item id="f0019-01" href="images/f0019-01.jpg" media-type="image/jpeg"/>
+<item id="f0020-01" href="images/f0020-01.jpg" media-type="image/jpeg"/>
+<item id="f0026-01" href="images/f0026-01.jpg" media-type="image/jpeg"/>
+<item id="f0030-01" href="images/f0030-01.jpg" media-type="image/jpeg"/>
+<item id="f0031-01" href="images/f0031-01.jpg" media-type="image/jpeg"/>
+<item id="f0032-01" href="images/f0032-01.jpg" media-type="image/jpeg"/>
+<item id="f0033-01" href="images/f0033-01.jpg" media-type="image/jpeg"/>
+<item id="f0058-01" href="images/f0058-01.jpg" media-type="image/jpeg"/>
+<item id="f0iii-01" href="images/f0iii-01.jpg" media-type="image/jpeg"/>
+<item id="plus" href="images/plus.jpg" media-type="image/jpeg"/>
+<item id="pub01" href="images/pub01.jpg" media-type="image/jpeg"/>
+<item id="pub02" href="images/pub02.jpg" media-type="image/jpeg"/>
+<item id="pub03" href="images/pub03.jpg" media-type="image/jpeg"/>
+<item id="times" href="images/times.jpg" media-type="image/jpeg"/>
+</manifest>
+<spine xmlns="http://www.idpf.org/2007/opf" toc="ncx">
+<itemref idref="cover"/>
+<itemref idref="halftitle"/>
+<itemref idref="title"/>
+<itemref idref="copyright"/>
+<itemref idref="map1"/>
+<itemref idref="contents"/>
+<itemref idref="foreword"/>
+<itemref idref="ch01"/>
+<itemref idref="ch02"/>
+<itemref idref="ch03"/>
+<itemref idref="ch04"/>
+<itemref idref="ch05"/>
+<itemref idref="ch06"/>
+<itemref idref="ch07"/>
+<itemref idref="back"/>
+<itemref idref="backcover"/>
+</spine>
+<guide>
+<reference href="xhtml/contents.html" type="toc" title="Contents"/>
+<reference href="xhtml/cover.html" type="cover" title="Cover"/>
+</guide>
+</package>

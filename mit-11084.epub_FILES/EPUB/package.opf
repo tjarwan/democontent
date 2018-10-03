@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xml:lang="en">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="pub-id">9780262341516</dc:identifier>
+		<dc:identifier id="isbn-ER">9780262341530</dc:identifier>
+		<dc:identifier id="isbn-EL">9780262341523</dc:identifier>
+		<dc:source id="src-id">9780262534062</dc:source>
+		<dc:language>en-US</dc:language>
+		<dc:title id="t1">Panpsychism in the West</dc:title>
+		<dc:creator id="creator1">David Skrbina</dc:creator>
+		<dc:publisher>MIT Press</dc:publisher>
+		<dc:description id="abstract">An updated edition of a comprehensive study of the theory that mind exists, in some form, in all living and nonliving things.</dc:description> 
+		<dc:subject>philosophy of mind; cognitive science; consciousness; history of philosophy; cognition; brain; Western; panpsychist; nature of mind; theory</dc:subject>
+		<dc:rights>MIT Press</dc:rights>
+		<dc:date>2017-10-20</dc:date>    	
+		<meta name="cover" content="cover-image" />
+		<meta property="dcterms:modified">2017-08-25T14:30:53Z</meta>
+		<meta property="ibooks:specified-fonts">false</meta>         
+		<meta refines="#t1" property="title-type">main</meta>
+		<meta refines="#t1" property="display-seq">1</meta>
+		<meta refines="#pub-id" property="identifier-type" scheme="onix:codelist5">15</meta> 
+		<meta refines="#isbn-ER" property="identifier-type" scheme="onix:codelist5">15</meta>
+		<meta refines="#isbn-EL" property="identifier-type" scheme="onix:codelist5">15</meta>
+		<meta refines="#src-id" property="identifier-type" scheme="onix:codelist5">15</meta> 
+		<meta refines="#creator1" property="role" scheme="marc:relators" id="role">aut</meta>
+		<meta refines="#creator1" property="file-as">Skrbina, David</meta>
+		<meta refines="#creator1" property="display-seq">1</meta>
+	</metadata>
+	<manifest>
+		<item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+		<item id="platform-css" media-type="text/css" href="css/books-index.css"/>
+		<item id="product-css" media-type="text/css" href="css/books-mit.css"/>
+		<item id="product-css2" media-type="text/css" href="css/books-mit2.css"/>
+		<item id="cover" media-type="application/xhtml+xml" href="xhtml/cover.xhtml"/>
+		
+		<item id="frontmatter" media-type="application/xhtml+xml" href="xhtml/frontmatter.xhtml"/>
+		
+		<item id="toc" media-type="application/xhtml+xml" href="xhtml/toc.xhtml" properties="nav"/>
+		<item id="acknowledgments" media-type="application/xhtml+xml" href="xhtml/acknowledgments.xhtml"/>
+		<item id="chapter-1" media-type="application/xhtml+xml" href="xhtml/chapter-1.xhtml"/>
+		<item id="chapter-2" media-type="application/xhtml+xml" href="xhtml/chapter-2.xhtml"/>
+		<item id="chapter-3" media-type="application/xhtml+xml" href="xhtml/chapter-3.xhtml"/>
+		<item id="chapter-4" media-type="application/xhtml+xml" href="xhtml/chapter-4.xhtml"/>
+		<item id="chapter-5" media-type="application/xhtml+xml" href="xhtml/chapter-5.xhtml"/>
+		<item id="chapter-6" media-type="application/xhtml+xml" href="xhtml/chapter-6.xhtml"/>
+		<item id="chapter-7" media-type="application/xhtml+xml" href="xhtml/chapter-7.xhtml"/>
+		<item id="chapter-8" media-type="application/xhtml+xml" href="xhtml/chapter-8.xhtml"/>
+		<item id="chapter-9" media-type="application/xhtml+xml" href="xhtml/chapter-9.xhtml"/>
+		<item id="chapter-10" media-type="application/xhtml+xml" href="xhtml/chapter-10.xhtml"/>
+		<item id="bibliography" media-type="application/xhtml+xml" href="xhtml/bibliography.xhtml"/>
+		<item id="index" media-type="application/xhtml+xml" href="xhtml/index.xhtml"/>
+		<item id="cover-image" media-type="image/jpeg" href="img/cover.jpg" properties="cover-image"/>
+		<item id="table1-1" media-type="image/png" href="images/table1-1.png"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover" linear="no"/>
+		<itemref idref="frontmatter"/>
+		<itemref idref="toc"/>
+		<itemref idref="acknowledgments"/>
+		<itemref idref="chapter-1"/>
+		<itemref idref="chapter-2"/>
+		<itemref idref="chapter-3"/>
+		<itemref idref="chapter-4"/>
+		<itemref idref="chapter-5"/>
+		<itemref idref="chapter-6"/>
+		<itemref idref="chapter-7"/>
+		<itemref idref="chapter-8"/>
+		<itemref idref="chapter-9"/>
+		<itemref idref="chapter-10"/>
+		<itemref idref="bibliography"/>
+		<itemref idref="index"/>
+	</spine>
+	<guide xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+		<reference type="cover" title="Cover" href="xhtml/cover.xhtml"/>
+		<reference type="toc" title="Table of Contents" href="xhtml/toc.xhtml"/>
+	</guide>
+</package>

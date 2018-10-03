@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<head>
+<meta name="dtb:uid" content="Print ISBN: 9781464812521"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="185"/>
+<meta name="dtb:maxPageNumber" content="185"/>
+</head>
+<docTitle>
+<text>Women, Business and the Law 2018</text>
+</docTitle>
+<navMap>
+<navPoint id="i1" playOrder="1">
+<navLabel>
+<text>Front Cover</text>
+</navLabel>
+<content src="xhtml/cover.html"/>
+</navPoint>
+<navPoint id="i2" playOrder="2">
+<navLabel>
+<text>Title Page</text>
+</navLabel>
+<content src="xhtml/title.html"/>
+</navPoint>
+<navPoint id="i3" playOrder="3">
+<navLabel>
+<text>Copyright Page</text>
+</navLabel>
+<content src="xhtml/copyright.html"/>
+</navPoint>
+<navPoint id="i4" playOrder="4">
+<navLabel>
+<text>Contents</text>
+</navLabel>
+<content src="xhtml/contents.html"/>
+</navPoint>
+<navPoint id="i5" playOrder="5">
+<navLabel>
+<text>Foreword </text>
+</navLabel>
+<content src="xhtml/foreword.html#foreword"/>
+</navPoint>
+<navPoint id="i6" playOrder="6">
+<navLabel>
+<text>Key Findings </text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01"/>
+</navPoint>
+<navPoint id="i7" playOrder="7">
+<navLabel>
+<text>About Women, Business and the Law </text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02"/>
+</navPoint>
+<navPoint id="i8" playOrder="8">
+<navLabel>
+<text>Women&#8217;s Financial Inclusion and the Law </text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03"/>
+</navPoint>
+<navPoint id="i9" playOrder="9">
+<navLabel>
+<text>Summaries of Women, Business and the Law Reforms </text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04"/>
+</navPoint>
+<navPoint id="i10" playOrder="10">
+<navLabel>
+<text>Data Notes </text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05"/>
+</navPoint>
+<navPoint id="i11" playOrder="11">
+<navLabel>
+<text>Economy Tables </text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06"/>
+</navPoint>
+<navPoint id="i12" playOrder="12">
+<navLabel>
+<text>Acknowledgments </text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07"/>
+</navPoint>
+<navPoint id="i13" playOrder="13">
+<navLabel>
+<text>Back Cover</text>
+</navLabel>
+<content src="xhtml/backcover.html"/>
+</navPoint>
+</navMap>
+</ncx>

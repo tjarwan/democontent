@@ -1,0 +1,439 @@
+font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILR.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILB.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILI.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILBI.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+body
+{
+	margin-top: 0.1em;
+	margin-right: 1.5em;
+}
+@page
+{
+	margin: 1.5em;
+}
+svg
+{
+	height: 98%;
+	width: 100%;
+}
+.copyrightt
+{
+	margin-top: 0.8em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.copyright
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-indent: 0.1em;
+}
+.copyrightin
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	text-indent: 1em;
+}
+.h2
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: left;
+}
+.h2a
+{
+	font-size: x-large;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.h2b
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: left;
+}
+.h2c
+{
+	font-size: x-large;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	text-align: left;
+}
+.h2d
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: left;
+}
+.h3
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.h3o
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #bea67e;
+}
+.h31
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #589bc3;
+}
+.h32
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #6c679f;
+}
+.h33
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #71b267;
+}
+
+
+
+.h4
+{
+	font-size: 110%;
+	margin-top: 1.5em;
+	margin-bottom: 0.2em;
+	text-align: left;
+}
+.h5
+{
+	font-size: 105%;
+	margin-top: 1.0em;
+	margin-bottom: 0.2em;
+	text-align: left;
+}
+.tocfm
+{
+	margin-top: 0.6em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.tocchap
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.tocchap1
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.tocpart
+{
+	margin-top: 1.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.noindent
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.indent
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: 1.2em;
+}
+.group
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+.image
+{
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+	text-align: center;
+}
+.nounder
+{
+	text-decoration: none;
+}
+.figcap
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.sourcet
+{
+	font-size: 0.9em;
+	margin-top: 0.7em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+	text-indent: 0.01em;
+}
+.source
+{
+	font-size: 0.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+	text-indent: 0.01em;
+}
+.imagecover
+{
+	text-align: center;
+}
+.boxtitle
+{
+	margin-top: 0.1em;
+	margin-bottom: 1.0em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.box
+{
+	margin-top: 2.0em;
+	margin-bottom: 2.0em;
+	border-top: solid .1em;
+	border-bottom: #231F20 solid .1em;
+	padding: 1.0em;
+	background-color: rgb(246,235,216);
+	page-break-inside: avoid;
+}
+.box1
+{
+	margin-top: 2.0em;
+	margin-bottom: 2.0em;
+	padding: 1.0em;
+	page-break-inside: avoid;
+}
+.tablecap
+{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.bullet
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.bullett
+{
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.bulletb
+{
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.noindentt
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.notes
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 2.1em;
+	text-indent: -1em;
+}
+.ref_note
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 2.1em;
+	text-indent: -1em;
+}
+.notes1
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 2.1em;
+	text-indent: -1.5em;
+}
+.ref
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+.abbre
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.pullquote
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-indent: 0.01em;
+}
+.tab
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+}
+.tabt
+{
+	margin-top: 1.2em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+}
+.tabc
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	text-align: center;
+}
+.borderb
+{
+	border-bottom: solid 0.1em;
+}
+.bordertb
+{
+	border-top: solid 0.1em;
+	border-bottom: solid 0.1em;
+}
+.centert
+{
+	margin-top: 1em;
+	text-align: center;
+}
+.alttxt
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.noindent1
+{
+	margin-top: 1.8em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.noindent4
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.noindent2
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-indent: 0.01em;
+}
+.h3a
+{
+	font-size: x-large;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.h3b
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: left;
+}
+.boxfn
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	margin-left: 0.9em;
+	text-indent: -0.9em;
+}
+.coloro
+{
+	color: #bea67e;
+}
+.color1
+{
+	color: #589bc3;
+}
+.color2
+{
+	color: #6c679f;
+}
+.color3
+{
+	color: #71b267;
+}
+
+
+
+
+em
+{
+	color: red;
+}

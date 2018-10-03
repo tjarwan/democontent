@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 10.0" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title id="maintitle">Real Hallucinations</dc:title>
+			<meta refines="#maintitle" property="title-type">main</meta>
+		<dc:title id="subtitle">Psychiatric Illness, Intentionality, and the Interpersonal World</dc:title>
+			<meta refines="#subtitle" property="title-type">subtitle</meta>
+		<dc:creator id="creator">Matthew Ratcliffe</dc:creator>
+			<meta refines="#creator" property="role" scheme="marc:relators" id="autrole">aut</meta>
+			<meta refines="#creator" property="file-as">Ratcliffe, Matthew</meta>
+		<dc:publisher>The Massachusetts Institute of Technology</dc:publisher>
+		<dc:date>2017-09-15</dc:date>
+		<dc:language>en-US</dc:language>
+		<dc:language>en-US-POSIX</dc:language>
+		<meta property="dcterms:modified">2017-09-20T14:19:42Z</meta>
+		<dc:identifier id="bookid">9780262342162</dc:identifier>
+	</metadata>
+	<manifest>
+		<item id="CoverImage" href="CoverImage.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_000" href="10594_000.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_000a" href="10594_000a.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_000b" href="10594_000b.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_000c" href="10594_000c.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_000d" href="10594_000d.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_000e" href="10594_000e.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_001" href="10594_001.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_002" href="10594_002.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_003" href="10594_003.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_004" href="10594_004.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_005" href="10594_005.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_006" href="10594_006.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_007" href="10594_007.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_008" href="10594_008.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_333" href="10594_333.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_444" href="10594_444.xhtml" media-type="application/xhtml+xml" />
+		<item id="x10594_555" href="10594_555.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="ExportCSS.css" href="css/ExportCSS.css" media-type="text/css" />
+		<item id="cover.jpg" href="image/cover.jpg" media-type="image/jpeg" properties="cover-image" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="CoverImage" />
+		<itemref idref="x10594_000" />
+		<itemref idref="x10594_000a" />
+		<itemref idref="x10594_000b" />
+		<itemref idref="x10594_000c" />
+		<itemref idref="x10594_000d" />
+		<itemref idref="x10594_000e" />
+		<itemref idref="x10594_001" />
+		<itemref idref="x10594_002" />
+		<itemref idref="x10594_003" />
+		<itemref idref="x10594_004" />
+		<itemref idref="x10594_005" />
+		<itemref idref="x10594_006" />
+		<itemref idref="x10594_007" />
+		<itemref idref="x10594_008" />
+		<itemref idref="x10594_333" />
+		<itemref idref="x10594_444" />
+		<itemref idref="x10594_555" />
+	</spine>
+	<guide>
+		<reference type="cover" href="CoverImage.xhtml" title="Cover" />
+		<reference type="title-page" href="10594_000.xhtml#half" title="Half Title" />
+		<reference type="title-page" href="10594_000a.xhtml#series" title="Series Page" />
+		<reference type="title-page" href="10594_000b.xhtml#title" title="Title" />
+		<reference type="copyright-page" href="10594_000c.xhtml#copy" title="Copyright" />
+		<reference type="toc" href="10594_000d.xhtml#toc" title="Contents" />
+		<reference type="acknowledgements"  href="10594_000e.xhtml#ack" title="Acknowledgments" />
+		<reference type="text"  href="10594_001.xhtml#intro" title="Chapter 1" />
+		<reference type="text"  href="10594_002.xhtml#chap2" title="Chapter 2" />
+		<reference type="text"  href="10594_003.xhtml#chap3" title="Chapter 3" />
+		<reference type="text"  href="10594_004.xhtml#chap4" title="Chapter 4" />
+		<reference type="text"  href="10594_005.xhtml#chap5" title="Chapter 5" />
+		<reference type="text"  href="10594_006.xhtml#chap6" title="Chapter 6" />
+		<reference type="text"  href="10594_007.xhtml#chap7" title="Chapter 7" />
+		<reference type="text"  href="10594_008.xhtml#chap8" title="Chapter 8" />
+		<reference type="notes"  href="10594_333.xhtml#notes" title="Notes" />
+		<reference  type="bibliography"  href="10594_444.xhtml#ref" title="References" />
+		<reference type="index"  href="10594_555.xhtml#index" title="Index" />
+	</guide>
+</package>

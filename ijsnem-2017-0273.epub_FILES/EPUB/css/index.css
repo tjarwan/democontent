@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.15em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
+
+header {
+    margin: 0 0 3em;
+}
+
+header > div.article-type {
+    font-size: 0.8em;
+    margin: 0 0 0.2em;
+}
+
+header > div.citation {
+    font-size: 0.8em;
+    margin: 0 0 2em;
+}
+
+header > div.citation > div.logo {
+	display: none;
+	margin: 0 0 1em 1em;
+}
+
+header > p.authorNote {
+	font-size: 0.9em;
+}
+
+header > ul {
+	font-size: 0.9em;
+    list-style: none;
+    margin: 0 0 0.6em;
+    padding: 0;
+    text-align: left;
+}
+
+header > ul.authors > li {
+    display: inline;
+    -webkit-hyphens: none;
+}
+
+header > ul.authors > li:after {
+    content: ',';
+}
+
+header > ul.authors > li:last-child:after {
+    content: '';
+}
+
+figure {
+    margin: 2em 0;
+}
+
+figure > img {
+    margin: 0 0 1em;
+    width: 100vw;
+}
+
+figure > figcaption {
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+#author-notes {
+	font-size: 0.8em;
+	margin: 1em 0;
+	padding-top: 1em;
+	position: relative;
+}
+
+#author-notes:before {
+    content: "";
+    background: #aaa;
+    position: absolute;
+    left: 0;
+    height: 1px;
+    top: 0;
+    width: 280px;
+}
+
+#author-notes > ul {
+	display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#author-notes > ul > li {
+    display: inline;
+}
+
+#author-notes > ul > li:after {
+    content: ' ';
+}
+
+#keywords > h2 {
+	display: inline;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+#keywords > h2:after {
+    content: ': ';
+}
+
+#keywords > ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#keywords > ul > li {
+    display: inline;
+}
+
+#keywords > ul > li:after {
+    content: ', ';
+}
+
+#keywords > ul > li:last-child:after {
+    content: '';
+}
+
+body.nonlinear {
+    margin: 0;
+    padding: 0;
+}
+
+body.nonlinear > figure {
+    margin: 0;
+    padding: 50px 0;
+}
+
+body.nonlinear > figure > img {
+    padding: 0 30px;
+    margin: 0;
+    width: 100vw;
+}
+
+body.nonlinear > figure > figcaption {
+    font-size: 1em;
+    line-height: 1.8;
+    margin: 30px 0 0;
+    padding: 0 30px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    body.nonlinear > figure {
+        text-align: center;
+    }
+
+    body.nonlinear > figure > img,
+    body.nonlinear > figure > figcaption {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        width: 708px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    body.nonlinear > figure {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    body.nonlinear > figure > img {
+        float: left;
+        width: 700px;
+    }
+
+    body.nonlinear > figure > figcaption {
+        display: block;
+        font-size: 1em;
+        line-height: 1.8;
+        margin: 0 0 0 730px;
+        padding: 0;
+        width: 410px;
+    }
+}
+
+
+#references li[id] {
+    margin: 0 0 0.75em;
+}
+
+#references li[id] > ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#references li[id] > ul > li {
+	display: inline-block;
+	margin: 0 0.25em 0 0;
+}
+
+body.table {
+    margin: 50px 30px;
+    text-align: center;
+}
+
+body.table > div {
+    border: 2px solid #005293;
+    font-family: sans-serif;
+}
+
+body.table[data-xml-position='anchor'] > div {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.table > div > p.caption {
+    background-color: #005293;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+body.table > div > table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: auto;
+    width: 100%;
+}
+
+body.table > div > table > thead {
+    background-color: #eee;
+}
+
+body.table > div > table > tbody > tr[data-xml-rowsep] {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+body.table > div > table td,
+body.table > div > table th {
+    padding: 0.6em 0.9em
+}
+
+body.table > div > table th {
+    font-weight: 600;
+}
+
+body.table > div > table td[data-xml-align='left'],
+body.table > div > table th[data-xml-align='left'] {
+    text-align: left;
+}

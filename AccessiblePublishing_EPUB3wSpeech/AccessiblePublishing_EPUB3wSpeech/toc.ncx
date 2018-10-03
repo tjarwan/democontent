@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<head>
+  <meta name="dtb:uid" content="AccessiblePublishing_EPUB3wSpeech"/>
+  <meta name="dtb:depth" content="2"/>
+  <meta name="dtb:generator" content="ReadSpeaker Narrator"/>
+  <meta name="dtb:totalPageCount" content="1"/>
+  <meta name="dtb:maxPageNormal" content="1"/>
+</head>
+<docTitle>
+  <text>Accessible Publishing</text>
+</docTitle>
+<navMap>
+<navPoint id="e1" playOrder="1"><navLabel><text>Accessible Publishing</text></navLabel><content src="content.xhtml#h1"/>
+<navPoint id="e2" playOrder="2"><navLabel><text>Enhancing the accessibility of your e-books and documents for a better reading experience</text></navLabel><content src="content.xhtml#h2"/>
+</navPoint>
+<navPoint id="e3" playOrder="3"><navLabel><text>Digital Publishing Industry Challenges</text></navLabel><content src="content.xhtml#h3"/>
+</navPoint>
+<navPoint id="e4" playOrder="4"><navLabel><text>ReadSpeaker® for Accessible Publishing</text></navLabel><content src="content.xhtml#h4"/>
+</navPoint>
+<navPoint id="e5" playOrder="5"><navLabel><text>About ReadSpeaker</text></navLabel><content src="content.xhtml#h5"/>
+</navPoint>
+</navPoint>
+<navPoint id="e7" playOrder="7"><navLabel><text>Accessible Publishing Solutions</text></navLabel><content src="content.xhtml#h6"/>
+<navPoint id="e8" playOrder="8"><navLabel><text>ReadSpeaker Narrator</text></navLabel><content src="content.xhtml#h7"/>
+</navPoint>
+<navPoint id="e9" playOrder="9"><navLabel><text>Document Structuring Services</text></navLabel><content src="content.xhtml#h8"/>
+</navPoint>
+<navPoint id="e10" playOrder="10"><navLabel><text>Online Document Reader</text></navLabel><content src="content.xhtml#h9"/>
+</navPoint>
+<navPoint id="e11" playOrder="11"><navLabel><text>Workflow Solution</text></navLabel><content src="content.xhtml#h10"/>
+</navPoint>
+</navPoint>
+</navMap>
+<pageList>
+  <pageTarget type="normal" id="e6" playOrder="6" value="1">
+    <navLabel><text>1</text></navLabel>
+    <content src="content.xhtml#s20"/>
+  </pageTarget>
+</pageList>
+<navList>
+  <navLabel><text></text></navLabel>
+</navList>
+</ncx>

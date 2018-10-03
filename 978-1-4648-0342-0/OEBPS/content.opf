@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf"
+unique-identifier="bookid">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>MIND, SOCIETY, AND BEHAVIOR</dc:title> 
+<dc:creator>The World Bank</dc:creator>
+<dc:language>en-US</dc:language> 
+<dc:rights>2008 The International Bank for Reconstruction and Development / The World Bank</dc:rights> 
+<dc:publisher>The International Bank for Reconstruction and Development / The World Bank</dc:publisher> 
+<dc:identifier id="bookid">9781464803437</dc:identifier>
+<meta name="cover" content="WB9781464803437" />
+</metadata>
+<manifest>
+<item href="images/fcover.jpg" id="WB9781464803437" media-type="image/jpeg" />
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="style" href="template.css" media-type="text/css"/>
+
+<item id="font1" href="fonts/ElenaBasic-Bold.otf" media-type="application/octet-stream"/>
+<item id="font2" href="fonts/ElenaBasic-BoldItalic.otf" media-type="application/octet-stream"/>
+<item id="font3" href="fonts/ElenaBasic-Regular.otf" media-type="application/octet-stream"/>
+<item id="font4" href="fonts/ElenaBasic-RegularItalic.otf" media-type="application/octet-stream"/>
+<item id="font5" href="fonts/GillSansStd-Italic.otf" media-type="application/octet-stream"/>
+<item id="font6" href="fonts/Gotham-Bold.otf" media-type="application/octet-stream"/>
+<item id="font7" href="fonts/Gotham-BoldIta.otf" media-type="application/octet-stream"/>
+<item id="font8" href="fonts/Gotham-Light.otf" media-type="application/octet-stream"/>
+<item id="font9" href="fonts/Gotham-Medium.otf" media-type="application/octet-stream"/>
+<item id="font10" href="fonts/Gotham-MediumIta.otf" media-type="application/octet-stream"/>
+<item id="font11" href="fonts/GothamCond-Light.otf" media-type="application/octet-stream"/>
+<item id="font12" href="fonts/GothamNarrow-Black.otf" media-type="application/octet-stream"/>
+<item id="font13" href="fonts/GothamNarrow-Bold.otf" media-type="application/octet-stream"/>
+<item id="font14" href="fonts/GothamNarrow-Book.otf" media-type="application/octet-stream"/>
+<item id="font15" href="fonts/GothamNarrow-BookItalic.otf" media-type="application/octet-stream"/>
+<item id="font16" href="fonts/GothamNarrow-Medium.otf" media-type="application/octet-stream"/>
+<item id="font17" href="fonts/GothamXNarrow-BookItalic.otf" media-type="application/octet-stream"/>
+<item id="font18" href="fonts/GothamXNarrow-Light.otf" media-type="application/octet-stream"/>
+<item id="font19" href="fonts/GothamXNarrow-Medium.otf" media-type="application/octet-stream"/>
+<item id="font20" href="fonts/GothamXNarrow-MediumItalic.otf" media-type="application/octet-stream"/>
+<item id="font21" href="fonts/Helvetica.otf" media-type="application/octet-stream"/>
+<item id="font22" href="fonts/Times-SemiBoldIt.otf" media-type="application/octet-stream"/>
+<item id="font23" href="fonts/TimesNewRoman.otf" media-type="application/octet-stream"/>
+
+<item id="abbreviations.xhtml" href="abbreviations.xhtml" media-type="application/xhtml+xml"/>
+<item id="acknowledgments.xhtml" href="acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+<item id="backinside.xhtml" href="backinside.xhtml" media-type="application/xhtml+xml"/>
+<item id="Contents.xhtml" href="Contents.xhtml" media-type="application/xhtml+xml"/>
+<item id="copyright.xhtml" href="copyright.xhtml" media-type="application/xhtml+xml"/>
+<item id="fcover.xhtml" href="fcover.xhtml" media-type="application/xhtml+xml"/>
+<item id="foreword.xhtml" href="foreword.xhtml" media-type="application/xhtml+xml"/>
+<item id="half_title.xhtml" href="half_title.xhtml" media-type="application/xhtml+xml"/>
+<item id="Index.xhtml" href="Index.xhtml" media-type="application/xhtml+xml"/>
+<item id="overview.xhtml" href="overview.xhtml" media-type="application/xhtml+xml"/>
+<item id="part1.ch1.xhtml" href="part1.ch1.xhtml" media-type="application/xhtml+xml"/>
+<item id="part1.ch2.xhtml" href="part1.ch2.xhtml" media-type="application/xhtml+xml"/>
+<item id="part1.ch3.xhtml" href="part1.ch3.xhtml" media-type="application/xhtml+xml"/>
+<item id="part1.ch4.xhtml" href="part1.ch4.xhtml" media-type="application/xhtml+xml"/>
+<item id="part1.ch5.xhtml" href="part1.ch5.xhtml" media-type="application/xhtml+xml"/>
+<item id="part1.xhtml" href="part1.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch10.xhtml" href="part2.ch10.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch11.xhtml" href="part2.ch11.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch12.xhtml" href="part2.ch12.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch13.xhtml" href="part2.ch13.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch14.xhtml" href="part2.ch14.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch6.xhtml" href="part2.ch6.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch7.xhtml" href="part2.ch7.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch8.xhtml" href="part2.ch8.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.ch9.xhtml" href="part2.ch9.xhtml" media-type="application/xhtml+xml"/>
+<item id="part2.xhtml" href="part2.xhtml" media-type="application/xhtml+xml"/>
+<item id="part3.ch15.xhtml" href="part3.ch15.xhtml" media-type="application/xhtml+xml"/>
+<item id="part3.ch16.xhtml" href="part3.ch16.xhtml" media-type="application/xhtml+xml"/>
+<item id="part3.ch17.xhtml" href="part3.ch17.xhtml" media-type="application/xhtml+xml"/>
+<item id="part3.xhtml" href="part3.xhtml" media-type="application/xhtml+xml"/>
+<item id="title_page.xhtml" href="title_page.xhtml" media-type="application/xhtml+xml"/>
+
+<item id="backinside.jpg" href="images/backinside.jpg" media-type="image/jpeg"/>
+<item id="copyright.fig1.jpg" href="images/copyright.fig1.jpg" media-type="image/jpeg"/>
+<item id="logo.jpg" href="images/logo.jpg" media-type="image/jpeg"/>
+<item id="title1.jpg" href="images/title1.jpg" media-type="image/jpeg"/>
+<item id="title2.jpg" href="images/title2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.fig1.jpg" href="images/WB.978-1-4648-0342-0.cha.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.cha.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.cha.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec1.fig3.jpg" href="images/WB.978-1-4648-0342-0.cha.sec1.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec1.fig4.jpg" href="images/WB.978-1-4648-0342-0.cha.sec1.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec1.fig5.jpg" href="images/WB.978-1-4648-0342-0.cha.sec1.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec1.fig6.jpg" href="images/WB.978-1-4648-0342-0.cha.sec1.fig6.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec2.fig7.jpg" href="images/WB.978-1-4648-0342-0.cha.sec2.fig7.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec2.fig8.jpg" href="images/WB.978-1-4648-0342-0.cha.sec2.fig8.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.cha.sec3.fig9.jpg" href="images/WB.978-1-4648-0342-0.cha.sec3.fig9.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.fm2.fig1.jpg" href="images/WB.978-1-4648-0342-0.fm2.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch1.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part1.ch1.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch1.sec2.fig2.jpg" href="images/WB.978-1-4648-0342-0.part1.ch1.sec2.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch1.sec2.fig3.jpg" href="images/WB.978-1-4648-0342-0.part1.ch1.sec2.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch1.sec2.fig4.jpg" href="images/WB.978-1-4648-0342-0.part1.ch1.sec2.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch1.sec3.fig5.jpg" href="images/WB.978-1-4648-0342-0.part1.ch1.sec3.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch1.sec4.fig6.jpg" href="images/WB.978-1-4648-0342-0.part1.ch1.sec4.fig6.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch2.fig1.jpg" href="images/WB.978-1-4648-0342-0.part1.ch2.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch2.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part1.ch2.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch2.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.part1.ch2.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch2.sec1.fig3.jpg" href="images/WB.978-1-4648-0342-0.part1.ch2.sec1.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch2.sec2.fig4.jpg" href="images/WB.978-1-4648-0342-0.part1.ch2.sec2.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch2.sec3.fig5.jpg" href="images/WB.978-1-4648-0342-0.part1.ch2.sec3.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch4.sec2.fig1.jpg" href="images/WB.978-1-4648-0342-0.part1.ch4.sec2.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch4.sec4.fig2.jpg" href="images/WB.978-1-4648-0342-0.part1.ch4.sec4.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch4.sec4.fig3.jpg" href="images/WB.978-1-4648-0342-0.part1.ch4.sec4.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.ch4.sec6.fig4.jpg" href="images/WB.978-1-4648-0342-0.part1.ch4.sec6.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch10.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch10.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch10.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch10.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch10.sec4.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch10.sec4.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch10.sec4.fig4.jpg" href="images/WB.978-1-4648-0342-0.part2.ch10.sec4.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch12.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch12.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch12.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch12.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch12.sec2.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch12.sec2.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch12.sec3.fig4.jpg" href="images/WB.978-1-4648-0342-0.part2.ch12.sec3.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch12.sec4.fig5.jpg" href="images/WB.978-1-4648-0342-0.part2.ch12.sec4.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch13.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch13.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch13.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch13.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch13.sec1.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch13.sec1.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch14.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch14.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch6.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch6.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch6.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch6.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch6.sec1.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch6.sec1.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch6.sec4.fig4.jpg" href="images/WB.978-1-4648-0342-0.part2.ch6.sec4.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch7.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch7.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch7.sec4.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch7.sec4.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch7.sec4.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch7.sec4.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch7.sec4.fig4.jpg" href="images/WB.978-1-4648-0342-0.part2.ch7.sec4.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch7.sec4.fig5.jpg" href="images/WB.978-1-4648-0342-0.part2.ch7.sec4.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch8.sec1.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch8.sec1.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch8.sec1.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch8.sec1.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch8.sec3.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch8.sec3.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch8.sec6.fig4.jpg" href="images/WB.978-1-4648-0342-0.part2.ch8.sec6.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch8.sec6.fig5.jpg" href="images/WB.978-1-4648-0342-0.part2.ch8.sec6.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch8.sec6.fig6.jpg" href="images/WB.978-1-4648-0342-0.part2.ch8.sec6.fig6.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch9.sec2.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.ch9.sec2.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch9.sec2.fig2.jpg" href="images/WB.978-1-4648-0342-0.part2.ch9.sec2.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch9.sec2.fig3.jpg" href="images/WB.978-1-4648-0342-0.part2.ch9.sec2.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.ch9.sec2.fig4.jpg" href="images/WB.978-1-4648-0342-0.part2.ch9.sec2.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part2.fig1.jpg" href="images/WB.978-1-4648-0342-0.part2.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.ch15.sec2.fig1.jpg" href="images/WB.978-1-4648-0342-0.part3.ch15.sec2.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.ch15.sec3.fig2.jpg" href="images/WB.978-1-4648-0342-0.part3.ch15.sec3.fig2.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.ch15.sec4.fig3.jpg" href="images/WB.978-1-4648-0342-0.part3.ch15.sec4.fig3.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.ch15.sec4.fig4.jpg" href="images/WB.978-1-4648-0342-0.part3.ch15.sec4.fig4.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.ch15.sec4.fig5.jpg" href="images/WB.978-1-4648-0342-0.part3.ch15.sec4.fig5.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.ch16.fig1.jpg" href="images/WB.978-1-4648-0342-0.part3.ch16.fig1.jpg" media-type="image/jpeg"/>
+<item id="WB.978-1-4648-0342-0.part3.fig1.jpg" href="images/WB.978-1-4648-0342-0.part3.fig1.jpg" media-type="image/jpeg"/>
+
+</manifest>
+
+<spine toc="ncx">
+<itemref idref="fcover.xhtml"/>
+<itemref idref="half_title.xhtml"/>
+<itemref idref="title_page.xhtml"/>
+<itemref idref="copyright.xhtml"/>
+<itemref idref="Contents.xhtml"/>
+<itemref idref="foreword.xhtml"/>
+<itemref idref="acknowledgments.xhtml"/>
+<itemref idref="abbreviations.xhtml"/>
+<itemref idref="overview.xhtml"/>
+<itemref idref="part1.xhtml"/>
+
+<itemref idref="part1.ch1.xhtml"/>
+<itemref idref="part1.ch2.xhtml"/>
+<itemref idref="part1.ch3.xhtml"/>
+<itemref idref="part1.ch4.xhtml"/>
+<itemref idref="part1.ch5.xhtml"/>
+<itemref idref="part2.xhtml"/>
+<itemref idref="part2.ch6.xhtml"/>
+<itemref idref="part2.ch7.xhtml"/>
+<itemref idref="part2.ch8.xhtml"/>
+<itemref idref="part2.ch9.xhtml"/>
+<itemref idref="part2.ch10.xhtml"/>
+<itemref idref="part2.ch11.xhtml"/>
+<itemref idref="part2.ch12.xhtml"/>
+<itemref idref="part2.ch13.xhtml"/>
+<itemref idref="part2.ch14.xhtml"/>
+<itemref idref="part3.xhtml"/>
+<itemref idref="part3.ch15.xhtml"/>
+<itemref idref="part3.ch16.xhtml"/>
+<itemref idref="part3.ch17.xhtml"/>
+<itemref idref="Index.xhtml"/>
+<itemref idref="backinside.xhtml"/>
+</spine>
+<guide>
+<reference href="fcover.xhtml" title="Cover" type="cover" />
+<reference href="Contents.xhtml" title="Table of Contents" type="toc" />
+<reference href="fcover.xhtml" title="Start" type="other.start"/>
+</guide>
+</package>

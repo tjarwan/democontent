@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+blockquote {
+	font-size: 0.9em;
+}
+
+span.small-caps {
+	font-variant: small-caps;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 1.40em;
+    margin: 0 0 1em;
+    -webkit-hyphens: none;
+}
+
+h2 {
+    font-size: 1.20em;
+}
+
+h3 {
+    font-size: 1.15em;
+}
+
+h4 {
+    font-size: 1.10em;
+}
+
+h5 {
+    font-size: 1.05em;
+}
+
+h6 {
+    font-size: 1.00em;
+}
+
+header {
+    margin: 0 0 2em;
+}
+
+header > div:first-child {
+    font-size: 0.8em;
+    margin: 0 0 2em;
+}
+
+header > div:first-child > div.logo {
+	display: none;
+	margin: 0 0 1em 1em;
+}
+
+header > div.article-type {
+    margin: 0 0 0.5em;
+}
+
+header > p.authorNote {
+	font-size: 0.9em;
+}
+
+div.authors-and-affiliations {
+	font-size: 0.9em;
+	margin: 3em 0;
+    -webkit-hyphens: none;
+}
+
+div.authors-and-affiliations > div.contrib-group  {
+	margin: 0.5em 0;
+}
+
+div.contrib-group img.orcid-logo {
+	height: 1.5em;
+	width: 1.5em;
+	margin: 0 0.4em;
+	position: relative;
+	top: 0.4em;
+}
+
+div.doi {
+	font-family: sans-serif;
+}
+
+figure {
+    margin: 2em 0;
+}
+
+figure > img {
+    margin: 0 0 1em;
+    width: 100vw;
+}
+
+figure > figcaption {
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+hr {
+	background-color: #aaa;
+	border: none;
+	height: 1px;
+	margin: 1em auto 1em 0;
+	width: 50%;
+}
+
+section > div[role='paragraph'] {
+	margin: 1em 0;
+}
+
+div[role='math'] {
+	display: table;
+	margin: 1em 0;
+	width: 100%;
+}
+
+div[role='math'] > div.equation {
+	display: table-cell;
+	text-align: center;
+}
+
+div[role='math'] > div.label {
+	display: table-cell;
+	text-align: right;
+}
+
+#frontmatter-notes {
+	font-size: 0.8em;
+	margin: 0 0 2em;
+	position: relative;
+}
+
+#frontmatter-notes > p {
+    margin: 0;
+}
+
+#frontmatter-notes > ul {
+	display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#keywords h2,
+#keywords h3 {
+	display: inline;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#keywords section {
+	margin: 1em 0;
+}
+
+body.nonlinear {
+    margin: 0;
+    padding: 0;
+}
+
+body.nonlinear > figure {
+    margin: 0;
+    padding: 50px 0;
+}
+
+body.nonlinear > figure > img {
+    padding: 0 30px;
+    margin: 0;
+    width: 100vw;
+}
+
+body.nonlinear > figure > figcaption {
+    font-size: 1em;
+    line-height: 1.8;
+    margin: 30px 0 0;
+    padding: 0 30px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    body.nonlinear > figure {
+        text-align: center;
+    }
+
+    body.nonlinear > figure > img,
+    body.nonlinear > figure > figcaption {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        width: 708px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    body.nonlinear > figure {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    body.nonlinear > figure > img {
+        float: left;
+        width: 700px;
+    }
+
+    body.nonlinear > figure > figcaption {
+        display: block;
+        font-size: 1em;
+        line-height: 1.8;
+        margin: 0 0 0 730px;
+        padding: 0;
+        width: 410px;
+    }
+}
+
+#bibliography > div > div {
+    margin: 0 0 0.75em;
+}
+
+#bibliography > div > div > div.citation {
+	padding: 0 0 0 2em;
+	text-indent: -2em;
+}
+
+#bibliography > div > div > div.citation > ul,
+#bibliography > ol > li > div.citation > ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bibliography > div > div > div.citation > ul > li, 
+#bibliography > ol > li > div.citation > ul > li {
+	display: inline-block;
+	margin: 0 0.25em 0 0;
+	text-indent: 0;
+}
+
+#bibliography > div > div > div.label + div.citation {
+	margin: 0 0 0 2em;
+	text-indent: 0;
+}
+
+#bibliography > div > div > div.label {
+	float: left;
+	text-align: right;
+	width: 2.5em;
+}
+
+body.table {
+    margin: 50px 30px;
+    text-align: center;
+}
+
+body.table > div {
+    border: 2px solid #005293;
+    font-family: sans-serif;
+}
+
+body.table[data-xml-position='anchor'] > div {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.table > div > p.caption {
+    background-color: #005293;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+body.table > div > table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: auto;
+    width: 100%;
+}
+
+body.table > div > table > thead {
+    background-color: #eee;
+}
+
+body.table > div > table > tbody > tr[data-xml-rowsep] {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+body.table > div > table td,
+body.table > div > table th {
+    padding: 0.6em 0.9em
+}
+
+body.table > div > table th {
+    font-weight: 600;
+}
+
+body.table > div > table td[data-xml-align='left'],
+body.table > div > table th[data-xml-align='left'] {
+    text-align: left;
+}

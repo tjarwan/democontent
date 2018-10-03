@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<head>
+<meta name="dtb:uid" content="Print ISBN: 9781464809507"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="308"/>
+<meta name="dtb:maxPageNumber" content="308"/>
+</head>
+<docTitle>
+<text>World Development Report 2017: Governance and the Law</text>
+</docTitle>
+<navMap>
+<navPoint id="i1" playOrder="1">
+<navLabel>
+<text>Front Cover</text>
+</navLabel>
+<content src="xhtml/cover.html"/>
+</navPoint>
+<navPoint id="i2" playOrder="2">
+<navLabel>
+<text>Title Page</text>
+</navLabel>
+<content src="xhtml/title.html"/>
+</navPoint>
+<navPoint id="i3" playOrder="3">
+<navLabel>
+<text>Copyright Page</text>
+</navLabel>
+<content src="xhtml/copyright.html"/>
+</navPoint>
+<navPoint id="i4" playOrder="4">
+<navLabel>
+<text>Contents</text>
+</navLabel>
+<content src="xhtml/contents.html"/>
+</navPoint>
+<navPoint id="i5" playOrder="5">
+<navLabel>
+<text>Foreword</text>
+</navLabel>
+<content src="xhtml/foreword.html#foreword"/>
+</navPoint>
+<navPoint id="i6" playOrder="6">
+<navLabel>
+<text>Acknowledgments</text>
+</navLabel>
+<content src="xhtml/acknowledgments.html#acknowledgments"/>
+</navPoint>
+<navPoint id="i7" playOrder="7">
+<navLabel>
+<text>Abbreviations</text>
+</navLabel>
+<content src="xhtml/abbreviations.html#abbreviations"/>
+</navPoint>
+<navPoint id="i8" playOrder="8">
+<navLabel>
+<text>Overview: World Development Report 2017: Governance and the Law</text>
+</navLabel>
+<content src="xhtml/overview.html#overview"/>
+<navPoint id="i9" playOrder="9">
+<navLabel>
+<text>Improving governance to meet today&#8217;s development challenges</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev1"/>
+</navPoint>
+<navPoint id="i10" playOrder="10">
+<navLabel>
+<text>Drivers of effectiveness: Commitment, coordination, and cooperation</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev2"/>
+</navPoint>
+<navPoint id="i11" playOrder="11">
+<navLabel>
+<text>Levers for change: Contestability, incentives, preferences and beliefs</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev3"/>
+</navPoint>
+<navPoint id="i12" playOrder="12">
+<navLabel>
+<text>Drivers of change: Elite bargains, citizen engagement, and international influence</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev4"/>
+</navPoint>
+<navPoint id="i13" playOrder="13">
+<navLabel>
+<text>Rethinking governance for development</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev5"/>
+</navPoint>
+<navPoint id="i14" playOrder="14">
+<navLabel>
+<text>Navigating this Report</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev6"/>
+</navPoint>
+<navPoint id="i15" playOrder="15">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev7"/>
+</navPoint>
+<navPoint id="i16" playOrder="16">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/overview.html#overlev8"/>
+</navPoint>
+<navPoint id="i17" playOrder="17">
+<navLabel>
+<text>Part I: Rethinking governance for development: A conceptual framework</text>
+</navLabel>
+<content src="xhtml/part1.html#part1"/>
+</navPoint>
+</navPoint>
+<navPoint id="i18" playOrder="18">
+<navLabel>
+<text>Chapter 1: Governance for development: The challenges</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01"/>
+<navPoint id="i19" playOrder="19">
+<navLabel>
+<text>Understanding development policy: Proximate factors and underlying determinants</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01lev1"/>
+</navPoint>
+<navPoint id="i20" playOrder="20">
+<navLabel>
+<text>Development objectives . . . and constraints</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01lev2"/>
+</navPoint>
+<navPoint id="i21" playOrder="21">
+<navLabel>
+<text>Governance for the bottom half</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01lev3"/>
+</navPoint>
+<navPoint id="i22" playOrder="22">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01lev4"/>
+</navPoint>
+<navPoint id="i23" playOrder="23">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01lev5"/>
+</navPoint>
+</navPoint>
+<navPoint id="i24" playOrder="24">
+<navLabel>
+<text>Chapter 2: Enhancing governance for development: Why policies fail</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02"/>
+<navPoint id="i25" playOrder="25">
+<navLabel>
+<text>Diverse pathways to success: Moving beyond institutional transplants</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev1"/>
+</navPoint>
+<navPoint id="i26" playOrder="26">
+<navLabel>
+<text>Drivers of effectiveness: Commitment, coordination, and cooperation</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev2"/>
+</navPoint>
+<navPoint id="i27" playOrder="27">
+<navLabel>
+<text>Policy effectiveness in the presence of power asymmetries</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev3"/>
+</navPoint>
+<navPoint id="i28" playOrder="28">
+<navLabel>
+<text>Levers for change: Incentives, preferences and beliefs, and contestability</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev4"/>
+</navPoint>
+<navPoint id="i29" playOrder="29">
+<navLabel>
+<text>A dynamic process: Drivers of change and the role of law</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev5"/>
+</navPoint>
+<navPoint id="i30" playOrder="30">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev6"/>
+</navPoint>
+<navPoint id="i31" playOrder="31">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev7"/>
+</navPoint>
+<navPoint id="i32" playOrder="32">
+<navLabel>
+<text>Spotlight 1: Corruption</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev8"/>
+</navPoint>
+<navPoint id="i33" playOrder="33">
+<navLabel>
+<text>Spotlight 2: The governance challenges of managing risks</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02lev9"/>
+</navPoint>
+<navPoint id="i34" playOrder="34">
+<navLabel>
+<text>Chapter 3: The role of law</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03"/>
+</navPoint>
+<navPoint id="i35" playOrder="35">
+<navLabel>
+<text>Law and the policy arena</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev1"/>
+</navPoint>
+<navPoint id="i36" playOrder="36">
+<navLabel>
+<text>Ordering behavior: The command role of law</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev2"/>
+</navPoint>
+<navPoint id="i37" playOrder="37">
+<navLabel>
+<text>Ordering power: The constitutive role of law</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev3"/>
+</navPoint>
+<navPoint id="i38" playOrder="38">
+<navLabel>
+<text>Ordering contestation: The role of law in change</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev4"/>
+</navPoint>
+<navPoint id="i39" playOrder="39">
+<navLabel>
+<text>Getting to the rule of law</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev5"/>
+</navPoint>
+<navPoint id="i40" playOrder="40">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev6"/>
+</navPoint>
+<navPoint id="i41" playOrder="41">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev7"/>
+</navPoint>
+<navPoint id="i42" playOrder="42">
+<navLabel>
+<text>Spotlight 3: How do effective and equitable legal institutions emerge?</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03lev8"/>
+</navPoint>
+<navPoint id="i43" playOrder="43">
+<navLabel>
+<text>Part II: Governance for development</text>
+</navLabel>
+<content src="xhtml/part2.html#part2"/>
+</navPoint>
+</navPoint>
+<navPoint id="i44" playOrder="44">
+<navLabel>
+<text>Chapter 4: Governance for security</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04"/>
+<navPoint id="i45" playOrder="45">
+<navLabel>
+<text>Can governance solve the problem of violence in society?</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev1"/>
+</navPoint>
+<navPoint id="i46" playOrder="46">
+<navLabel>
+<text>Security, governance, and power are tightly interlinked</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev2"/>
+</navPoint>
+<navPoint id="i47" playOrder="47">
+<navLabel>
+<text>Governance can improve security in four ways</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev3"/>
+</navPoint>
+<navPoint id="i48" playOrder="48">
+<navLabel>
+<text>Conclusion</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev4"/>
+</navPoint>
+<navPoint id="i49" playOrder="49">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev5"/>
+</navPoint>
+<navPoint id="i50" playOrder="50">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev6"/>
+</navPoint>
+<navPoint id="i51" playOrder="51">
+<navLabel>
+<text>Spotlight 4: Wartime governance</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev7"/>
+</navPoint>
+<navPoint id="i52" playOrder="52">
+<navLabel>
+<text>Spotlight 5: Crime</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04lev8"/>
+</navPoint>
+</navPoint>
+<navPoint id="i53" playOrder="53">
+<navLabel>
+<text>Chapter 5: Governance for growth</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05"/>
+<navPoint id="i54" playOrder="54">
+<navLabel>
+<text>How policy &#8220;capture&#8221; slows economic growth</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev1"/>
+</navPoint>
+<navPoint id="i55" playOrder="55">
+<navLabel>
+<text>How governance matters to growth: A microeconomic perspective</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev2"/>
+</navPoint>
+<navPoint id="i56" playOrder="56">
+<navLabel>
+<text>How policies are affected by undue influence from powerful groups </text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev3"/>
+</navPoint>
+<navPoint id="i57" playOrder="57">
+<navLabel>
+<text>Policy design under risk of capture</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev4"/>
+</navPoint>
+<navPoint id="i58" playOrder="58">
+<navLabel>
+<text>How the design of public agencies mediates the influence of powerful groups</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev5"/>
+</navPoint>
+<navPoint id="i59" playOrder="59">
+<navLabel>
+<text>Finding the right approach</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev6"/>
+</navPoint>
+<navPoint id="i60" playOrder="60">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev7"/>
+</navPoint>
+<navPoint id="i61" playOrder="61">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev8"/>
+</navPoint>
+<navPoint id="i62" playOrder="62">
+<navLabel>
+<text>Spotlight 6: The middle-income trap</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev9"/>
+</navPoint>
+<navPoint id="i63" playOrder="63">
+<navLabel>
+<text>Spotlight 7: Public-private partnerships</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05lev10"/>
+</navPoint>
+</navPoint>
+<navPoint id="i64" playOrder="64">
+<navLabel>
+<text>Chapter 6: Governance for equity</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06"/>
+<navPoint id="i65" playOrder="65">
+<navLabel>
+<text>Two key policy areas that matter for equity: Investing in public goods and expanding opportunities</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev1"/>
+</navPoint>
+<navPoint id="i66" playOrder="66">
+<navLabel>
+<text>Equity and institutional functions: The role of commitment and cooperation</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev2"/>
+</navPoint>
+<navPoint id="i67" playOrder="67">
+<navLabel>
+<text>How policies to promote equity can be affected by power asymmetries</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev3"/>
+</navPoint>
+<navPoint id="i68" playOrder="68">
+<navLabel>
+<text>Leveling the playing field and making governance more responsive to all</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev4"/>
+</navPoint>
+<navPoint id="i69" playOrder="69">
+<navLabel>
+<text>Improving policy effectiveness by taking into account asymmetries in bargaining power</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev5"/>
+</navPoint>
+<navPoint id="i70" playOrder="70">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev6"/>
+</navPoint>
+<navPoint id="i71" playOrder="71">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev7"/>
+</navPoint>
+<navPoint id="i72" playOrder="72">
+<navLabel>
+<text>Spotlight 8: Service delivery: Education and health</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06lev8"/>
+</navPoint>
+<navPoint id="i73" playOrder="73">
+<navLabel>
+<text>Part III: Drivers of change</text>
+</navLabel>
+<content src="xhtml/part3.html#part3"/>
+</navPoint>
+</navPoint>
+<navPoint id="i74" playOrder="74">
+<navLabel>
+<text>Chapter 7: Elite bargaining and adaptation</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07"/>
+<navPoint id="i75" playOrder="75">
+<navLabel>
+<text>Understanding elite bargains</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev1"/>
+</navPoint>
+<navPoint id="i76" playOrder="76">
+<navLabel>
+<text>Elite bargains and uneven state capacity</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev2"/>
+</navPoint>
+<navPoint id="i77" playOrder="77">
+<navLabel>
+<text>Broadening the policy arena to enhance elite power</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev3"/>
+</navPoint>
+<navPoint id="i78" playOrder="78">
+<navLabel>
+<text>When binding rules for accountability serve as political insurance</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev4"/>
+</navPoint>
+<navPoint id="i79" playOrder="79">
+<navLabel>
+<text>When elites adapt through rules-based mechanisms</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev5"/>
+</navPoint>
+<navPoint id="i80" playOrder="80">
+<navLabel>
+<text>Entry points for change through elite adaptation</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev6"/>
+</navPoint>
+<navPoint id="i81" playOrder="81">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev7"/>
+</navPoint>
+<navPoint id="i82" playOrder="82">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev8"/>
+</navPoint>
+<navPoint id="i83" playOrder="83">
+<navLabel>
+<text>Spotlight 9: Decentralization</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev9"/>
+</navPoint>
+<navPoint id="i84" playOrder="84">
+<navLabel>
+<text>Spotlight 10: Public service reform</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07lev10"/>
+</navPoint>
+</navPoint>
+<navPoint id="i85" playOrder="85">
+<navLabel>
+<text>Chapter 8: Citizens as agents of change</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08"/>
+<navPoint id="i86" playOrder="86">
+<navLabel>
+<text>Bringing change through the ballot box</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev1"/>
+</navPoint>
+<navPoint id="i87" playOrder="87">
+<navLabel>
+<text>Bringing change through political organization: The role of political parties</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev2"/>
+</navPoint>
+<navPoint id="i88" playOrder="88">
+<navLabel>
+<text>Bringing change through social organization</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev3"/>
+</navPoint>
+<navPoint id="i89" playOrder="89">
+<navLabel>
+<text>The role of induced participation and public deliberation</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev4"/>
+</navPoint>
+<navPoint id="i90" playOrder="90">
+<navLabel>
+<text>Entry points for change: Understanding citizen agency as a collective action problem</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev5"/>
+</navPoint>
+<navPoint id="i91" playOrder="91">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev6"/>
+</navPoint>
+<navPoint id="i92" playOrder="92">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev7"/>
+</navPoint>
+<navPoint id="i93" playOrder="93">
+<navLabel>
+<text>Spotlight 11: From transparency to accountability through citizen engagement</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev8"/>
+</navPoint>
+<navPoint id="i94" playOrder="94">
+<navLabel>
+<text>Spotlight 12: The media</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08lev9"/>
+</navPoint>
+</navPoint>
+<navPoint id="i95" playOrder="95">
+<navLabel>
+<text>Chapter 9: Governance in an interconnected world</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09"/>
+<navPoint id="i96" playOrder="96">
+<navLabel>
+<text>Transnationalism and the domestic policy arena</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09lev1"/>
+</navPoint>
+<navPoint id="i97" playOrder="97">
+<navLabel>
+<text>Transnational rules and regulations: Enhanced cooperation and focal points for change</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09lev2"/>
+</navPoint>
+<navPoint id="i98" playOrder="98">
+<navLabel>
+<text>Foreign aid and governance</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09lev3"/>
+</navPoint>
+<navPoint id="i99" playOrder="99">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09lev4"/>
+</navPoint>
+<navPoint id="i100" playOrder="100">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09lev5"/>
+</navPoint>
+<navPoint id="i101" playOrder="101">
+<navLabel>
+<text>Spotlight 13: Illicit financial flows</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09lev6"/>
+</navPoint>
+</navPoint>
+<navPoint id="i102" playOrder="102">
+<navLabel>
+<text>Boxes</text>
+</navLabel>
+<content src="xhtml/contents.html#boxes"/>
+</navPoint>
+<navPoint id="i103" playOrder="103">
+<navLabel>
+<text>Figures</text>
+</navLabel>
+<content src="xhtml/contents.html#figures"/>
+</navPoint>
+<navPoint id="i104" playOrder="104">
+<navLabel>
+<text>Maps</text>
+</navLabel>
+<content src="xhtml/contents.html#maps"/>
+</navPoint>
+<navPoint id="i105" playOrder="105">
+<navLabel>
+<text>Tables</text>
+</navLabel>
+<content src="xhtml/contents.html#tables"/>
+</navPoint>
+<navPoint id="i106" playOrder="106">
+<navLabel>
+<text>Backcover</text>
+</navLabel>
+<content src="xhtml/backcover.html"/>
+</navPoint>
+</navMap>
+</ncx>

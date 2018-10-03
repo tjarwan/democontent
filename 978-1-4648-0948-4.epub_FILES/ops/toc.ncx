@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<head>
+<meta name="dtb:uid" content="Print ISBN: 9781464809484"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="356"/>
+<meta name="dtb:maxPageNumber" content="356"/>
+</head>
+<docTitle>
+<text>Doing Business 2017: Equal Opportunity for All</text>
+</docTitle>
+<navMap>
+<navPoint id="i1" playOrder="1">
+<navLabel>
+<text>Front Cover</text>
+</navLabel>
+<content src="xhtml/cover.html"/>
+</navPoint>
+<navPoint id="i2" playOrder="2">
+<navLabel>
+<text>Title Page</text>
+</navLabel>
+<content src="xhtml/title.html"/>
+</navPoint>
+<navPoint id="i3" playOrder="3">
+<navLabel>
+<text>Copyright Page</text>
+</navLabel>
+<content src="xhtml/copyright.html"/>
+</navPoint>
+<navPoint id="i4" playOrder="4">
+<navLabel>
+<text>Contents</text>
+</navLabel>
+<content src="xhtml/contents.html"/>
+</navPoint>
+<navPoint id="i5" playOrder="5">
+<navLabel>
+<text>Foreword</text>
+</navLabel>
+<content src="xhtml/foreword.html#foreword"/>
+</navPoint>
+<navPoint id="i6" playOrder="6">
+<navLabel>
+<text>Overview</text>
+</navLabel>
+<content src="xhtml/ch01.html#ch01"/>
+</navPoint>
+<navPoint id="i7" playOrder="7">
+<navLabel>
+<text>About Doing Business</text>
+</navLabel>
+<content src="xhtml/ch02.html#ch02"/>
+</navPoint>
+<navPoint id="i8" playOrder="8">
+<navLabel>
+<text>Reforming the Business Environment in 2015/16</text>
+</navLabel>
+<content src="xhtml/ch03.html#ch03"/>
+</navPoint>
+<navPoint id="i9" playOrder="9">
+<navLabel>
+<text>Case studies</text>
+</navLabel>
+<content src="xhtml/ch04.html"/>
+<navPoint id="i10" playOrder="10">
+<navLabel>
+<text>Getting Electricity</text>
+</navLabel>
+<content src="xhtml/ch04.html#ch04"/>
+</navPoint>
+<navPoint id="i11" playOrder="11">
+<navLabel>
+<text>Getting Credit: Legal Rights</text>
+</navLabel>
+<content src="xhtml/ch05.html#ch05"/>
+</navPoint>
+<navPoint id="i12" playOrder="12">
+<navLabel>
+<text>Getting Credit: Credit Information</text>
+</navLabel>
+<content src="xhtml/ch06.html#ch06"/>
+</navPoint>
+<navPoint id="i13" playOrder="13">
+<navLabel>
+<text>Protecting Minority Investors</text>
+</navLabel>
+<content src="xhtml/ch07.html#ch07"/>
+</navPoint>
+<navPoint id="i14" playOrder="14">
+<navLabel>
+<text>Paying Taxes</text>
+</navLabel>
+<content src="xhtml/ch08.html#ch08"/>
+</navPoint>
+<navPoint id="i15" playOrder="15">
+<navLabel>
+<text>Trading Across Borders</text>
+</navLabel>
+<content src="xhtml/ch09.html#ch09"/>
+</navPoint>
+<navPoint id="i16" playOrder="16">
+<navLabel>
+<text>Annex: Labor Market Regulation</text>
+</navLabel>
+<content src="xhtml/ch10.html#ch10"/>
+</navPoint>
+<navPoint id="i17" playOrder="17">
+<navLabel>
+<text>Annex: Selling to the Government</text>
+</navLabel>
+<content src="xhtml/ch11.html#ch11"/>
+</navPoint>
+<navPoint id="i18" playOrder="18">
+<navLabel>
+<text>References</text>
+</navLabel>
+<content src="xhtml/references.html#references"/>
+</navPoint>
+<navPoint id="i19" playOrder="19">
+<navLabel>
+<text>Data Notes</text>
+</navLabel>
+<content src="xhtml/ch12.html#ch12"/>
+</navPoint>
+<navPoint id="i20" playOrder="20">
+<navLabel>
+<text>Distance to Frontier and Ease of Doing Business Ranking</text>
+</navLabel>
+<content src="xhtml/ch14.html#ch14"/>
+</navPoint>
+<navPoint id="i21" playOrder="21">
+<navLabel>
+<text>Summaries of Doing Business Reforms in 2015/16</text>
+</navLabel>
+<content src="xhtml/summaries.html#summaries"/>
+</navPoint>
+<navPoint id="i22" playOrder="22">
+<navLabel>
+<text>Country Tables</text>
+</navLabel>
+<content src="xhtml/countrytables.html#countrytables"/>
+</navPoint>
+<navPoint id="i23" playOrder="23">
+<navLabel>
+<text>Labor Market Regulation Data</text>
+</navLabel>
+<content src="xhtml/labormarket.html#labormarket"/>
+</navPoint>
+<navPoint id="i24" playOrder="24">
+<navLabel>
+<text>Acknowledgments</text>
+</navLabel>
+<content src="xhtml/acknowledgments.html#acknowledgments"/>
+</navPoint>
+</navPoint>
+<navPoint id="i25" playOrder="25">
+<navLabel>
+<text>Backcover</text>
+</navLabel>
+<content src="xhtml/backcover.html"/>
+</navPoint>
+</navMap>
+</ncx>

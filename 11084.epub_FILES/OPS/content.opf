@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#          ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xml:lang="en">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <meta name="cover" content="cover-image" />
+        <meta property="dcterms:modified">2017-08-25T14:30:53Z</meta>
+        <dc:date>2017-10-20</dc:date>
+        <meta property="ibooks:specified-fonts">false</meta>
+        
+        <dc:title id="t1">Panpsychism in the West</dc:title>
+        <meta refines="#t1" property="title-type">main</meta>
+        <meta refines="#t1" property="display-seq">1</meta>
+        
+        <dc:creator id="creator1">David Skrbina</dc:creator>
+        <meta refines="#creator1" property="role" scheme="marc:relators" id="role">aut</meta>
+        <meta refines="#creator1" property="file-as">Skrbina, David</meta>
+        <meta refines="#creator1" property="display-seq">1</meta>
+        
+        <dc:language>en-US</dc:language>
+        <dc:publisher>MIT Press</dc:publisher>
+        <dc:description id="abstract">An updated edition of a comprehensive study of the theory that mind exists, in some form, in all living and nonliving things.</dc:description> 
+        <dc:subject>philosophy of mind; cognitive science; consciousness; history of philosophy; cognition; brain; Western; panpsychist; nature of mind; theory</dc:subject>
+        <dc:rights>MIT Press</dc:rights>
+        
+        <dc:identifier id="pub-id">9780262341516</dc:identifier>
+        <meta refines="pub-id" property="identifier-type" scheme="onix:codelist5">15</meta> 
+        <dc:source id="src-id">9780262534062</dc:source>
+        <meta refines="#src-id" property="identifier-type" scheme="onix:codelist5">15</meta> 
+        
+        <!-- other ISBNs -->
+        <dc:identifier id="isbn-ER">9780262341530</dc:identifier>
+        <meta refines="#isbn-ER" property="identifier-type" scheme="onix:codelist5">15</meta>
+        <dc:identifier id="isbn-EL">9780262341523</dc:identifier>
+        <meta refines="#isbn-EL" property="identifier-type" scheme="onix:codelist5">15</meta>
+    </metadata>  
+     
+<manifest xmlns:ibooks="http://apple.com/ibooks/html-extensions"><!--XHTML files-->
+<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_000_1" href="c11084_000_1.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_000_2" href="c11084_000_2.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_000_3" href="c11084_000_3.xhtml" media-type="application/xhtml+xml"/>
+<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+<item id="c11084_000a" href="c11084_000a.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_001" href="c11084_001.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_002" href="c11084_002.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_003" href="c11084_003.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_004" href="c11084_004.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_005" href="c11084_005.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_006" href="c11084_006.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_007" href="c11084_007.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_008" href="c11084_008.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_009" href="c11084_009.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_010" href="c11084_010.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_444" href="c11084_444.xhtml" media-type="application/xhtml+xml"/>
+<item id="c11084_555" href="c11084_555.xhtml" media-type="application/xhtml+xml"/>
+<item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<!--CSS files--><item id="chaptercss" href="MIT_style.css" media-type="text/css"/>
+<item id="indexcss" href="MIT_index.css" media-type="text/css"/>
+    <!--Image files--><item id="t11084_001_T1.1" href="images/11084_001_T1.1.png" media-type="image/png"/>
+</manifest>
+<spine xmlns:ibooks="http://apple.com/ibooks/html-extensions" toc="ncx"><itemref idref="cover" linear="no"/>
+<itemref idref="c11084_000_1"/>
+<itemref idref="c11084_000_2"/>
+<itemref idref="c11084_000_3"/>
+<itemref idref="toc"/>
+<itemref idref="c11084_000a"/>
+<itemref idref="c11084_001"/>
+<itemref idref="c11084_002"/>
+<itemref idref="c11084_003"/>
+<itemref idref="c11084_004"/>
+<itemref idref="c11084_005"/>
+<itemref idref="c11084_006"/>
+<itemref idref="c11084_007"/>
+<itemref idref="c11084_008"/>
+<itemref idref="c11084_009"/>
+<itemref idref="c11084_010"/>
+<itemref idref="c11084_444"/>
+<itemref idref="c11084_555"/>
+</spine>
+<guide xmlns:ibooks="http://apple.com/ibooks/html-extensions"><reference type="cover" title="Cover" href="cover.xhtml"/>
+<reference type="toc" title="Table of Contents" href="toc.xhtml"/>
+</guide>
+</package>

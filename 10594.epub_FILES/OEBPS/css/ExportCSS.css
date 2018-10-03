@@ -1,0 +1,718 @@
+/* Added general body spacing and alignment to account for the requested removal of the page template document by Apple
+added 5/5/2010 by Jennifer Flint
+*/
+body
+{	text-indent:0em;
+    font-size: 1.0em;
+    line-height: 1.3em;
+	text-align: left;
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	margin-left: 1.0em;
+	margin-right: 1.0em;
+	padding: 0px;
+}
+p {text-indent:0em;
+margin:0.5em;}
+/* Added paragraph margin spacing to reduce the amount of space between paragraphs
+added 5/6/2010 by Jennifer Flint
+*/
+
+a
+{text-indent:0em;
+	text-decoration: none;
+}
+br
+{text-indent:0em;
+	line-height: 1.3em;
+}
+sup
+{text-indent:0em;
+	font-size: 0.7em;
+}
+sub
+{text-indent:0em;
+	font-size: 0.7em;
+}
+SPAN.smallcaps
+{text-indent:0em;
+    font-variant: small-caps;
+}
+SPAN.weblink
+{text-indent:0em;
+    text-decoration: underline;
+    color: #0000FF;
+}
+SPAN.underline
+{text-decoration: underline;
+}
+blockquote
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+	text-align: justify;
+}
+.pagebreak {page-break-before:always !important;}
+/* MIT Table Elements Appear Below
+added 4/30/2010 by Jennifer Flint
+shade class added by Jessica Hosman on 4/29/2010
+'mit_table' div should be used to enclose all table elements, beginning with table number and ending after table source or table footnote 
+Jess added th styles on 7/21/10. (Does the same thing as .thead class, but maybe simpler.)
+*/
+.mit_table
+{	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	margin-left: 1.0em;
+	margin-right: 1.0em;
+	text-align: left;
+	page-break-inside:avoid;
+}
+tbody
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+}
+td
+{text-indent:0em;
+	padding: 2px 10px 0px 0px;
+	vertical-align: top;
+}
+thead
+{text-indent:0em;
+	border-bottom: 1px solid #000000;
+	vertical-align: bottom;
+	font-weight: normal;
+}
+.tsubhead
+{text-indent:0em;
+	border-bottom: 1px solid #000000;
+	vertical-align: bottom;
+	font-weight: normal;
+    line-height: 1.2em; 
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+}
+.tablenumber
+{text-indent:0em;
+	font-size: .9em;
+	font-weight: bold;
+    line-height: 1.2em; 
+}
+.table
+{text-indent:0em;
+	font-size: .9em;
+    line-height: 1.2em; 
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+
+
+}
+.tablenote
+{text-indent:0em;
+	font-size: .9em;
+    line-height: 1.2em;
+	border-style: none;
+	border-width: 0px;
+}
+th
+{text-indent:0em;
+	border-bottom: 1px solid #000000;
+}
+.shade
+{text-indent:0em;
+	background-color: #cccccc;
+}
+/*table
+{
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+*/
+hr {text-indent:0em;
+	border: 0;
+	color: #000000;
+	background-color: #000000;
+	height: 1px;
+	text-align: left;
+	width: 100%;
+}
+/* Frontmatter Styles
+*/
+.halftitle
+{text-indent:0em;
+    font-size: 2.0em;
+    margin-top: 2em; 
+	padding-bottom: 2em;
+    text-align: left;
+}
+.title
+{text-indent:0em;
+    font-size: 2.0em;
+    margin-top: 2em;
+    padding-bottom: 2em;  
+    text-align: left;
+}
+.subtitle
+{text-indent:0em;
+    font-size: 1.7em;
+	line-height: 1.7em;
+    padding-bottom: 0em;  
+    text-align: left;
+}
+.author
+{text-indent:0em;
+    font-size: 1.2em;
+    padding-top: .5em;
+    text-align: left;
+}
+.translator
+{text-indent:0em;
+    font-size: 1.1em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+    text-align: left;
+}
+.TOC-frontmatter
+{
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+    text-indent: 0em;
+}
+
+.TOC-backmatter
+{
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+    text-indent: 0em;
+}
+.TOC-part
+{
+    font-size: 1.0em;
+	font-weight: bold;
+	line-height: 1.3em;
+    margin-top: 0.6em;
+    margin-bottom: 0em;
+    text-indent: 0em;
+}
+.TOC-chapter
+{
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0.6em;
+    margin-bottom: 0em;
+    text-indent: 0em;
+}
+.TOC-chaptersub
+{text-indent:0em;
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+}
+.TOC-chapterauthor
+{text-indent:0em;
+    font-size: 1.0em;
+	line-height: 1.3em;
+	font-style: italic;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+}
+.copyright
+{text-indent:0em;
+    font-size: .8em;
+	line-height: 1.1em;
+	padding-top: 1.0em;
+}
+.copyright1
+{text-indent:0em;
+    font-size: .8em;
+	line-height: 1.1em;
+	padding-top: 0em;
+}
+.h1
+{text-indent:0em;
+    font-size: 1.7em;
+	line-height: 1.9em;
+    padding-top: 2em;
+    padding-bottom: 3em;  
+    text-align: left;
+}
+.h2
+{text-indent:0em;
+    font-size: 1.5em;
+	line-height: 1.7em;
+	padding-top: 1.2em;
+    padding-bottom: 1.2em;
+	page-break-after:avoid;
+}
+.h2part
+{text-indent:0em;
+    font-size: 1.5em;
+	line-height: 1.7em;
+	padding-top: 1.2em;
+    padding-bottom: 1.2em;
+	page-break-after:always;
+}
+.h3
+{text-indent:0em;
+    font-size: 1.2em;
+	line-height: 1.4em;
+	padding-top: 1.2em;
+    padding-bottom: 1.2em;
+	page-break-after:avoid;
+}
+.h4
+{text-indent:0em;
+    font-size: 1.0em;
+	line-height: 1.2em;
+	font-weight: bold;
+	padding-top: 0.6em;
+    padding-bottom: 0em;
+	page-break-after:avoid;
+}
+.h5
+{text-indent:0em;
+    font-size: 1.0em;
+	padding-top: 1.2em;
+	font-weight: bold;
+    padding-bottom: 0em;
+	page-break-after:avoid;
+}
+.h6
+{text-indent:0em;
+    font-size: .9em;
+	padding-top: 0em;
+    padding-bottom: 0em;
+	page-break-after:avoid;
+}
+.h7
+{text-indent:0em;
+    font-size: .9em;
+	padding-top: 0em;
+    padding-bottom: 0em;
+}
+.noindent
+{
+    text-indent: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+    text-align: justify;  
+}
+.contributor
+{
+    text-indent: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+    text-align: justify;  
+}
+.indent
+{
+    text-indent: 1em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+    text-align: justify;  
+}
+.blockquote
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+	text-align: justify;
+}
+.list
+{text-indent:0em;
+    font-size: 1.0em;
+	margin-left: 3em;
+    line-height: 1.3em;
+}
+.extractlist
+{text-indent:0em;
+    font-size: .9em;
+    line-height: 1.2em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.display
+{text-indent:0em;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    text-align: left;
+}
+/* Figure Styles - use class 'image' in 'div' that wraps around entire image, including the figurenumber and caption */
+.image
+{text-indent:0em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+	margin-left: 1.0em;
+	margin-right: 1.0em;
+    text-align: left;
+	page-break-after:avoid;
+	page-break-inside:avoid;
+}
+.figurenumber
+{text-indent:0em;
+    font-size: .9em;
+	line-height: 1.2em;
+	font-weight: bold;
+    margin-top: 1em;
+	margin-left: 1.0em;
+	margin-right: 0em;
+    margin-bottom: 0em;
+	text-align: justify;
+}
+.caption
+{text-indent:0em;
+    font-size: .9em;
+	line-height: 1.2em;
+    margin-top: 0em;
+	margin-left: 1.0em;
+	margin-right: 0em;
+    margin-bottom: 2em;
+	text-align: justify;
+	page-break-before:avoid;
+}
+/* Note Styles - footnote class is used for footnotes, endnotes, references, and bibliographies 
+7/12/10 Jess added "font-size: 85%" */
+.footnote
+{text-indent:0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+	font-size: 85%;
+}
+/* Index Styles */
+.indexmain
+{
+	font-size: .9em;
+	line-height: 1.2em;
+	margin-top: -0.5em;
+    text-indent: 0em;
+}
+.indexsub
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+	margin-top: -0.5em;
+    margin-left: 1.0em;
+}
+
+/* Box Styles
+Jess filled in the border and padding rules for below box id on 5/3/10. 
+Jen changed the 'mit_box' classification from div 'id' to div 'class' so that it can be used multiple times in one document 5/7/10*/
+
+.mit_box
+{text-indent:0em;
+	border: solid 1px #000000;
+	padding: 20px 5px;
+	margin: 0px 0px 20px 0px;
+}
+
+/* Jess created the box classes below on 5/3/10 to look the same as the corresponding figure and table classes. 
+7/12/10 Jess added "top-margin 2em." */
+
+.boxnumber
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+	font-weight: bold;
+    margin-top: 2em;
+	margin-left: 0em;
+	margin-right: 0em;
+    margin-bottom: 0em;
+	text-align: justify;
+}
+.boxtitle
+{text-indent:0em;
+	font-size: .9em;
+    line-height: 1.2em; 
+	text-align: justify;
+    margin-top: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+    margin-bottom: 1.2em;
+}
+
+/* Adding styling for default classes created by InDesign so we don't have to spend time changing them
+-Kyle, 9/23/16 */
+
+/* Indent */
+.TX
+{
+    text-indent: 1em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+    text-align: justify;  
+}
+
+/* No Indent */
+.TxNI, .IM, .PL, .p-no-indent-first
+{
+    text-indent: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+    text-align: justify;  
+}
+
+/* Halftitle */
+.HTT 
+{text-indent:0em;
+    font-size: 2.0em;
+    margin-top: 2em; 
+	padding-bottom: 2em;
+    text-align: left;
+}
+
+/* Title */
+.TI, .p-Book-Title 
+{text-indent:0em;
+    font-size: 2.0em;
+    margin-top: 2em;
+    padding-bottom: 2em;  
+    text-align: left;
+}
+
+/* Subtitle */
+.ST, .p-Book-Subtitle, .SeT
+{text-indent:0em;
+    font-size: 1.7em;
+	line-height: 1.7em;
+    padding-bottom: 0em;  
+    text-align: left;
+}
+
+/* Author */
+.Au, .p-Book-Author
+{text-indent:0em;
+    font-size: 1.2em;
+    padding-top: .5em;
+    text-align: left;
+}
+
+/* Copyright */
+.CP, .p-Imprint, .p-Copyright-Text, .SeE, .IM
+{text-indent:0em;
+    font-size: .8em;
+	line-height: 1.1em;
+	padding-top: 1.0em;
+}
+
+/* h3 */
+.FBH, .NtH1 
+{text-indent:0em;
+    font-size: 1.2em;
+	line-height: 1.4em;
+	padding-top: 1.2em;
+    padding-bottom: 1.2em;
+	page-break-after:avoid;
+}
+
+/* TOC-Frontmatter */
+.FBHCf, .p-Frontmatter-Head-in-Contents, .p-Frontmatter-Head-in-Contents-first
+{
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+    text-indent: 0em;
+}
+
+/* TOC-Part */
+.H1C
+{
+    font-size: 1.0em;
+	font-weight: bold;
+	line-height: 1.3em;
+    margin-top: 0.6em;
+    margin-bottom: 0em;
+    text-indent: 0em;
+}
+
+/* TOC-Chapter */
+.CHC, .p-Chapter-Head-in-Contents
+{
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0.6em;
+    margin-bottom: 0em;
+    text-indent: 0em;
+}
+
+/*TOC-Author*/
+.CAuC
+{text-indent:0em;
+    font-size: 1.0em;
+	line-height: 1.3em;
+	font-style: italic;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+}
+
+/* TOC-Backmatter */
+.FBHCm, .FBHC1, .FBHCl
+{
+    font-size: 1.0em;
+	line-height: 1.3em;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+    text-indent: 0em;
+}
+
+/* h2 */
+.CT, .PN, .CN, .label_chapter, .title_chapter, .CN_CT
+{text-indent:0em;
+    font-size: 1.5em;
+	line-height: 1.7em;
+	padding-top: 1.2em;
+    padding-bottom: 1.2em;
+	page-break-after:avoid;
+}
+
+/* h2part */
+.PT
+{text-indent:0em;
+    font-size: 1.5em;
+	line-height: 1.7em;
+	padding-top: 1.2em;
+    padding-bottom: 1.2em;
+	page-break-after:always;
+}
+
+/* Figure Number */
+.FGN, .label_fig
+{text-indent:0em;
+    font-size: .9em;
+	line-height: 1.2em;
+	font-weight: bold;
+    margin-top: 1em;
+	margin-left: 1.0em;
+	margin-right: 0em;
+    margin-bottom: 0em;
+	text-align: justify;
+}
+
+/* Figure Caption */
+.FgC, .p-first_caption_fig
+{text-indent:0em;
+    font-size: .9em;
+	line-height: 1.2em;
+    margin-top: 0em;
+	margin-left: 1.0em;
+	margin-right: 0em;
+    margin-bottom: 2em;
+	text-align: justify;
+	page-break-before:avoid;
+}
+
+/* Epigraph */
+.Ep, .p_dispQuote-epigraph
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+    margin-top: 1.2em;
+    text-align: justify;
+}
+
+/* Epigraph Source */
+.EpS, .TxNIS
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+
+/* Table Number */
+.TN
+{text-indent:0em;
+	font-size: .9em;
+	font-weight: bold;
+    line-height: 1.2em; 
+}
+
+/* Table */
+.TT
+{text-indent:0em;
+	font-size: .9em;
+    line-height: 1.2em; 
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+}
+/* Table Note*/
+.TFN
+{text-indent:0em;
+	font-size: .9em;
+    line-height: 1.2em;
+	border-style: none;
+	border-width: 0px;
+}
+
+/* Index Main */
+.IE, .p-Index-Main-Entry
+{
+	font-size: .9em;
+	line-height: 1.2em;
+	margin-top: -0.5em;
+    text-indent: 0em;
+}
+
+/* Index Sub */
+.ISE, .p-Index-Subentry
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+	margin-top: -0.5em;
+    margin-left: 1.0em;
+}
+
+/* Index Entry That Starts a New Letter */
+.IAB, .p-Index-Alpha-Break
+{
+	font-size: .9em;
+	line-height: 1.2em;
+	margin-top: -0.5em;
+    text-indent: 0em;
+	padding-top: 1.0em;
+}
+
+/* Footnote */
+.RefTxm, .RefTxl, .NtNTf, .NtNTm, .NtNTl
+{text-indent:0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+	font-size: 85%;
+}
+
+/* Some ordered lists are created as paragraphs with a bullet character and an inserted space. This should make that kind of text look nicer */
+.Lf, .Lm, .Ll
+{text-indent:-1em;
+padding-left:1em;
+}
+
+/*blockquote*/
+
+.E, .Ef, .Em, .El, .p_dispQuote
+{text-indent:0em;
+	font-size: .9em;
+	line-height: 1.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+	text-align: justify;
+}

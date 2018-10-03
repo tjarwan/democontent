@@ -1,0 +1,53 @@
+/* ------------------------------------------------*/
+/* Responsive mediaqueries fig and table size (original size 14px =  .875em) */
+/* ------------------------------------------------*/
+
+/* Panoz: please note relying on media queries is problematic since the viewport won’t take pagination into account: 
+   max-width = width of the container ≠ real width of the “page” when columns are used for pagination.
+   So, for instance, max-width of iBooks landscape = 910px while column is 420px.
+   See this note http://www.idpf.org/epub/31/spec/epub-contentdocs.html%23sec-css-content-conf */
+
+
+/* mediaqueries pour petits écrans pas plus grands que 768px (iPad mini - portrait)*/
+
+@media  screen and (max-width:768px) {
+	.table-container  .table-style, .table-title, td p, td, th, .cell {
+		font-size: 0.813em;	
+		line-height: 1; 
+		padding-top: 0.15em; 
+		padding-bottom: 0.15em; 
+		margin:0.1em 0.2em;
+	}
+	.table-container  .pubstat-table-style  {
+		font-size: 0.790em; 
+		line-height: 1; 
+		padding: 0.3em 0em; 
+		margin:0.1em auto;
+	}
+	
+	.figure-container, .figure-heading, .figure-subheading {font-size: 0.813em;}
+	img {max-width: 90%;}
+/*	.cell,td {color:red}*/
+}
+
+/* mediaqueries pour petits écrans pas plus grands que 480px (iPhone 2,3,4 - landscape)*/
+/* Panoz: edge case -> will apply to iBooks iOS when xhtml file starts on the right page or ends in the left -> iBooks specific edge case -> wrong metrics will be used for pagination in “spread/2-column view” and contents at the end of the file may overflow the last column/page */
+
+@media  screen and (max-width:480px) {
+	.table-container  .table-style, .table-style td, td p,  th, .cell {
+		font-size: 0.800em; 
+		line-height: 1;
+		padding-top: 0.15em; 
+		padding-bottom: 0.15em;  
+		margin:0.09em 0.15em;
+	}
+	.table-container  .pubstat-table-style {
+		font-size: 0.700em;
+		line-height: 1; 
+		margin:0.09em auto;
+	}
+
+	.figure-container, .figure-heading, .figure-subheading {font-size: 0.80em;}  
+	img {max-width: 85%;}
+/*	.cell,td {color:green}*/
+}

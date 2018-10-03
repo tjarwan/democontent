@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="9780262342162" />
+		<meta name="dtb:depth" content="1" />
+		<meta name="dtb:totalPageCount" content="290" />
+		<meta name="dtb:maxPageNumber" content="301" />
+	</head>
+	<docTitle>
+		<text>Real Hallucinations</text>
+	</docTitle>
+	<docAuthor>
+		<text>Ratcliffe, Matthew</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel>
+				<text>Cover</text>
+			</navLabel>
+			<content src="CoverImage.xhtml" />
+		</navPoint>
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel>
+				<text>Half Title</text>
+			</navLabel>
+			<content src="10594_000.xhtml#half" />
+		</navPoint>
+		<navPoint id="navpoint3" playOrder="3">
+			<navLabel>
+				<text>Series Page</text>
+			</navLabel>
+			<content src="10594_000a.xhtml#series" />
+		</navPoint>
+		<navPoint id="navpoint4" playOrder="4">
+			<navLabel>
+				<text>Title</text>
+			</navLabel>
+			<content src="10594_000b.xhtml#title" />
+		</navPoint>
+		<navPoint id="navpoint5" playOrder="5">
+			<navLabel>
+				<text>Copyright</text>
+			</navLabel>
+			<content src="10594_000c.xhtml#copy" />
+		</navPoint>
+		<navPoint id="navpoint6" playOrder="6">
+			<navLabel>
+				<text>Table of Contents</text>
+			</navLabel>
+			<content src="10594_000d.xhtml#toc" />
+		</navPoint>
+		<navPoint id="navpoint7" playOrder="7">
+			<navLabel>
+				<text>Acknowledgments</text>
+			</navLabel>
+			<content src="10594_000e.xhtml#ack" />
+		</navPoint>
+		<navPoint id="navpoint8" playOrder="8">
+			<navLabel>
+				<text>1 Introduction</text>
+			</navLabel>
+			<content src="10594_001.xhtml#intro" />
+		</navPoint>
+		<navPoint id="navpoint9" playOrder="9">
+			<navLabel>
+				<text>2 Schizophrenia and Selfhood</text>
+			</navLabel>
+			<content src="10594_002.xhtml#chap2" />
+		</navPoint>
+		<navPoint id="navpoint10" playOrder="10">
+			<navLabel>
+				<text>3 Thought Insertion Clarified</text>
+			</navLabel>
+			<content src="10594_003.xhtml#chap3" />
+		</navPoint>
+		<navPoint id="navpoint11" playOrder="11">
+			<navLabel>
+				<text>4 Voices of Anxiety</text>
+			</navLabel>
+			<content src="10594_004.xhtml#chap4" />
+		</navPoint>
+		<navPoint id="navpoint12" playOrder="12">
+			<navLabel>
+				<text>5 Trauma and Trust</text>
+			</navLabel>
+			<content src="10594_005.xhtml#chap5" />
+		</navPoint>
+		<navPoint id="navpoint13" playOrder="13">
+			<navLabel>
+				<text>6 Intentionality and Interpersonal Experience</text>
+			</navLabel>
+			<content src="10594_006.xhtml#chap6" />
+		</navPoint>
+		<navPoint id="navpoint14" playOrder="14">
+			<navLabel>
+				<text>7 Varieties of Hallucination</text>
+			</navLabel>
+			<content src="10594_007.xhtml#chap7" />
+		</navPoint>
+		<navPoint id="navpoint15" playOrder="15">
+			<navLabel>
+				<text>8 Metaphysical Conclusion</text>
+			</navLabel>
+			<content src="10594_008.xhtml#chap8" />
+		</navPoint>
+		<navPoint id="navpoint16" playOrder="16">
+			<navLabel>
+				<text>Notes</text>
+			</navLabel>
+			<content src="10594_333.xhtml#notes" />
+		</navPoint>
+		<navPoint id="navpoint17" playOrder="17">
+			<navLabel>
+				<text>References</text>
+			</navLabel>
+			<content src="10594_444.xhtml#ref" />
+		</navPoint>
+		<navPoint id="navpoint18" playOrder="18">
+			<navLabel>
+				<text>Index</text>
+			</navLabel>
+			<content src="10594_555.xhtml#index" />
+		</navPoint>
+	</navMap>
+</ncx>

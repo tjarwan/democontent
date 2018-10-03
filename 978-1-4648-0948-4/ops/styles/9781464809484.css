@@ -1,0 +1,445 @@
+font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILR.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILB.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILI.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILBI.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+body
+{
+	margin-top: 0.1em;
+	margin-right: 1.5em;
+}
+@page
+{
+	margin: 1.5em;
+}
+svg
+{
+	height: 98%;
+	width: 100%;
+}
+.publisher
+{
+	margin-top: 5.5em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+	text-align: center;
+}
+.copyrightt
+{
+	margin-top: 0.8em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.copyright
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	text-indent: 0.1em;
+}
+.h2d
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: center;
+	color: #0b223e;
+}
+.h2
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: left;
+	color: #0b223e;
+}
+.h2a
+{
+	font-size: x-large;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #0b223e;
+}
+.h2b
+{
+	font-size: 110%;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-align: left;
+	color: #0b223e;
+}
+.h3
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	color: #0b223e;
+}
+.h3b
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.h3d
+{
+	font-size: 125%;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+	text-align: left;
+}
+.h4
+{
+	font-size: 110%;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	text-align: left;
+	color: #a4252b;
+}
+.h5
+{
+	font-size: 110%;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	text-align: left;
+	color: #00aee1;
+}
+.h5a
+{
+	font-size: 110%;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-align: left;
+	color: #00aee1;
+}
+.tocchap
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.tocchapa
+{
+	color: red;
+	margin-top: 0.7em;
+	margin-bottom: 0.1em;
+	margin-right: 1em;
+	text-align: right;
+}
+.tocchap1
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.noindent
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.indent
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: 1.2em;
+}
+.group
+{
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	page-break-inside: avoid;
+}
+.image
+{
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+	text-align: center;
+}
+.image3
+{
+	margin-top: 2.5em;
+	margin-bottom: 0.4em;
+	text-align: left;
+}
+.nounder
+{
+	text-decoration: none;
+}
+.figcap
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.source
+{
+	font-size: 0.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+	text-indent: 0.01em;
+}
+.tablefn
+{
+	font-size: 0.9em;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+	text-indent: 0.01em;
+}
+.tablefnt
+{
+	font-size: 0.9em;
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em;
+	text-indent: 0.01em;
+}
+.imagecover
+{
+	text-align: center;
+}
+.boxtitle
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.3em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.boxsubtitle
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.box
+{
+	margin-top: 2.0em;
+	margin-bottom: 2.0em;
+	border-top: solid .1em;
+	border-bottom: #231F20 solid .1em;
+	padding: 1.0em;
+	background-color: rgb(246,235,216);
+	page-break-inside: avoid;
+}
+.box1
+{
+	margin-top: 2.0em;
+	margin-bottom: 2.0em;
+	padding: 1.0em;
+	page-break-inside: avoid;
+}
+.tabcap
+{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	margin-left: 0.1em;
+	text-indent: -0.01em;
+}
+.bullett
+{
+	margin-top: 0.6em;
+	margin-bottom: 0.1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.bulletb
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.noindentt
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.notes
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1em;
+}
+.notes1
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+.ref
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+.tab
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-align: left;
+}
+.tabr
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-align: right;
+}
+.tabc
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	text-align: center;
+}
+.bordertb
+{
+	border-top: solid 0.1em;
+	border-bottom: solid 0.1em;
+}
+.borderlb
+{
+	border-left: solid 0.1em;
+	border-bottom: solid 0.1em;
+}
+.borderb
+{
+	border-bottom: solid 0.1em;
+}
+.borderltb
+{
+	border-left: solid 0.1em;
+	border-top: solid 0.1em;
+	border-bottom: solid 0.1em;
+}
+.hanginga
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.blockquote1
+{
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+}
+.h3c
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+	color: #a4252b;
+}
+.square
+{
+	margin-top: 0.6em;
+	margin-bottom: 0.1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.check
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.multiple
+{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left: 1em;
+	text-indent: -0.8em;
+}
+.noindentb
+{
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+}
+.hangingno
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: 0.01em;
+}
+.noindent4
+{
+	margin-top: 1.2em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.sc
+{
+	font-variant: small-caps;
+}
+.person
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.company
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: 0.01em;
+}
+.footnote
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+}
+.notesno
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-indent: 0.01em;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid0">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+  <dc:identifier id="uid0">AccessiblePublishing_EPUB3wSpeech</dc:identifier>
+  <dc:title xml:lang="en">Accessible Publishing</dc:title>
+  <dc:language>en</dc:language>
+  <dc:date>2013-06-19T15:28:48</dc:date>
+  <meta property="dcterms:modified">2013-06-19T15:28:48Z</meta>
+  <meta property="media:active-class">current-hlcl</meta>
+  <meta property="media:duration">00:04:48</meta>
+  <meta property="media:duration" refines="#medovl1">00:04:48</meta>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="content1" href="content.xhtml" media-type="application/xhtml+xml" media-overlay="medovl1"/>
+<item id="medovl1" href="content.smil" media-type="application/smil+xml"/>
+<item id="audio0001" href="page0001.mp3" media-type="audio/mpeg"/>
+<item id="audio0002" href="page0002.mp3" media-type="audio/mpeg"/>
+<item id="audio0003" href="page0003.mp3" media-type="audio/mpeg"/>
+<item id="audio0004" href="page0004.mp3" media-type="audio/mpeg"/>
+<item id="audio0005" href="page0005.mp3" media-type="audio/mpeg"/>
+<item id="audio0006" href="page0006.mp3" media-type="audio/mpeg"/>
+<item id="audio0007" href="page0007.mp3" media-type="audio/mpeg"/>
+<item id="audio0008" href="page0008.mp3" media-type="audio/mpeg"/>
+<item id="audio0009" href="page0009.mp3" media-type="audio/mpeg"/>
+<item id="audio0010" href="page0010.mp3" media-type="audio/mpeg"/>
+<item id="img0" href="images/img_000001.png" media-type="image/png"/>
+<item id="img1" href="images/img_000002.png" media-type="image/png"/>
+<item id="img2" href="images/img_000003.png" media-type="image/png"/>
+<item id="img3" href="images/img_000004.png" media-type="image/png"/>
+<item id="img4" href="images/img_000005.png" media-type="image/png"/>
+<item id="css0" href="3.css" media-type="text/css"/>
+</manifest>
+<spine toc="ncx">
+<itemref idref="content1" linear="yes"/>
+</spine>
+</package>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title id="title">True Enough</dc:title>
+<dc:identifier id="pub-id">9780262341363</dc:identifier>
+<dc:language>en-US</dc:language>
+<dc:creator id="creator">Catherine Z. Elgin</dc:creator>
+<dc:publisher>The MIT Press</dc:publisher>
+<dc:description id="abstract">The development of an epistemology that explains how science and art embody and convey understanding.</dc:description>
+<dc:subject>philosophy; science; epistemology; understanding; knowledge; knowing; art; truth; theory of knowledge; comprehension</dc:subject>
+<dc:rights>All rights reserved</dc:rights>
+<meta refines="#title" property="title-type">main</meta>
+<meta property="dcterms:modified">2017-10-06T16:04:46Z</meta>
+<meta property="dcterms:creator" id="auth">Catherine Z. Elgin</meta>
+<meta property="dcterms:date">2017</meta>
+<meta property="rendition:orientation">auto</meta>
+<meta property="rendition:spread">auto</meta>
+<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+<item properties="nav" id="nav" href="nav.xhtml" media-type="application/xhtml+xml"/>
+<item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+<item id="html-cover-page" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+<item id="title_page" href="xhtml/title_page.xhtml" media-type="application/xhtml+xml"/>
+<item id="copyright" href="xhtml/copyright.xhtml" media-type="application/xhtml+xml"/>
+<item id="dedication" href="xhtml/dedication.xhtml" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/contents.xhtml" media-type="application/xhtml+xml"/>
+<item id="acknowledgments" href="xhtml/acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_1" href="xhtml/chapter_1.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_2" href="xhtml/chapter_2.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_3" href="xhtml/chapter_3.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_4" href="xhtml/chapter_4.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_5" href="xhtml/chapter_5.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_6" href="xhtml/chapter_6.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_7" href="xhtml/chapter_7.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_8" href="xhtml/chapter_8.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_9" href="xhtml/chapter_9.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_10" href="xhtml/chapter_10.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_11" href="xhtml/chapter_11.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_12" href="xhtml/chapter_12.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_13" href="xhtml/chapter_13.xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter_14" href="xhtml/chapter_14.xhtml" media-type="application/xhtml+xml"/>
+<item id="references" href="xhtml/references.xhtml" media-type="application/xhtml+xml"/>
+<item id="index" href="xhtml/index.xhtml" media-type="application/xhtml+xml"/>
+<item id="image-001" href="images/001.png" media-type="image/png"/>
+<item id="image-002" href="images/008.png" media-type="image/png"/>
+<item id="image-003" href="images/002.png" media-type="image/png"/>
+<item id="cover-image" href="images/9780262341363.jpg" media-type="image/jpeg"/>
+<item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+</manifest>
+<spine toc="toc">
+<itemref idref="html-cover-page"/>
+<itemref idref="title_page"/>
+<itemref idref="copyright"/>
+<itemref idref="dedication"/>
+<itemref idref="contents"/>
+<itemref idref="acknowledgments"/>
+<itemref idref="chapter_1"/>
+<itemref idref="chapter_2"/>
+<itemref idref="chapter_3"/>
+<itemref idref="chapter_4"/>
+<itemref idref="chapter_5"/>
+<itemref idref="chapter_6"/>
+<itemref idref="chapter_7"/>
+<itemref idref="chapter_8"/>
+<itemref idref="chapter_9"/>
+<itemref idref="chapter_10"/>
+<itemref idref="chapter_11"/>
+<itemref idref="chapter_12"/>
+<itemref idref="chapter_13"/>
+<itemref idref="chapter_14"/>
+<itemref idref="references"/>
+<itemref idref="index"/>
+</spine>
+<guide>
+<reference type="cover" title="Cover Image" href="xhtml/cover.xhtml"/>
+<reference type="toc" title="Contents" href="xhtml/contents.xhtml"/>
+<reference type="start" title="Cover Image" href="xhtml/cover.xhtml"/>
+</guide>
+</package>

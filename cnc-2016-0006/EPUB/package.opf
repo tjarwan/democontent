@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="uid" scheme="doi">10.2217/cnc-2016-0006</dc:identifier>
+        <dc:title>The effect of concussion history on cognitive-motor integration in elite hockey players</dc:title>
+        <dc:creator>Johanna Hurtubise</dc:creator>
+        <dc:creator>Diana Gorbet</dc:creator>
+        <dc:creator>Yehyah Hamandi</dc:creator>
+        <dc:creator>Alison Macpherson</dc:creator>
+        <dc:creator>Lauren Sergio</dc:creator>
+        <dc:language>en</dc:language>
+        <meta property="dcterms:modified">2016-09-06T00:00:00Z</meta>
+    </metadata>
+    <manifest>
+        <item href="css/article.css" id="css" media-type="text/css"/>
+        <item href="img/figure1.png" media-type="image/png"/>
+        <item href="img/figure2.jpeg" media-type="image/jpeg"/>
+        <item href="img/figure3.jpeg" media-type="image/jpeg"/>
+        <item href="xhtml/article.xhtml" id="article" media-type="application/xhtml+xml"/>
+        <item href="xhtml/article-nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+        <item href="xhtml/figure1.xhtml" id="figure1" media-type="application/xhtml+xml"/>
+        <item href="xhtml/figure2.xhtml" id="figure2" media-type="application/xhtml+xml"/>
+        <item href="xhtml/figure3.xhtml" id="figure3" media-type="application/xhtml+xml"/>
+        <item href="xhtml/table1.xhtml" id="table1" media-type="application/xhtml+xml"/>
+        <item href="xhtml/table2.xhtml" id="table2" media-type="application/xhtml+xml"/>
+        <item href="xhtml/table3.xhtml" id="table3" media-type="application/xhtml+xml"/>
+        <item href="xhtml/table4.xhtml" id="table4" media-type="application/xhtml+xml"/>
+        <!--<item href="img/epub_logo_color.jpg" media-type="image/jpeg" id="ci" properties="cover-image"/>-->
+    </manifest>
+    <spine>
+        <itemref idref="article"/>
+        <itemref idref="nav" linear="no"/>
+        <itemref idref="figure1" linear="no"/>
+        <itemref idref="figure2" linear="no"/>
+        <itemref idref="figure3" linear="no"/>
+        <itemref idref="table1" linear="no"/>
+        <itemref idref="table2" linear="no"/>
+        <itemref idref="table3" linear="no"/>
+        <itemref idref="table4" linear="no"/>
+    </spine>
+</package>

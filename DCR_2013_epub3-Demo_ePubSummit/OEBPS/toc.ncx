@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="urn:doi:10.1787/dcr-2013-en" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Development Co-operation Report 2013</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1">
+      <navLabel>
+        <text>Title page</text>
+      </navLabel>
+      <content src="Text/000.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint2">
+      <navLabel>
+        <text>Popup (no JavaScript)</text>
+      </navLabel>
+      <content src="Text/008.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint3">
+      <navLabel>
+        <text>Popup (JavaScript)</text>
+      </navLabel>
+      <content src="Text/009.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint4">
+      <navLabel>
+        <text>Popup (JavaScript nested entry)</text>
+      </navLabel>
+      <content src="Text/009.xhtml#demo-popup-nested"/>
+    </navPoint>
+    <navPoint id="navPoint5">
+      <navLabel>
+        <text>annex A. Statistical annex</text>
+      </navLabel>
+      <content src="Text/058.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint6">
+      <navLabel>
+        <text>Table swipe</text>
+      </navLabel>
+      <content src="Text/demo-swipe.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint7">
+      <navLabel>
+        <text>Table toggle</text>
+      </navLabel>
+      <content src="Text/demo-toggle.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint8">
+      <navLabel>
+        <text>Table switch</text>
+      </navLabel>
+      <content src="Text/demo-complete.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint9">
+      <navLabel>
+        <text>Table chart</text>
+      </navLabel>
+      <content src="Text/demo-chart.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint10">
+      <navLabel>
+        <text>Glossary of development terms</text>
+      </navLabel>
+      <content src="Text/060.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint11">
+      <navLabel>
+        <text>About the OECD</text>
+      </navLabel>
+      <content src="Text/999.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

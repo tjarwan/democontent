@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:mml="http://www.w3.org/1998/Math/MathML" prefix="schema: http://schema.org/ rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# xsd: http://www.w3.org/2001/XMLSchema# sa: http://ns.science.ai# scienceai: https://science.ai/ pur: http://prismstandard.org/namespaces/pur/3.0/">
+   <head xmlns:yaeger="http://www.atypon.com/yaeger">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title property="http:/schema.org/name" lang="en" xml:lang="en">Digital Open Annotation with Hypothesis: Supplying the Missing Capability of the Web</title>
+      <link rel="stylesheet" type="text/css" href="../css/index.css" />
+      <link rel="stylesheet" type="text/css" href="../css/utoronto.css" />
+      <meta name="viewport" content="width=device-width" />
+   </head>
+   <body xmlns:yaeger="http://www.atypon.com/yaeger">
+      <meta property="schema:accessibilityAPI" content="ARIA" />
+      <meta property="schema:accessibilityFeature" content="MathML" />
+      <meta property="schema:accessibilityFeature" content="alternativeText" />
+      <meta property="schema:accessibilityFeature" content="readingOrder" />
+      <article vocab="http://schema.org/" resource="scienceai:article" typeof="schema:ScholarlyArticle">
+         <section property="sa:articleFrontMatter" datatype="rdf:HTML">
+            <header>
+               <div class="citation" role="contentinfo">
+                  <div class="logo"></div><span property="schema:isPartOf" typeof="schema:PublicationIssue"><span typeof="schema:Periodical"><span property="schema:name">Journal of Scholarly Publishing</span><br />Volume <span property="schema:isPartOf" typeof="schema:PublicationVolume"><span property="schema:volumeNumber">49</span></span>, Issue <span property="schema:issueNumber">3</span></span></span>, <span property="schema:datePublished">April 2018</span>, Pages <span property="schema:pageStart">345</span>-<span property="schema:pageEnd">365</span><br /><a property="schema:sameAs" href="https://doi.org/10.3138/jsp.49.3.04">https://doi.org/10.3138/jsp.49.3.04</a><br /><span property="pur:copyright">© University of Toronto Press 2018. All rights reserved.</span></div>
+               <h1 property="schema:name" epub:type="title">Digital Open Annotation with Hypothesis: Supplying the Missing Capability of the Web</h1>
+               <ul class="authors" epub:type="contributors">
+                  <li property="schema:author" typeof="sa:ContributorRole"><span property="schema:givenName">Heather</span> <span property="schema:familyName">Ruland Staines</span><a href="https://orcid.org/0000-0003-3876-1182"><img class="orcid-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAA2UExURQAAAKbOOZ3IMv///6bOOabOOabOOabOOabOOabOOdTonb7bb+nzzvf77e722s3jkLfXXuHvu05AfIcAAAAKdFJOUwD///+AINpZxjDAHm+PAAAAw0lEQVQ4y7WT2xLEEAyGRRyCtW3f/2W3GFUp7fRi/wtj5BORgxCHnCLIIuXEVdbAScYysyZgIt1dh4Hsg/1EZHvwXk4InfbSI14AKHHQHKAWgOx1fqT8X6YY0rJrCVAJs+ev7PITacmKvrpwQvVA3D1sEfG7lnMlqAc+2XmI+K1hwgiAFXEphgkAW3UxAwLiv4EWA93/gniieB4UTzXPpDuKNa6FaeUeV9O2hhn2A7WWG0vfNjVv6/eDYd+M3vPwzsf/B1h+Cd/Cshb2AAAAAElFTkSuQmCC" /></a></li>
+               </ul>
+            </header>
+            <section id="abstract" epub:type="abstract" property="schema:detailedDescription" typeof="sa:Abstract">
+               <h2 property="schema:name">Abstract</h2>
+               <p property="schema:text">Hypothesis is an open-source technology developed by a non-profit organization that
+                  enables a conversation across all the content on the Web, a rich and interconnected
+                  exchange that goes well beyond experiments with past commenting tools. The publication
+                  of annotation as a Web standard by the World Wide Web Consortium in February 2017
+                  paves the way to bring digital annotation natively to browsers, fulfilling an original
+                  vision for networked information laid out by Vannevar Bush in 1945. Publishers are
+                  exploring annotation to facilitate post-publication discussion layers, add author
+                  or expert commentary as supplemental content, and streamline the peer-review process.
+                  Researchers are using annotation for fact verification, entity extraction, precise
+                  citation, and preprint collaboration. Annotation technology enables the creation of
+                  unique persistent Web addresses that are much more precise than page-level URLs, thus
+                  opening up new workflow possibilities in scholarly communications and beyond.
+               </p>
+            </section>
+            <section id="keywords" epub:type="keywords">
+               <h2>Keywords</h2>
+               <ul>
+                  <li>annotation</li>
+                  <li>collaboration</li>
+                  <li>Web standards</li>
+               </ul>
+            </section>
+         </section>
+         <section property="schema:articleBody" datatype="rdf:HTML">
+            <p>When I tell folks I work for an annotation technology company, they think initially
+               about the ability to add notes on any webpage. However, the technology behind Hypothesis
+               enables so much more than that. Since the beginning of the Web, we’ve thought of ‘places’
+               on the Web as page-level addresses. It’s all we’ve had, and it’s not very precise.
+               Hypothesis technology allows for the creation of a unique persistent Web address for
+               a paragraph, a sentence, a word, or a cell in a data file. It’s now possible for one
+               URL to have a potentially infinite number of sub-addresses underneath it. Deep linking
+               through annotation can connect knowledge across the Web, and it can do so without
+               the need for publishers to re-tag or enrich their content in any way.
+            </p>
+            <p>To help readers understand what annotation technology enables, I will explain how
+               annotation differs from the commenting technologies sometimes found on Web content
+               today. I will provide background on how Hypothesis was born in 2011 and how it has
+               since evolved. I will include some examples of how publishers and researchers are
+               using the tool. Finally, I will share some of the ways that Hypothesis is supporting
+               the annotation ecosystem in general and how this might affect creators and consumers
+               of annotations.
+            </p>
+            <section id="annotations-are-not-comments">
+               <h2>Annotations Are Not Comments</h2>
+               <p>When I talk to publishers about the power of annotation technology, I sometimes need
+                  to overcome preconceptions they have that annotations are merely what we now think
+                  of as comments. Current comment systems are rarely used, so why would anyone expect
+                  annotation to be any different?
+               </p>
+               <section id="comments-are-not-collaborative">
+                  <h3>Comments Are Not Collaborative</h3>
+                  <p>Traditional comments, when they are enabled on publisher websites at all, are relegated
+                     to the bottom of webpages, below the fold and well away from the content itself. Only
+                     readers of that particular page—and only those who bother to scroll down to the comments—know
+                     that others have posted feedback or questions. By contrast, annotations are precise,
+                     in-line, and anchored to the text to which they refer, even when a document is revised
+                     and edited.<sup><a href="#NT1" epub:type="noteref">1</a></sup> They are easily shareable. When shared, links to annotations bring the receiver not
+                     only to the content itself but to the very phrase to which the annotator is referring
+                     (<a href="F1.xhtml">Figure 1</a>). Most importantly, open annotation lies across any online text, meaning that researchers
+                     can use one standards-based, open-source tool anywhere they are. This means that readers
+                     can associate specific annotations with their creators consistently and follow select
+                     annotators across the Web.
+                     					
+                     <!-- The nonlinear content of figure (F1) was moved into the file named F1.xhtml. -->
+                     				
+                  </p>
+               </section>
+               <section id="comments-have-only-one-option:-public">
+                  <h3>Comments Have Only One Option: Public</h3>
+                  <p>Most of our lives are lived in personal or small-group contexts. Current commenting
+                     platforms do not let users take and organize personal notes or allow for the creation
+                     of a collaboration group around an individual piece of content, subject area, or project.
+                     This group functionality paired with annotations, however, allows a writer to direct
+                     his remarks precisely how and to whom he chooses. A group might consist of colleagues
+                     or friends, a study group or class, society members, or subscribers. A publisher can
+                     choose to control its own moderated annotation layer across its content, deciding
+                     who can read and who can write annotations for various purposes, as needs vary.<sup><a href="#NT2" epub:type="noteref">2</a></sup></p>
+               </section>
+               <section id="commenting-systems-are-proprietary-and-siloed">
+                  <h3>Commenting Systems Are Proprietary and Siloed</h3>
+                  <p>Hypothesis believes that conversations should take place where the content lives online
+                     and not be relegated to side conversations on blogs, Twitter, or Reddit. Annotators
+                     can create links to additional resources; they can embed images, videos, and equations
+                     and anchor them directly to the source text. These annotations can also persist across
+                     versions. For publishers whose content sits on multiple platforms, whether that includes
+                     aggregator sites or PubMed Central, those different instances can be treated as the
+                     same article so that a single conversation can coalesce. Annotations can also link
+                     articles to the supporting data, even when the data are distributed in multiple repositories
+                     across the Web.<sup><a href="#NT3" epub:type="noteref">3</a></sup></p>
+                  <p>In the current proprietary commenting environment, there is no way to get access to
+                     every public comment I’ve made anywhere across the Web. There is no way for me to
+                     see every comment I’ve ever made.<sup><a href="#NT4" epub:type="noteref">4</a></sup> When I highlight text and make annotations with Hypothesis, however, they populate
+                     automatically to my profile page, where I can search them, filter by tags, share them,
+                     or return to the document to see my annotations in context (<a href="F2.xhtml">Figure 2</a>). I also have access to every public annotation that has been made anywhere on the
+                     Web, so I can explore what others are writing and the content they are writing about.
+                     If I want, I can use the Hypothesis application programming interface (API) to get
+                     my annotations out for analysis or repurposing. Robust APIs—methods that allow different
+                     software systems to communicate effectively—enable publishers or other entities to
+                     explore their annotation data or display these data via a widget elsewhere on their
+                     platforms.<sup><a href="#NT5" epub:type="noteref">5</a></sup> Annotators should have flexibility in the way their data are stored. The default
+                     is for all annotations to be stored on the Hypothesis server; but, for this reason,
+                     Hypothesis is evolving to enable the annotation client (the sidebar over the page,
+                     in which annotations are created or displayed) to support any service that uses the
+                     same annotation standard. Users such as investigative journalists, who need to secure
+                     their annotations on their own servers to protect the identities of their sources,
+                     will be able to do so.
+                     					
+                     <!-- The nonlinear content of figure (F2) was moved into the file named F2.xhtml. -->
+                     				
+                  </p>
+               </section>
+            </section>
+            <section id="history-of-hypothesis">
+               <h2>History of Hypothesis</h2>
+               <p>Hypothesis users around the world have made over 2.9 million annotations and counting.
+                  Just under one quarter of these annotations are public, 33 per cent are private, and
+                  43 per cent are shared in collaboration groups (<a href="F3.xhtml">Figure 3</a>). There are more than 140,000 users. In research, writing, peer review, post-publication
+                  discussions, or education, Hypothesis enables publishers to plug into scholarly workflows,
+                  bringing value to readers and authors and attention to publications.
+                  				
+                  <!-- The nonlinear content of figure (F3) was moved into the file named F3.xhtml. -->
+                  			
+               </p>
+               <p>Hypothesis was founded in 2011 by Dan Whaley, an entrepreneur who launched the online
+                  travel industry in 1995 by creating the first Web-based travel reservation system,
+                  Internet Travel Network, which went public in 1999 as GetThere and was later acquired
+                  by Sabre, Inc.<sup><a href="#NT6" epub:type="noteref">6</a></sup> Prior to Hypothesis, Dan was focused on climate change and the science to combat
+                  it with a start-up called Climos. Noting that much of the information published about
+                  climate change was incorrect, misleading, or out of context, Dan imagined crowd-sourcing
+                  better information in a layer atop published content. As this technology would ideally
+                  be part of the Web itself, it was clear that it needed to be free of the expectations
+                  of a venture-backed effort. Dan formed Hypothesis as a public charity, registered
+                  in the state of California, on 1 July 2011. It was funded by Kickstarter in November
+                  of that year with $105K from over 700 contributors.
+               </p>
+               <p>Dan drew inspiration from early writings about technology and communication, in particular
+                  a July 1945 <em>Atlantic</em> article ‘As We May Think’ by Vannevar Bush.<sup><a href="#NT7" epub:type="noteref">7</a></sup> This piece laid out the vision for what we would come to know as the first Web browser
+                  by imagining a ‘mechanized file and library’ that would ‘store all… records, books,
+                  and communications.’ Books one wished to consult would be retrieved by a code and
+                  projected on a screen. Multiple items could be displayed at one time. In elaborating
+                  that a person can ‘add marginal notes and comments’ to these displays, Bush made what
+                  is considered to be the first reference to digital annotation.<sup><a href="#NT8" epub:type="noteref">8</a></sup> This dream of Bush’s would be revisited by tech entrepreneur and investor Marc Andreessen
+                  in 1993 when annotation capability—‘the big missing feature from the web browser’—was
+                  to be built into Mosaic.<sup><a href="#NT9" epub:type="noteref">9</a></sup> Unfortunately, the hosting of so many potential annotations and the server maintenance
+                  that would require were enough to result in the feature’s removal. It would be twenty
+                  years before a community would form around open annotation to tackle the challenges
+                  and realize the great potential of Bush’s vision.
+               </p>
+               <p>Because the Hypothesis software is open source, it is permissively licensed and available
+                  for download for any purpose. Hypothesis also runs a service through which researchers
+                  can create free accounts and annotate for note taking, collaboration, or public critique.
+                  Publishers or other organizations can embed a few lines of code on their platforms
+                  to enable the annotation tool to be visible to readers. Until 2016, Hypothesis was
+                  completely grant funded, with money from Sloan, Mellon, Knight, Helmsley, Omidyar,
+                  and others. Hypothesis began a transition to a revenue-based model in 2016 when it
+                  partnered with eLife.
+               </p>
+               <p>An analogy for the Hypothesis business model is WordPress. More than 25 per cent of
+                  the sites on the Web run on WordPress technology, and it is free to download and use.<sup><a href="#NT10" epub:type="noteref">10</a></sup> If a person or a business wants additional services, like hosting, storage, or backup,
+                  they can pay Automattic, the parent company of Wordpress.com.<sup><a href="#NT11" epub:type="noteref">11</a></sup> While Hypothesis technology can be downloaded by anyone, and our annotation service
+                  can be used for free, those who want a customized experience, such as branded and
+                  moderated layers, can pay for that service.<sup><a href="#NT12" epub:type="noteref">12</a></sup></p>
+               <p>Among annotation software providers, there are a number of players. One of the best
+                  known to date is Genius, which began as Rap Genius with a focus on annotating lyrics
+                  to rap songs and subsequently expanded to general use. However, in the spring of 2016,
+                  Genius retreated from its more general aspirations to refocus on music videos.<sup><a href="#NT13" epub:type="noteref">13</a></sup> Another collaboration start-up in the scholarly space is the Berlin-based PaperHive,
+                  which allows users to transfer copies of documents to its hive where they can annotate
+                  alone or in teams.<sup><a href="#NT14" epub:type="noteref">14</a></sup> The most recent project is Remarq by Redlink, launched in spring of 2017 with a focus
+                  on vetting annotators prior to their annotation on publisher content.<sup><a href="#NT15" epub:type="noteref">15</a></sup> Unlike these other organizations, Hypothesis is incorporated as a 501.c3 non-profit.
+                  Hypothesis believes that in order to have the best chance of bringing this new capability
+                  forward, a neutral structure is needed that allows Hypothesis to align long term with
+                  the interest of users and partners rather than with shareholders.
+               </p>
+               <p>Both PaperHive and Redlink are members of the Annotating All Knowledge coalition,
+                  which is dedicated to supporting annotation across the Web. The World Wide Web Consortium
+                  (W3C), the standards body for the Web, approved annotation as a Web standard in February
+                  2017 and paved the way for browsers to include the technology natively.<sup><a href="#NT16" epub:type="noteref">16</a></sup> Many coalition members are committed to implementing the new W3C standards with a
+                  goal of interoperability. Hypothesis, which worked along with many others to get the
+                  standard approved, looks to a future when standards-based annotation clients make
+                  it possible for annotations to be seen and interacted with in the same seamless way
+                  that email works across multiple clients today. In the near future, I should be able
+                  to tell my browser which annotation client I use, just as I would set my preferred
+                  search engine, removing the need for plug-ins or bookmarklets.
+               </p>
+               <p>I joined Hypothesis as Director of Partnerships in December 2016 after nearly two
+                  decades in the scholarly communications industry. In this capacity I work with a variety
+                  of potential partners, from publishers of all types, to platform hosts, aggregators,
+                  and other open-source technology companies. Hypothesis’s partners include the numerous
+                  members of the Annotating All Knowledge coalition,<sup><a href="#NT17" epub:type="noteref">17</a></sup> as well as publishers of all sizes that Hypothesis collaborates with directly, including
+                  eLife, Michigan Publishing, New York University Press, MIT Press, Johns Hopkins University
+                  Press, and the major platform hosts that serve them. I consult with publishers to
+                  determine what they hope to accomplish in adding annotation to their content. Then
+                  I work with them to define goals and measure progress toward achieving those goals.
+               </p>
+            </section>
+            <section id="what-does-annotation-mean-for-publishers?">
+               <h2>What Does Annotation Mean for Publishers?</h2>
+               <p>There are many uses for annotation in education, mainstream media, investigative journalism,
+                  and beyond. The main conversations between Hypothesis and scholarly publishers so
+                  far have focused on a few key areas: post-publication annotation of content as a layer
+                  over the publisher’s website; streamlining of the peer-review process; and creation
+                  of additional content by authors, publisher staff, or invited experts. Publishers,
+                  however, are constantly discovering new ways to use the annotation and deep-linking
+                  technology to improve workflow and content visibility.
+               </p>
+               <section id="post-publication-annotation">
+                  <h3>Post-publication Annotation</h3>
+                  <p>More publishers are starting to see the discussions attached to their publications
+                     via commenting and annotation systems as a complement to a publication’s version of
+                     record. As such, they need to feel confident in their ability to apply their own editorial
+                     standards to these annotations as they do to the publications themselves. To that
+                     end, Hypothesis worked in close collaboration with eLife to define and implement a
+                     set of core features that would give publishers an increased level of control over
+                     their annotations: the ability to streamline the integration of the annotation tool
+                     and the publisher’s own user models and authentication, the ability for publishers
+                     to moderate their users’ annotations to ensure civil and on-topic dialogue, and the
+                     ability to customize the annotation tool to blend seamlessly into the flow of the
+                     publisher’s user experience. As Guiliano Marciocci, Head of Product at eLife, explained,
+                     ‘In order to become more widely accepted by the publishing community,… Hypothesis’
+                     core annotation tool—initially designed as a universal annotation solution—needed
+                     to become much more deeply integrated within publishers’ own workflows and website
+                     user experiences. By working closely with Hypothesis, we were able to leverage our
+                     expertise in publishing workflows, design and user experience to produce a publisher-friendly
+                     annotation solution that also promotes open annotation standards.’<sup><a href="#NT18" epub:type="noteref">18</a></sup></p>
+                  <p>To enable and facilitate annotation on content pages, publishers can now elect to
+                     control their own annotation layer (separate from the public layer that annotators
+                     can choose on their own) and keep it moderated, branded, and visible by default. Readers
+                     arriving at a publisher’s webpages can see that annotations exist, and they can explore
+                     the annotations. Publishers have options when it comes to reader participation in
+                     annotation. Some publishers are choosing to offer recognized users the capability
+                     to have an Hypothesis account auto-generated on the basis of an identifier like an
+                     ORCID. In this case, there is no need for a reader to log in again in order to create
+                     her annotations.
+                  </p>
+                  <p>In the past two years, Michigan Publishing enabled annotation using Hypothesis for
+                     the <em>Journal of Electronic Publishing</em><sup><a href="#NT19" epub:type="noteref">19</a></sup> and for select titles in its digitalculturebooks imprint. Michigan Publishing also
+                     experimented with the tool for some collaborative educational activities during Open
+                     Access Week in 2015<sup><a href="#NT20" epub:type="noteref">20</a></sup> and for a community engagement project called Pub Club, which hosted two events designed
+                     to promote collaborative annotation, including author participation, for University
+                     of Michigan Press titles.<sup><a href="#NT21" epub:type="noteref">21</a></sup> In a presentation at DPLAFest 2017, Rebecca Welzenbach, Director of Strategic Partnerships
+                     at Michigan Publishing, noted that ‘so far, we have had the most success with Hypothesis
+                     when users are invited to engage as part of a time-bound, real life event, like a
+                     class, club or lecture.’<sup><a href="#NT22" epub:type="noteref">22</a></sup></p>
+               </section>
+               <section id="streamlining-peer-review">
+                  <h3>Streamlining Peer Review</h3>
+                  <p>Current peer-review processes involve a lot of back and forth in documents that refer
+                     to page, paragraph, and sentence numbers, which can force the author or editor to
+                     hunt for relevant passages to interpret comments or queries. By using annotation,
+                     however, reviewers can connect their remarks directly to the words or sentences in
+                     question, and authors can respond <em>in situ</em> as well. Even after the article is edited, the annotations remain anchored to their
+                     relevant passages, making it easy for publisher staff to see how reviewer queries
+                     were addressed. Whether the process is double-blind, single-blind, or open, peer review
+                     through annotation can save time and potential frustration for all parties involved.
+                  </p>
+                  <p>In September 2017, after a pilot across three journals, the American Geophysical Union
+                     announced the availability of annotated peer review across all of its journals.<sup><a href="#NT23" epub:type="noteref">23</a></sup> This capability was made possible through eJournalPress’s integration of Hypothesis
+                     into its GEMS editorial system. Tags enable an editor to filter annotations in order
+                     to view summary comments, major or minor issues, textual edits, or comments on a figure
+                     or reference. Annotations can also be presented in the form of a traditional peer
+                     review.
+                  </p>
+               </section>
+               <section id="annotations-as-additional-content">
+                  <h3>Annotations as Additional Content</h3>
+                  <p>Another interest of publishers is using annotations as additional content on their
+                     platform. A publisher might choose to make comments from peer reviewers or summaries
+                     visible on publications, or ask an author to make updates or connect related resources
+                     to a publication for added value. Invited experts might annotate to provide additional
+                     insight and context for the published content. Colleagues in marketing might connect
+                     media mentions directly to publications and tweet out the links.
+                  </p>
+                  <p>The American Astronomical Society (AAS) is one publisher that uses annotation to enrich
+                     its publications: ‘We think it is important for authors to enrich their articles with
+                     data and believe that a publisher annotation layer is one way to describe and maintain
+                     those data enrichments. Articles in the [AAS] Journals can now contain links to data
+                     behind figures, rich metadata enhanced tables, and animated or interactive data visualizations.
+                     It can be difficult to highlight and explain such materials for readers,’ noted August
+                     Muench, Journals Data Scientist at the AAS. ‘For example, readers may want to be told
+                     about the most up to date techniques for using such enhanced tables, which we could
+                     provide in an annotation layer. We also are exploring post-publication enrichment
+                     of articles with data from third party repositories such as the Strasbourg Astronomical
+                     Data Center, where context and description are very important to convey what new material
+                     (or even new data services) has become available for a particular article.’<sup><a href="#NT24" epub:type="noteref">24</a></sup></p>
+                  <p>Hypothesis enables annotation on text formats and data for now, with an expectation
+                     of supporting annotation on images and video in the future. Until recently only html
+                     and PDF were supported, but in early 2017, New York University (NYU) Press, Hypothesis,
+                     the Readium Foundation, Evident Point, and EPUB.js joined forces to implement the
+                     changes necessary to support the annotation of EPUBs. With a new books platform launching
+                     in 2018, NYU Press wanted to enable easy annotation of its EPUB files. The project
+                     was completed in the fall of 2017, and annotation capabilities were included in the
+                     0.28 Readium.js release and are supported by recent EPUB.js versions.<sup><a href="#NT25" epub:type="noteref">25</a></sup> ‘This integration is strategic for us,’ said David Millman, Assistant Dean for Digital
+                     Library Technology Services at NYU, ‘and we hope it will be helpful to many more and
+                     wider communities too. This effort could have a huge impact on the way people continue
+                     working with books, and with each other.’<sup><a href="#NT26" epub:type="noteref">26</a></sup></p>
+               </section>
+               <section id="annotation-as-an-internal-workflow-tool">
+                  <h3>Annotation as an Internal Workflow Tool</h3>
+                  <p>Annotation can be part of any workflow that involves documents or webpages. The American
+                     Society for Microbiology (ASM) has been preparing to migrate a number of journals
+                     within its hosting environment. This project involves hundreds of informational pages
+                     across fourteen journal sites. While in process, the pages exist on a staging site
+                     accessible only to ASM staff. ‘As the pages are developed, we use Hypothesis to indicate
+                     where text changes, formatting changes, and massive updates are needed,’ explained
+                     Deborah Plavin, Online Publishing Manager for the ASM. ‘It’s been an easier way for
+                     us to manage the numerous edits that need to be made and the conversations happening
+                     around those pages. We can even use annotations to link to content that needs to be
+                     added.’<sup><a href="#NT27" epub:type="noteref">27</a></sup></p>
+               </section>
+            </section>
+            <section id="what-does-annotation-mean-for-researchers?">
+               <h2>What Does Annotation Mean for Researchers?</h2>
+               <p>I’ve mentioned already how researchers can benefit from having one common tool chain
+                  available to them to use anywhere across the Web for any part of their research workflow.
+                  But annotation provides much more than what we immediately think of when it comes
+                  to research.
+               </p>
+               <section id="facilitating-online-reading-for-research">
+                  <h3>Facilitating Online Reading for Research</h3>
+                  <p>Maryann Martone, Professor of Neuroscience at the University of California at San
+                     Diego and Director of Biosciences at Hypothesis, reported that the ability to annotate
+                     articles has completely changed the way she researches and reads: ‘Prior to using
+                     Hypothesis, I routinely downloaded and printed out articles to read when I was researching
+                     a paper or topic. If I thought about it, I would import the paper into a reference
+                     manager to make it easy to reference later, but often I did that step completely after
+                     I wrote the manuscript. But since coming to Hypothesis, I find that the ability to
+                     take notes anchored to specific passages of text, and have them tagged and searchable
+                     across papers, are such major benefits that I prefer to read articles online.’<sup><a href="#NT28" epub:type="noteref">28</a></sup></p>
+                  <p>I myself have experienced a similar change in behaviour. My previous preparation for
+                     industry events or blog posts involved pasting URLs for articles of interest into
+                     a Word document. Inevitably, when I prepared to write or create slides for speaking,
+                     I could no longer recall why I thought the articles were relevant. Now, as every item
+                     I annotate automatically populates to my Hypothesis profile page, I find it easy to
+                     keep my multiple obligations straight. In fact, I’m hesitant to read without Hypothesis,
+                     as I wonder how I might ever find the article again (<a href="F4.xhtml">Figure 4</a>).
+                     					
+                     <!-- The nonlinear content of figure (F4) was moved into the file named F4.xhtml. -->
+                     				
+                  </p>
+               </section>
+               <section id="annotation-to-correct-misinformation">
+                  <h3>Annotation to Correct Misinformation</h3>
+                  <p>Articles published in mainstream media or in scholarly journals may contain information
+                     that is vague, out of context, or that misrepresents findings. Publicly visible annotations
+                     made by experts working to correct such misinformation have resulted in corrections
+                     or clarifications, notably in the field of climate change.<sup><a href="#NT29" epub:type="noteref">29</a></sup> Climate Feedback is a group of nearly 200 climate scientists with varying specialties
+                     around the world. When articles that refer to climate science are released, the Climate
+                     Feedback community distributes them and uses annotation technology for a careful review
+                     of claims (<a href="F5.xhtml">Figure 5</a>). The results are a credibility score, review summaries from the scientists, and
+                     a link to the original article with detailed annotations that include links to better
+                     resources, graphs and charts, and other rich media. Not all of the articles considered
+                     by the group score poorly but, of those that have, corrections have in some cases
+                     been issued by the publisher.
+                     					
+                     <!-- The nonlinear content of figure (F5) was moved into the file named F5.xhtml. -->
+                     				
+                  </p>
+               </section>
+               <section id="entity-extraction-and-linking">
+                  <h3>Entity Extraction and Linking</h3>
+                  <p>In an era of increasing information overload, standard identifiers have become critical
+                     to disambiguate terms, people, and other entities in publication and research workflows,
+                     but the identifiers used in published papers often exist apart from the information
+                     to which they point. Annotation is a way to bring visibility to this information atop
+                     the publisher’s version of record. It also allows readers to interact with annotation
+                     cards to explore information via tags or to ask questions.
+                  </p>
+                  <p>More than 125 neuroscience journals support the inclusion of RRIDs (research resource
+                     identifiers), which give information that is critical for reproducibility purposes
+                     when a researcher needs to know, say, which precise stem-cell line was used or where
+                     a particular reagent was purchased in the conduct of an experiment.<sup><a href="#NT30" epub:type="noteref">30</a></sup> A team at the University of California at San Diego used Hypothesis technology to
+                     create an account called SciBot.<sup><a href="#NT31" epub:type="noteref">31</a></sup> When Hypothesis is enabled, SciBot looks for RRIDs in the html or PDF of a document
+                     and returns relevant information from an external database in the form of annotation
+                     cards alongside an article. Researchers can see details about the particular RRID
+                     and can click on the resulting tag to explore other articles that reference the same
+                     identifier.
+                  </p>
+                  <p>This technology could be used for any identifier included in a publication to bring
+                     external information right to the publisher webpage. For instance, August Muench of
+                     the AAS emphasized that astronomers make use of services such as the NASA/IPAC Extragalactic
+                     Database (NED) and the Simbad Astronomical Database at the Centre de Données astronomiques
+                     de Strasbourg (CDS) that identify and catalogue astrophysical objects (and data) in
+                     published papers.<sup><a href="#NT32" epub:type="noteref">32</a></sup> A problem for the reader is that these services currently exist apart from the original
+                     article, and catalogued objects are outside the immediate context of the text. Open
+                     annotation platforms provide a way to bring those entities back in line with the article,
+                     allowing the reader to understand the newly published data alongside the historical
+                     catalogue.
+                  </p>
+               </section>
+               <section id="annotation-for-data-access-and-research-transparency">
+                  <h3>Annotation for Data Access and Research Transparency</h3>
+                  <p>Researchers can also benefit from annotation technology by having a means to make
+                     research more understandable and easier to evaluate. Hypothesis is working with the
+                     Qualitative Data Repository on developing Annotation for Transparent Inquiry (ATI).
+                     The Qualitative Data Repository is a free repository for qualitative and multi-method
+                     research data from health and social sciences.<sup><a href="#NT33" epub:type="noteref">33</a></sup> The Robert Wood Johnson Foundation is funding an ATI working group to demonstrate
+                     and assess ATI and to plan for its further development. ATI uses annotations to show
+                     readers how data were generated, to provide extracts from the cited source, to link
+                     to primary sources deposited in a data repository when available, and to furnish further
+                     explanations of how the data support the inference being made in the text.<sup><a href="#NT34" epub:type="noteref">34</a></sup></p>
+               </section>
+               <section id="connecting-to-other-tools">
+                  <h3>Connecting to Other Tools</h3>
+                  <p>The flexible nature of annotation encourages creative uses. Stacy Konkiel, Director
+                     of Research and Education at Altmetric, crafted a unique way to use Hypothesis. As
+                     part of a research team spread across the United States and Europe, Konkiel shares
+                     a lot of topical readings via Slack. She wanted a way to automate posting links to
+                     Slack, including posting related commentary, directly from her browser. ‘I used the
+                     Hypothesis browser bookmarklet to annotate and tag what I was reading on the Web,’
+                     reported Konkiel. ‘Hypothesis’s RSS feeds for tags meant I could simply tag my public
+                     annotations with the name of my research team (#HuMetricsHSS) to create a custom stream
+                     of links and annotations, ready to be shared. I then used the automation service IFTTT
+                     (if this, then that) to update a dedicated “Readings” channel on Slack, based on the
+                     open Hypothesis RSS feed.’<sup><a href="#NT35" epub:type="noteref">35</a></sup></p>
+               </section>
+               <section id="collaboration-on-preprints">
+                  <h3>Collaboration on Preprints</h3>
+                  <p>Submitting papers to preprint servers for collaboration and feedback from colleagues
+                     goes back many years in some fields like physics, but it is a more recent development
+                     in other disciplines. While preprints offer early access to research findings and
+                     an opportunity for researchers to receive input from a wide audience of their peers,
+                     the mechanisms in place to gather that input are lacking. Enabling annotations on
+                     preprints facilitates discussions on many levels. Adding robust annotation capability
+                     that researchers can use in the preprint environment and also across the Web can accelerate
+                     conversations and link related research regardless of where it is hosted. In describing
+                     the potential of annotation to enrich preprints, Richard Sever, bioRxiv Cofounder
+                     and Assistant Director at Cold Spring Harbor Laboratory Press, noted, ‘Hypothesis’
+                     vision of an open, standards-driven approach to web annotation… has immense potential
+                     to increase discussion, clarification, and critical analysis of academic papers, which
+                     will benefit authors and readers. It should be particularly important for preprints
+                     on bioRxiv since they are rapid communications of new research that have yet to undergo
+                     any formal assessment by the scientific community.’<sup><a href="#NT36" epub:type="noteref">36</a></sup> In addition, connecting annotation technology to manuscript submission systems makes
+                     it possible for peer reviewers to see what changes were made and what issues were
+                     resolved in earlier versions. Now that preprint versions are assigned DOIs, it is
+                     also possible to connect annotations on both the preprint and the published versions.
+                  </p>
+               </section>
+            </section>
+            <section id="supporting-an-annotation-ecosystem">
+               <h2>Supporting an Annotation Ecosystem</h2>
+               <p>A key initiative to promote ubiquitous annotation is the annual I Annotate conference,
+                  hosted by Hypothesis, which will be held for the sixth time in the spring of 2018.
+                  In May 2017, more than 100 annotation enthusiasts gathered in San Francisco for a
+                  partner meeting, two days of annotation-inspired conference programming, and a hack
+                  day.<sup><a href="#NT37" epub:type="noteref">37</a></sup> Digital pioneer Esther Dyson gave the keynote address, and conference panels covered
+                  annotation in publishing, education, research, and investigative journalism. Case
+                  studies and flash demo sessions provided new projects and companies with the opportunity
+                  to update attendees on their products and initiatives.
+               </p>
+               <p>In the fall of 2015, Hypothesis started the Annotating All Knowledge coalition to
+                  promote and explore interoperable standards-based annotation.<sup><a href="#NT38" epub:type="noteref">38</a></sup> This coalition, which is free to join, now numbers more than seventy members, including
+                  publishers, universities, and technology companies. Members understand that an annotation
+                  layer must evolve as an open, interoperable, and shared capability, aligned with the
+                  motivations and interests of researchers. Members agree to collaborate openly with
+                  their peers, to share experiences, and to work together toward mutual objectives,
+                  as Patrick Johnson explained: ‘Building on the very machinery that enables the Web
+                  to function, the result is a standard way to enable comments and conversations in
+                  context, in a way that is not bound to a specific platform, publisher, or encoding,
+                  and in a way that makes it simple and intuitive for people to talk to people and learn
+                  from each other, and build vibrant communities that extend human knowledge.’<sup><a href="#NT39" epub:type="noteref">39</a></sup></p>
+               <p>The coalition has met twice, each time prior to an annual FORCE11 meeting. In October
+                  2017, Annotating All Knowledge teamed up with the Collaborative Knowledge Foundation
+                  for a day of programming around open tools. The annotation track focused on FAIR (findable,
+                  accessible, interoperable, and reusable) principles, with the dual goal of making
+                  annotations FAIR and using annotations to make all content FAIR.<sup><a href="#NT40" epub:type="noteref">40</a></sup></p>
+               <p>The open annotation community includes a wide variety of people from all over the
+                  world.<sup><a href="#NT41" epub:type="noteref">41</a></sup> Many participate on social media channels<sup><a href="#NT42" epub:type="noteref">42</a></sup> and within the Annotating All Knowledge community, which offers an open Slack channel
+                  for discussion that continues beyond face-to-face meetings.<sup><a href="#NT43" epub:type="noteref">43</a></sup> FORCE11, an organization comprising researchers, librarians, publishers, and funders
+                  who want to use information technology to improve scholarship, also hosts the Annotating
+                  All Knowledge Working Group, which is free to join.<sup><a href="#NT44" epub:type="noteref">44</a></sup></p>
+               <p>Educators and students are very active in annotation, together producing the majority
+                  of Hypothesis annotations to date. A high school student in Huntington Beach, California,
+                  made the millionth Hypothesis annotation as part of a class assignment.<sup><a href="#NT45" epub:type="noteref">45</a></sup> While most of the annotations made in educational settings are conducted in private
+                  groups to protect student privacy, educators from around the world participate in
+                  collaborative annotation projects like Marginal Syllabus.<sup><a href="#NT46" epub:type="noteref">46</a></sup> Hypothesis is currently extending access to annotation capabilities for teachers
+                  and students by integrating its software with the most common learning management
+                  systems in use at institutions of higher learning and many K–12 schools.
+               </p>
+            </section>
+            <section id="conclusion:-users-are-helping-to-drive-innovation-in-annotation">
+               <h2>Conclusion: Users Are Helping to Drive Innovation in Annotation</h2>
+               <p>With the W3C standard in place, conditions are right for interoperable Web annotation
+                  to flourish. More open tools are being launched to connect with publisher and researcher
+                  workflows. The ability for annotation technology to make very precise Web sub-addresses
+                  creates new possibilities for information exchange.
+               </p>
+               <p>Every day I learn about new potential use cases from publishers and researchers. Some
+                  are exploring annotation in the production workflow by annotating their XML staging
+                  sites to ask questions of in-house colleagues and external vendors on top of the code
+                  itself. Still others have suggested annotations to enable micro-attributions, either
+                  to detail who did what in a paper or who reviewed what in the peer review process.
+                  An editorial colleague even suggested that annotation could be used to prevent accidental
+                  plagiarism: with the cited selection from the original made visible, along with any
+                  notes the author made, annotation makes a side-by-side comparison of passages simple.
+                  An accessibility specialist spoke to me about using annotation to enable users to
+                  input descriptions for images and figures that lack metadata. Each one of these uses
+                  is exciting; but, when people ask me what is the most interesting use of annotation
+                  I’ve heard about, I laugh and say it is probably the one I will hear about later today.
+               </p>
+            </section>
+         </section>
+         <section property="sa:articleBackMatter" datatype="rdf:HTML">
+            <section id="author-bios">
+               <h2 property="schema:name">About the Author</h2>
+               <p property="schema:text"><span class="small-caps">heather ruland staines</span> is Director of Partnerships at Hypothesis. A historian by training, she has spent
+                  her career in scholarly publishing, serving as Editorial Director for Praeger Security
+                  International, Global eProduct Manager for SpringerLink, and Vice President of Publisher
+                  Relations at SIPX. She is an avid participant in many industry initiatives and professional
+                  organizations.
+               </p>
+            </section>
+            <section id="acknowledgements" epub:type="acknowledgments">
+               <h2>Acknowledgements</h2>
+               <p>This article was written with the assistance of Dan Whaley, Nate Angell, Arti Walker-Peddakotla,
+                  and Maryann Martone at Hypothesis. I am also indebted to the many partners who contributed
+                  their time and attention.
+               </p>
+            </section>
+            <section id="endnotes" epub:type="endnotes">
+               <h2>Notes</h2>
+               <ol>
+                  <li id="NT1">
+                     <p>Kristof Csillag, ‘Fuzzy Anchoring,’ <em>Hypothesis Blog</em>, April 22, 2013, <a href="https://web.hypothes.is/blog/fuzzy-anchoring/" target="_blank">https://web.hypothes.is/blog/fuzzy-anchoring/</a>.
+                     </p>
+                  </li>
+                  <li id="NT2">
+                     <p>Heather Staines, ‘A New Annotation Capability: Publisher Groups,’ <em>Hypothesis Blog</em>, August 17, 2017, <a href="https://web.hypothes.is/blog/publisher-groups/" target="_blank">https://web.hypothes.is/blog/publisher-groups/</a>.
+                     </p>
+                  </li>
+                  <li id="NT3">
+                     <p>Jon Udell, ‘Direct Linking,’ <em>Hypothesis Blog</em>, April 12, 2016, available at <a href="https://web.hypothes.is/blog/direct-linking/" target="_blank">https://web.hypothes.is/blog/direct-linking/</a>.
+                     </p>
+                  </li>
+                  <li id="NT4">
+                     <p>Arti Walker-Peddakotla, ‘Introducing Search and Profiles,’ <em>Hypothesis Blog</em>, December 14, 2016, <a href="https://web.hypothes.is/blog/introducing-search-and-profiles/" target="_blank">https://web.hypothes.is/blog/introducing-search-and-profiles/</a>.
+                     </p>
+                  </li>
+                  <li id="NT5">
+                     <p>For more information about using the Hypothesis public API, see <a href="https://web.hypothes.is/developers/" target="_blank">https://web.hypothes.is/developers/</a>.
+                     </p>
+                  </li>
+                  <li id="NT6">
+                     <p>Wikipedia, s.v. ‘GetThere,’ last modified March 9, 2017, <a href="https://en.wikipedia.org/w/index.php?title=GetThere&amp;oldid=769452555" target="_blank">https://en.wikipedia.org/w/index.php?title=GetThere&amp;oldid=769452555</a>.
+                     </p>
+                  </li>
+                  <li id="NT7">
+                     <p>Vannevar Bush, ‘As We May Think,’ <em>Atlantic</em>, July 1945, <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/" target="_blank">https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/</a>.
+                     </p>
+                  </li>
+                  <li id="NT8">
+                     <p>Bush, ‘As We May Think,’ sec. 6.</p>
+                  </li>
+                  <li id="NT9">
+                     <p>Alyson Shontell, ‘Marc Andreessen Reveals the Feature He Almost Included in Web Browsers
+                        but Never Got Around to Adding,’ <em>Business Insider,</em> October 3, 2012, <a href="http://www.businessinsider.com/theres-a-feature-that-was-supposed-be-in-web-browsers-from-the-very-beginning-but-it-was-dropped-at-the-last-minute-2012-10" target="_blank">http://www.businessinsider.com/theres-a-feature-that-was-supposed-be-in-web-browsers-from-the-very-beginning-but-it-was-dropped-at-the-last-minute-2012-10</a>.
+                     </p>
+                  </li>
+                  <li id="NT10">
+                     <p>Monty Munford, ‘How WordPress Ate the Internet in 2016… and the World in 2017,’ <em>Forbes</em>, December 22, 2016, <a href="https://www.forbes.com/sites/montymunford/2016/12/22/how-wordpress-ate-the-internet-in-2016-and-the-world-in-2017/#79a076cf199d" target="_blank">https://www.forbes.com/sites/montymunford/2016/12/22/how-wordpress-ate-the-internet-in-2016-and-the-world-in-2017/#79a076cf199d</a>.
+                     </p>
+                  </li>
+                  <li id="NT11">
+                     <p>Matt Mullenweg, the co-founding developer of WordPress software, created Automattic
+                        in 2005 to provide a blogging platform for less technical users. The WordPress trademark
+                        was given to the WordPress foundation five years later. See ‘Who Owns WordPress and
+                        How Does WordPress Make Money,’ <em>WPbeginner</em> (blog), February 1, 2016, <a href="http://www.wpbeginner.com/beginners-guide/who-owns-wordpress-and-how-does-wordpress-make-money/" target="_blank">http://www.wpbeginner.com/beginners-guide/who-owns-wordpress-and-how-does-wordpress-make-money/</a>. For more on Automattic, see <a href="https://automattic.com/" target="_blank">https://automattic.com/</a>.
+                     </p>
+                  </li>
+                  <li id="NT12">
+                     <p>For purposes of clarity, much of the WordPress business model relies on showing advertising
+                        on WordPress sites. Advertising is not a part of the Hypothesis model, and it never
+                        will be.
+                     </p>
+                  </li>
+                  <li id="NT13">
+                     <p>Casey Newton, ‘Brain Drain,’ <em>The Verge</em>, March 15, 2017, <a href="https://www.theverge.com/2017/3/15/14924238/rap-genius-web-annotator-chrome-extension-news" target="_blank">https://www.theverge.com/2017/3/15/14924238/rap-genius-web-annotator-chrome-extension-news</a>.
+                     </p>
+                  </li>
+                  <li id="NT14">
+                     <p>For more on PaperHive, see <a href="https://paperhive.org/" target="_blank">https://paperhive.org/</a>.
+                     </p>
+                  </li>
+                  <li id="NT15">
+                     <p>For more on Remarq, visit <a href="https://redlink.com" target="_blank">https://redlink.com</a>.
+                     </p>
+                  </li>
+                  <li id="NT16">
+                     <p>Dan Whaley, ‘Annotation Is Now a Web Standard,’ <em>Hypothesis Blog</em>, February 24, 2017, <a href="https://web.hypothes.is/blog/annotation-is-now-a-web-standard/" target="_blank">https://web.hypothes.is/blog/annotation-is-now-a-web-standard/</a>.
+                     </p>
+                  </li>
+                  <li id="NT17">
+                     <p>For more information, visit <a href="https://hypothes.is/annotating-all-knowledge/" target="_blank">https://hypothes.is/annotating-all-knowledge/</a>.
+                     </p>
+                  </li>
+                  <li id="NT18">
+                     <p>Giuliano Marciocci, email message to author, November 15, 2017.</p>
+                  </li>
+                  <li id="NT19">
+                     <p>Maria Bonn and Jonathan McGlone, ‘New Feature: Article Annotation with Hypothes.is,’
+                        <em>Journal of Electronic Publishing</em> 17, no. 2 (2014), doi:10.3998/3336451.0017.201.
+                     </p>
+                  </li>
+                  <li id="NT20">
+                     <p>Kelly Witchen, ‘“Ethical Programs” Is the Focus of a Digital Book Club Next Week,’
+                        digitalculturebooks, Michigan Publishing, October 15, 2015, <a href="http://www.digitalculture.org/2015/10/15/ethical-programs-is-the-focus-of-a-digital-book-club-next-week/" target="_blank">http://www.digitalculture.org/2015/10/15/ethical-programs-is-the-focus-of-a-digital-book-club-next-week/</a>.
+                     </p>
+                  </li>
+                  <li id="NT21">
+                     <p>‘Pub Club, the First: American Homes by Ryan Ridge,’ Facebook, February 4, 2015, <a href="https://www.facebook.com/events/1635802236698317/" target="_blank">https://www.facebook.com/events/1635802236698317/</a>.
+                     </p>
+                  </li>
+                  <li id="NT22">
+                     <p>Rebecca Welzenbach and Arti Walker-Peddakotla, ‘Annotation for Collaborative Engagement:
+                        Lessons for Library Publishing and the Classroom,’ April 20, 2017, archived in Deep
+                        Blue, <a href="https://deepblue.lib.umich.edu/handle/2027.42/136647" target="_blank">https://deepblue.lib.umich.edu/handle/2027.42/136647</a>.
+                     </p>
+                  </li>
+                  <li id="NT23">
+                     <p>Brooks Hanson, Jeanette Panning, Randy Townsend, and Paige Wooden, ‘Annotation Tool
+                        Facilitates Peer Review,’ <em>Earth and Space Science News</em>, September 14, 2017, <a href="https://eos.org/editors-vox/annotation-tool-facilitates-peer-review" target="_blank">https://eos.org/editors-vox/annotation-tool-facilitates-peer-review</a>.
+                     </p>
+                  </li>
+                  <li id="NT24">
+                     <p>August Muench, email message to author, November 16, 2017. For more on the Strasbourg
+                        Astronomical Data Center/Centre de Données astronomiques de Strasbourg, see <a href="http://cds.u-strasbg.fr/" target="_blank">http://cds.u-strasbg.fr/</a>.
+                     </p>
+                  </li>
+                  <li id="NT25">
+                     <p>Nate Angell, ‘A Powerful Partnership Brings Open Annotation to EPUBs,’ <em>Hypothesis Blog</em>, September 21, 2017, <a href="https://web.hypothes.is/blog/epub-annotation/" target="_blank">https://web.hypothes.is/blog/epub-annotation/</a>.
+                     </p>
+                  </li>
+                  <li id="NT26">
+                     <p>Dan Whaley, ‘A Partnership to Bring Open Annotation to eBooks,’ <em>Hypothesis Blog</em>, March 9, 2017, <a href="https://web.hypothes.is/blog/ebook-partnership/" target="_blank">https://web.hypothes.is/blog/ebook-partnership/</a>.
+                     </p>
+                  </li>
+                  <li id="NT27">
+                     <p>Deborah Plavin, email message to author, November 20, 2017.</p>
+                  </li>
+                  <li id="NT28">
+                     <p>Maryann Martone, ‘Hypothesis for Scientific Research,’ <em>Hypothesis Blog</em>, March 27, 2017, <a href="https://web.hypothes.is/blog/hypothesis-for-scientific-research/" target="_blank">https://web.hypothes.is/blog/hypothesis-for-scientific-research/</a>.
+                     </p>
+                  </li>
+                  <li id="NT29">
+                     <p>Jeff McMahon, ‘Climate Scientists Launch Brainy Attack on Inaccurate News,’ <em>Forbes</em>, January 27, 2017, <a href="https://www.forbes.com/sites/jeffmcmahon/2017/01/27/climate-scientists-launch-brainy-war-on-fake-news" target="_blank">https://www.forbes.com/sites/jeffmcmahon/2017/01/27/climate-scientists-launch-brainy-war-on-fake-news</a>.
+                     </p>
+                  </li>
+                  <li id="NT30">
+                     <p>For more information on RRIDs, see <a href="https://scicrunch.org/resources" target="_blank">https://scicrunch.org/resources</a>.
+                     </p>
+                  </li>
+                  <li id="NT31">
+                     <p>Maryann Martone, ‘Who Says Neuroscientists Don’t Need More Brains? Annotation with
+                        SciBot,’ <em>Hypothesis Blog</em>, January 21, 2017, at <a href="https://web.hypothes.is/blog/annotation-with-scibot/" target="_blank">https://web.hypothes.is/blog/annotation-with-scibot/</a>.
+                     </p>
+                  </li>
+                  <li id="NT32">
+                     <p>August Muench, email message to author, November 16, 2017. For more information on
+                        NED, visit <a href="https://ned.ipac.caltech.edu/" target="_blank">https://ned.ipac.caltech.edu/</a>; for more informatin on Simbad CDS, visit <a href="http://simbad.u-strasbg.fr/" target="_blank">http://simbad.u-strasbg.fr/</a>.
+                     </p>
+                  </li>
+                  <li id="NT33">
+                     <p>See the Qualitative Data Repository website at <a href="https://qdr.syr.edu/" target="_blank">https://qdr.syr.edu/</a>.
+                     </p>
+                  </li>
+                  <li id="NT34">
+                     <p>Colin Elman and Diana Kapiszewski, ‘Benefits and Challenges of Making Qualitative
+                        Research More Transparent,’ <em>Inside Higher Ed</em>, August 9, 2017, <a href="https://www.insidehighered.com/blogs/rethinking-research/benefits-and-challenges-making-qualitative-research-more-transparent" target="_blank">https://www.insidehighered.com/blogs/rethinking-research/benefits-and-challenges-making-qualitative-research-more-transparent</a>.
+                     </p>
+                  </li>
+                  <li id="NT35">
+                     <p>Stacy Konkiel, in coversation with the author, November 8, 2017.</p>
+                  </li>
+                  <li id="NT36">
+                     <p>Dan Whaley, ‘bioRxiv Selects Hypothesis to Enable Annotation on Preprints,’ <em>Hypothesis Blog</em>, September 12, 2017, <a href="https://web.hypothes.is/blog/biorxiv-selects-hypothesis/" target="_blank">https://web.hypothes.is/blog/biorxiv-selects-hypothesis/</a>.
+                     </p>
+                  </li>
+                  <li id="NT37">
+                     <p>More information is available at <a href="http://iannotate.org/" target="_blank">http://iannotate.org/</a>.
+                     </p>
+                  </li>
+                  <li id="NT38">
+                     <p>For more information, see <a href="https://hypothes.is/annotating-all-knowledge/" target="_blank">https://hypothes.is/annotating-all-knowledge/</a>.
+                     </p>
+                  </li>
+                  <li id="NT39">
+                     <p>Patrick Johnston, ‘Annotating All Knowledge: What It Means and Why It’s Important,’
+                        <em>Wiley Exchanges</em> (blog), February 4, 2016, <a href="https://hub.wiley.com/community/exchanges/discover/blog/2016/02/04/annotating-all-knowledge-what-it-means-and-why-it-s-important" target="_blank">https://hub.wiley.com/community/exchanges/discover/blog/2016/02/04/annotating-all-knowledge-what-it-means-and-why-it-s-important</a>.
+                     </p>
+                  </li>
+                  <li id="NT40">
+                     <p>Maryann Martone, ‘Annotating All Knowledge FAIRly,’ <em>Hypothesis Blog</em>, September 11, 2017, <a href="https://web.hypothes.is/blog/annotating-all-knowledge-fairly/" target="_blank">https://web.hypothes.is/blog/annotating-all-knowledge-fairly/</a>.
+                     </p>
+                  </li>
+                  <li id="NT41">
+                     <p>Technologists are deeply engaged in open annotation, from their work on standards
+                        with the W3C, to making use of the Hypothesis API to extend annotation capabilities,
+                        to contributing directly to Hypothesis’s open-source code base. Developers can find
+                        a gateway to get involved online, including links to documentation, code repositories,
+                        and multiple communication channels; see <a href="https://web.hypothes.is/developers/" target="_blank">https://web.hypothes.is/developers/</a>.
+                     </p>
+                  </li>
+                  <li id="NT42">
+                     <p>See <a href="https://web.hypothes.is/contact/" target="_blank">https://web.hypothes.is/contact/</a>.
+                     </p>
+                  </li>
+                  <li id="NT43">
+                     <p>See <a href="https://web.hypothes.is/aak-slack/" target="_blank">https://web.hypothes.is/aak-slack/</a>.
+                     </p>
+                  </li>
+                  <li id="NT44">
+                     <p>See <a href="https://www.force11.org/group/annotating-all-knowledge-working-group" target="_blank">https://www.force11.org/group/annotating-all-knowledge-working-group</a>.
+                     </p>
+                  </li>
+                  <li id="NT45">
+                     <p>Nate Angell, ‘Our Millionth Annotation,’ <em>Hypothesis Blog</em>, February 4, 2017, <a href="https://web.hypothes.is/blog/our-millionth-annotation/" target="_blank">https://web.hypothes.is/blog/our-millionth-annotation/</a>.
+                     </p>
+                  </li>
+                  <li id="NT46">
+                     <p>Joe Dillon, ‘3 Approaches to Joining the Crowded Margins of November’s #marginalsyllabus
+                        Reading,’ <em>Marginal Syllabus</em> (blog), November 17, 2017, <a href="http://marginalsyllab.us/info-updates/3-approaches-to-joining-the-crowded-margins-of-novembers-marginalsyllabus/" target="_blank">http://marginalsyllab.us/info-updates/3-approaches-to-joining-the-crowded-margins-of-novembers-marginalsyllabus/</a>.
+                     </p>
+                  </li>
+               </ol>
+            </section>
+         </section>
+      </article>
+   </body>
+</html>
